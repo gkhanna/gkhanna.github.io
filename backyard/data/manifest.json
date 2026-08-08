@@ -1,5 +1,19 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-08T22:00:00Z",
-  "images": []
+  "lastUpdated": "2026-08-08T22:12:28.741729+00:00",
+  "images": [
+    {
+      "timestamp": "2026-08-08T22:12:28.711118+00:00",
+      "type": "motion",
+      "reason": "test alert: forcing gallery test",
+      "description": "This is a test image to verify the gallery pipeline is working correctly.",
+      "full": "./images/camera-20260808-221228-full.jpg",
+      "thumb": "./images/camera-20260808-221228-thumb.jpg",
+      "metrics": {
+        "score": 25.0,
+        "changed_fraction": 0.3,
+        "brightness_delta": 50.0
+      }
+    }
+  ]
 }
