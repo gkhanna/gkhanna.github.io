@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backyard Camera – Live Moments</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="A live photo journal of interesting moments in the backyard – motion, wildlife, weather, and light.">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Backyard Camera</h1>
+            <p class="subtitle">Live moments from the yard – wildlife, weather, and light</p>
+            <nav class="nav-tabs">
+                <button class="tab-btn active" data-tab="gallery">Gallery</button>
+                <button class="tab-btn" data-tab="calendar">Calendar</button>
+                <button class="tab-btn" data-tab="stats">Stats</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Gallery Tab -->
+        <section class="tab-content active" id="gallery-tab">
+            <div class="gallery-controls">
+                <div class="view-toggle">
+                    <button class="view-btn active" data-view="grid" title="Grid view">⊞</button>
+                    <button class="view-btn" data-view="list" title="List view">≡</button>
+                </div>
+                <div class="filter-controls">
+                    <select id="filter-type" class="filter-select">
+                        <option value="">All Events</option>
+                        <option value="sky">Sky Colors</option>
+                        <option value="motion">Motion / Scene Change</option>
+                        <option value="brightness">Lighting Change</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="gallery-grid" id="gallery-grid"></div>
+
+            <div class="gallery-list" id="gallery-list" style="display:none;"></div>
+
+            <div class="loading-more">
+                <button class="load-more-btn">Load More</button>
+            </div>
+        </section>
+
+        <!-- Calendar Tab -->
+        <section class="tab-content" id="calendar-tab">
+            <div class="calendar-wrapper">
+                <div class="calendar-controls">
+                    <button class="calendar-btn prev">&larr;</button>
+                    <h2 id="calendar-month"></h2>
+                    <button class="calendar-btn next">&rarr;</button>
+                </div>
+                <div class="calendar" id="calendar"></div>
+                <div class="calendar-info">
+                    <p id="calendar-selected"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Tab -->
+        <section class="tab-content" id="stats-tab">
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-value" id="stat-total">0</div>
+                    <div class="stat-label">Total Alerts</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="stat-today">0</div>
+                    <div class="stat-label">Today</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="stat-week">0</div>
+                    <div class="stat-label">This Week</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="stat-month">0</div>
+                    <div class="stat-label">This Month</div>
+                </div>
+            </div>
+
+            <div class="charts-container">
+                <div class="chart-wrapper">
+                    <h3>Alerts by Type</h3>
+                    <div id="chart-type" class="chart"></div>
+                </div>
+                <div class="chart-wrapper">
+                    <h3>Hourly Activity (Last 7 Days)</h3>
+                    <div id="chart-hours" class="chart"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for full-size image -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="Full size image">
+                <div class="modal-info">
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalTime"></p>
+                    <p id="modalDescription"></p>
+                    <div id="modalMetrics" class="metrics"></div>
+                    <div class="modal-nav">
+                        <button class="modal-prev-btn">← Previous</button>
+                        <button class="modal-next-btn">Next →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Camera check interval: 5 minutes | Alerts ~3-4 per day | Data updates automatically</p>
+        <p><small>Images retained for 1 year | <a href="https://gkhanna.github.io/">← Back to Home</a></small></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
