@@ -1,7 +1,20 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-08T22:12:28.741729+00:00",
+  "lastUpdated": "2026-08-09T11:20:04.272883+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-09T11:20:04.242269+00:00",
+      "type": "motion",
+      "reason": "substantial scene change: score 52.5, changed 86.9%",
+      "description": "A broad part of the view changed: about 86.9% of the sampled frame moved enough to stand out, with a change score of 52.5. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame also became brighter by 52.5. I am attaching the frame so you can see exactly what caught my attention.",
+      "full": "./images/camera-20260809-112004-full.jpg",
+      "thumb": "./images/camera-20260809-112004-thumb.jpg",
+      "metrics": {
+        "score": 52.50434112548828,
+        "changed_fraction": 0.8689236111111112,
+        "brightness_delta": 52.504337310791016
+      }
+    },
     {
       "timestamp": "2026-08-08T22:12:28.711118+00:00",
       "type": "motion",
