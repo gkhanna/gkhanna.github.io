@@ -230,14 +230,14 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.35), transparent);
     padding: var(--spacing-lg) var(--spacing-md);
-    transform: translateY(100%);
-    transition: transform 0.3s ease;
+    transform: translateY(0);
+    transition: background 0.3s ease;
 }
 
 .gallery-item:hover .gallery-overlay {
-    transform: translateY(0);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.45), transparent);
 }
 
 .gallery-overlay-time {
