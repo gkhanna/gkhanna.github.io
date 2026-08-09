@@ -1,7 +1,22 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-09T19:00:02.880962+00:00",
+  "lastUpdated": "2026-08-09T19:15:03.048118+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-09T19:15:02.998104+00:00",
+      "camera": "usb",
+      "camera_label": "Backyard USB Camera",
+      "type": "motion",
+      "reason": "substantial scene change: score 43.6, changed 62.1%",
+      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 62.1% of the sampled frame moved enough to stand out, with a change score of 43.6. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame also became brighter by 43.6. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/usb-camera-20260809-191502-full.jpg",
+      "thumb": "./images/usb-camera-20260809-191502-thumb.jpg",
+      "metrics": {
+        "score": 43.62196350097656,
+        "changed_fraction": 0.6206597222222222,
+        "brightness_delta": 43.615882873535156
+      }
+    },
     {
       "timestamp": "2026-08-09T19:00:02.832086+00:00",
       "camera": "usb",
