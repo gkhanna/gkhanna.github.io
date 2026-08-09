@@ -1,7 +1,22 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-09T11:20:04.272883+00:00",
+  "lastUpdated": "2026-08-09T12:44:08.789583+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-09T12:44:08.713777+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "reference",
+      "reason": "reference snapshot: Tapo C200 baseline",
+      "description": "Reference snapshot from the Tapo C200 added manually so the camera appears in the backyard gallery before the first major-change alert.",
+      "full": "./images/tapo-camera-20260809-124408-full.jpg",
+      "thumb": "./images/tapo-camera-20260809-124408-thumb.jpg",
+      "metrics": {
+        "score": 0.0,
+        "changed_fraction": 0.0,
+        "brightness_delta": 0.0
+      }
+    },
     {
       "timestamp": "2026-08-09T11:20:04.242269+00:00",
       "type": "motion",
