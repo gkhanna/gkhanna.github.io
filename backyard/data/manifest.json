@@ -1,7 +1,22 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-09T13:00:06.887921+00:00",
+  "lastUpdated": "2026-08-09T13:15:07.136451+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-09T13:15:07.075503+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "motion",
+      "reason": "substantial scene change: score 59.2, changed 61.8%",
+      "description": "Tapo C200 triggered this alert. A broad part of the view changed: about 61.8% of the sampled frame moved enough to stand out, with a change score of 59.2. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame also became darker by 31.2. I am attaching the frame so you can see exactly what caught my attention.",
+      "full": "./images/tapo-camera-20260809-131507-full.jpg",
+      "thumb": "./images/tapo-camera-20260809-131507-thumb.jpg",
+      "metrics": {
+        "score": 59.21571350097656,
+        "changed_fraction": 0.6184895833333334,
+        "brightness_delta": -31.17926025390625
+      }
+    },
     {
       "timestamp": "2026-08-09T13:00:06.823536+00:00",
       "camera": "tapo",
