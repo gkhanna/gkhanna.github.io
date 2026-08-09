@@ -87,6 +87,13 @@
         "changed_fraction": 0.3,
         "brightness_delta": 50.0
       }
+    },
+    {
+      "date": "2026-08-09T09:36:51.507518",
+      "camera": "tapo",
+      "full": "tapo-camera-20260809-093651-full.jpg",
+      "thumb": "tapo-camera-20260809-093651-thumb.jpg"
     }
-  ]
+  ],
+  "updated": "2026-08-09T09:36:51.507518"
 }
