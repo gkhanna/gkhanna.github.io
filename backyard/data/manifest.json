@@ -8,7 +8,7 @@
       "camera_label": "Tapo C200",
       "type": "motion",
       "reason": "substantial scene change: score 27.7, changed 30.6%",
-      "description": "Tapo C200 saved this frame. A broad part of the view changed: about 30.6% of the sampled frame moved enough to stand out, with a change score of 27.7. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
+      "description": "Tapo C200 saved this frame. A broad part of the view changed: about 30.6% of the sampled frame moved enough to stand out, with a change score of 27.7. This can be motion in the yard, shifting trees, weather, sun glare, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/tapo-camera-20260809-211507-full.jpg",
       "thumb": "./images/tapo-camera-20260809-211507-thumb.jpg",
       "metrics": {
@@ -23,7 +23,7 @@
       "camera_label": "Backyard USB Camera",
       "type": "brightness",
       "reason": "large lighting change: brightness delta -46.1, changed 71.6%",
-      "description": "Backyard USB Camera saved this frame. The overall view got noticeably darker, with a brightness shift of 46.1 on the reduced frame. That usually means sun breaking through clouds, shadow movement, glare, weather changes, or lights changing in the scene. The frame was added to the gallery so you can see exactly what changed.",
+      "description": "Backyard USB Camera saved this frame. The overall view got noticeably darker, with a brightness shift of 46.1 on the reduced frame and 71.6% of sampled areas changing strongly. This usually means sun or cloud movement, shadow movement, glare, weather changes, or lights changing in the scene. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/usb-camera-20260809-211503-full.jpg",
       "thumb": "./images/usb-camera-20260809-211503-thumb.jpg",
       "metrics": {
@@ -38,7 +38,7 @@
       "camera_label": "Backyard USB Camera",
       "type": "motion",
       "reason": "substantial scene change: score 21.8, changed 23.7%",
-      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 23.7% of the sampled frame moved enough to stand out, with a change score of 21.8. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
+      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 23.7% of the sampled frame moved enough to stand out, with a change score of 21.8. This can be motion in the yard, shifting trees, weather, sun glare, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/usb-camera-20260809-210003-full.jpg",
       "thumb": "./images/usb-camera-20260809-210003-thumb.jpg",
       "metrics": {
@@ -52,8 +52,8 @@
       "camera": "usb",
       "camera_label": "Backyard USB Camera",
       "type": "brightness",
-      "reason": "substantial scene change: score 41.4, changed 59.2%",
-      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 59.2% of the sampled frame moved enough to stand out, with a change score of 41.4. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame also became brighter by 41.4. The frame was added to the gallery so you can see exactly what changed.",
+      "reason": "large lighting change: brightness delta 41.4, changed 59.2%",
+      "description": "Backyard USB Camera saved this frame. The overall view got noticeably brighter, with a brightness shift of 41.4 on the reduced frame and 59.2% of sampled areas changing strongly. This usually means sun or cloud movement, shadow movement, glare, weather changes, or lights changing in the scene. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/usb-camera-20260809-204503-full.jpg",
       "thumb": "./images/usb-camera-20260809-204503-thumb.jpg",
       "metrics": {
@@ -68,7 +68,7 @@
       "camera_label": "Backyard USB Camera",
       "type": "motion",
       "reason": "substantial scene change: score 28.9, changed 18.5%",
-      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 18.5% of the sampled frame moved enough to stand out, with a change score of 28.9. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame also became brighter by 28.9. The frame was added to the gallery so you can see exactly what changed.",
+      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 18.5% of the sampled frame moved enough to stand out, with a change score of 28.9. This can be motion in the yard, shifting trees, weather, sun glare, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/usb-camera-20260809-203003-full.jpg",
       "thumb": "./images/usb-camera-20260809-203003-thumb.jpg",
       "metrics": {
@@ -83,7 +83,7 @@
       "camera_label": "Tapo C200",
       "type": "motion",
       "reason": "substantial scene change: score 24.5, changed 23.0%",
-      "description": "Tapo C200 saved this frame. A broad part of the view changed: about 23.0% of the sampled frame moved enough to stand out, with a change score of 24.5. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
+      "description": "Tapo C200 saved this frame. A broad part of the view changed: about 23.0% of the sampled frame moved enough to stand out, with a change score of 24.5. This can be motion in the yard, shifting trees, weather, sun glare, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/tapo-camera-20260809-200006-full.jpg",
       "thumb": "./images/tapo-camera-20260809-200006-thumb.jpg",
       "metrics": {
@@ -97,8 +97,8 @@
       "camera": "usb",
       "camera_label": "Backyard USB Camera",
       "type": "brightness",
-      "reason": "substantial scene change: score 120.5, changed 99.7%",
-      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 99.7% of the sampled frame moved enough to stand out, with a change score of 120.5. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame also became darker by 120.5. The frame was added to the gallery so you can see exactly what changed.",
+      "reason": "large lighting change: brightness delta -120.5, changed 99.7%",
+      "description": "Backyard USB Camera saved this frame. The overall view got noticeably darker, with a brightness shift of 120.5 on the reduced frame and 99.7% of sampled areas changing strongly. This usually means sun or cloud movement, shadow movement, glare, weather changes, or lights changing in the scene. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/usb-camera-20260809-200002-full.jpg",
       "thumb": "./images/usb-camera-20260809-200002-thumb.jpg",
       "metrics": {
@@ -113,7 +113,7 @@
       "camera_label": "Backyard USB Camera",
       "type": "motion",
       "reason": "substantial scene change: score 13.4, changed 10.9%",
-      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 10.9% of the sampled frame moved enough to stand out, with a change score of 13.4. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
+      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 10.9% of the sampled frame moved enough to stand out, with a change score of 13.4. This can be motion in the yard, shifting trees, weather, sun glare, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/usb-camera-20260809-194502-full.jpg",
       "thumb": "./images/usb-camera-20260809-194502-thumb.jpg",
       "metrics": {
@@ -127,8 +127,8 @@
       "camera": "usb",
       "camera_label": "Backyard USB Camera",
       "type": "brightness",
-      "reason": "substantial scene change: score 61.9, changed 87.4%",
-      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 87.4% of the sampled frame moved enough to stand out, with a change score of 61.9. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame also became brighter by 61.2. The frame was added to the gallery so you can see exactly what changed.",
+      "reason": "large lighting change: brightness delta 61.2, changed 87.4%",
+      "description": "Backyard USB Camera saved this frame. The overall view got noticeably brighter, with a brightness shift of 61.2 on the reduced frame and 87.4% of sampled areas changing strongly. This usually means sun or cloud movement, shadow movement, glare, weather changes, or lights changing in the scene. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/usb-camera-20260809-193002-full.jpg",
       "thumb": "./images/usb-camera-20260809-193002-thumb.jpg",
       "metrics": {
@@ -143,7 +143,7 @@
       "camera_label": "Tapo C200",
       "type": "motion",
       "reason": "substantial scene change: score 22.5, changed 21.4%",
-      "description": "Tapo C200 saved this frame. A broad part of the view changed: about 21.4% of the sampled frame moved enough to stand out, with a change score of 22.5. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
+      "description": "Tapo C200 saved this frame. A broad part of the view changed: about 21.4% of the sampled frame moved enough to stand out, with a change score of 22.5. This can be motion in the yard, shifting trees, weather, sun glare, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/tapo-camera-20260809-191506-full.jpg",
       "thumb": "./images/tapo-camera-20260809-191506-thumb.jpg",
       "metrics": {
@@ -157,8 +157,8 @@
       "camera": "usb",
       "camera_label": "Backyard USB Camera",
       "type": "brightness",
-      "reason": "substantial scene change: score 43.6, changed 62.1%",
-      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 62.1% of the sampled frame moved enough to stand out, with a change score of 43.6. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame also became brighter by 43.6. The frame was added to the gallery so you can see exactly what changed.",
+      "reason": "large lighting change: brightness delta 43.6, changed 62.1%",
+      "description": "Backyard USB Camera saved this frame. The overall view got noticeably brighter, with a brightness shift of 43.6 on the reduced frame and 62.1% of sampled areas changing strongly. This usually means sun or cloud movement, shadow movement, glare, weather changes, or lights changing in the scene. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/usb-camera-20260809-191502-full.jpg",
       "thumb": "./images/usb-camera-20260809-191502-thumb.jpg",
       "metrics": {
@@ -173,7 +173,7 @@
       "camera_label": "Backyard USB Camera",
       "type": "motion",
       "reason": "substantial scene change: score 28.2, changed 26.7%",
-      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 26.7% of the sampled frame moved enough to stand out, with a change score of 28.2. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame also became darker by 28.1. The frame was added to the gallery so you can see exactly what changed.",
+      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 26.7% of the sampled frame moved enough to stand out, with a change score of 28.2. This can be motion in the yard, shifting trees, weather, sun glare, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/usb-camera-20260809-190002-full.jpg",
       "thumb": "./images/usb-camera-20260809-190002-thumb.jpg",
       "metrics": {
@@ -188,7 +188,7 @@
       "camera_label": "Tapo C200",
       "type": "motion",
       "reason": "substantial scene change: score 16.0, changed 6.5%",
-      "description": "Tapo C200 saved this frame. A broad part of the view changed: about 6.5% of the sampled frame moved enough to stand out, with a change score of 16.0. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
+      "description": "Tapo C200 saved this frame. A broad part of the view changed: about 6.5% of the sampled frame moved enough to stand out, with a change score of 16.0. This can be motion in the yard, shifting trees, weather, sun glare, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/tapo-camera-20260809-184506-full.jpg",
       "thumb": "./images/tapo-camera-20260809-184506-thumb.jpg",
       "metrics": {
@@ -202,8 +202,8 @@
       "camera": "usb",
       "camera_label": "Backyard USB Camera",
       "type": "brightness",
-      "reason": "substantial scene change: score 54.8, changed 84.0%",
-      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 84.0% of the sampled frame moved enough to stand out, with a change score of 54.8. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame also became darker by 54.8. The frame was added to the gallery so you can see exactly what changed.",
+      "reason": "large lighting change: brightness delta -54.8, changed 84.0%",
+      "description": "Backyard USB Camera saved this frame. The overall view got noticeably darker, with a brightness shift of 54.8 on the reduced frame and 84.0% of sampled areas changing strongly. This usually means sun or cloud movement, shadow movement, glare, weather changes, or lights changing in the scene. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/usb-camera-20260809-184503-full.jpg",
       "thumb": "./images/usb-camera-20260809-184503-thumb.jpg",
       "metrics": {
@@ -218,7 +218,7 @@
       "camera_label": "Backyard USB Camera",
       "type": "motion",
       "reason": "substantial scene change: score 27.2, changed 19.1%",
-      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 19.1% of the sampled frame moved enough to stand out, with a change score of 27.2. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame also became brighter by 26.3. The frame was added to the gallery so you can see exactly what changed.",
+      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 19.1% of the sampled frame moved enough to stand out, with a change score of 27.2. This can be motion in the yard, shifting trees, weather, sun glare, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/usb-camera-20260809-183003-full.jpg",
       "thumb": "./images/usb-camera-20260809-183003-thumb.jpg",
       "metrics": {
@@ -232,8 +232,8 @@
       "camera": "usb",
       "camera_label": "Backyard USB Camera",
       "type": "brightness",
-      "reason": "substantial scene change: score 40.5, changed 64.3%",
-      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 64.3% of the sampled frame moved enough to stand out, with a change score of 40.5. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame also became darker by 40.2. The frame was added to the gallery so you can see exactly what changed.",
+      "reason": "large lighting change: brightness delta -40.2, changed 64.3%",
+      "description": "Backyard USB Camera saved this frame. The overall view got noticeably darker, with a brightness shift of 40.2 on the reduced frame and 64.3% of sampled areas changing strongly. This usually means sun or cloud movement, shadow movement, glare, weather changes, or lights changing in the scene. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/usb-camera-20260809-180002-full.jpg",
       "thumb": "./images/usb-camera-20260809-180002-thumb.jpg",
       "metrics": {
@@ -247,8 +247,8 @@
       "camera": "usb",
       "camera_label": "Backyard USB Camera",
       "type": "brightness",
-      "reason": "substantial scene change: score 32.7, changed 48.1%",
-      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 48.1% of the sampled frame moved enough to stand out, with a change score of 32.7. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame also became brighter by 32.3. The frame was added to the gallery so you can see exactly what changed.",
+      "reason": "large lighting change: brightness delta 32.3, changed 48.1%",
+      "description": "Backyard USB Camera saved this frame. The overall view got noticeably brighter, with a brightness shift of 32.3 on the reduced frame and 48.1% of sampled areas changing strongly. This usually means sun or cloud movement, shadow movement, glare, weather changes, or lights changing in the scene. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/usb-camera-20260809-170002-full.jpg",
       "thumb": "./images/usb-camera-20260809-170002-thumb.jpg",
       "metrics": {
@@ -263,7 +263,7 @@
       "camera_label": "Tapo C200",
       "type": "motion",
       "reason": "substantial scene change: score 48.3, changed 52.5%",
-      "description": "Tapo C200 saved this frame. A broad part of the view changed: about 52.5% of the sampled frame moved enough to stand out, with a change score of 48.3. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
+      "description": "Tapo C200 saved this frame. A broad part of the view changed: about 52.5% of the sampled frame moved enough to stand out, with a change score of 48.3. This can be motion in the yard, shifting trees, weather, sun glare, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/tapo-camera-20260809-164506-full.jpg",
       "thumb": "./images/tapo-camera-20260809-164506-thumb.jpg",
       "metrics": {
@@ -277,8 +277,8 @@
       "camera": "usb",
       "camera_label": "Backyard USB Camera",
       "type": "brightness",
-      "reason": "substantial scene change: score 37.8, changed 59.7%",
-      "description": "Backyard USB Camera saved this frame. A broad part of the view changed: about 59.7% of the sampled frame moved enough to stand out, with a change score of 37.8. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame also became darker by 37.8. The frame was added to the gallery so you can see exactly what changed.",
+      "reason": "large lighting change: brightness delta -37.8, changed 59.7%",
+      "description": "Backyard USB Camera saved this frame. The overall view got noticeably darker, with a brightness shift of 37.8 on the reduced frame and 59.7% of sampled areas changing strongly. This usually means sun or cloud movement, shadow movement, glare, weather changes, or lights changing in the scene. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/usb-camera-20260809-164503-full.jpg",
       "thumb": "./images/usb-camera-20260809-164503-thumb.jpg",
       "metrics": {
@@ -293,7 +293,7 @@
       "camera_label": "Tapo C200",
       "type": "motion",
       "reason": "substantial scene change: score 13.5, changed 6.2%",
-      "description": "Tapo C200 saved this frame. A broad part of the view changed: about 6.2% of the sampled frame moved enough to stand out, with a change score of 13.5. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
+      "description": "Tapo C200 saved this frame. A broad part of the view changed: about 6.2% of the sampled frame moved enough to stand out, with a change score of 13.5. This can be motion in the yard, shifting trees, weather, sun glare, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
       "full": "./images/tapo-camera-20260809-163004-full.jpg",
       "thumb": "./images/tapo-camera-20260809-163004-thumb.jpg",
       "metrics": {
