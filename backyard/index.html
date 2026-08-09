@@ -29,6 +29,11 @@
                     <button class="view-btn" data-view="list" title="List view">≡</button>
                 </div>
                 <div class="filter-controls">
+                    <select id="filter-camera" class="filter-select">
+                        <option value="">All Cameras</option>
+                        <option value="usb">Backyard USB</option>
+                        <option value="tapo">Tapo C200</option>
+                    </select>
                     <select id="filter-type" class="filter-select">
                         <option value="">All Events</option>
                         <option value="sky">Sky Colors</option>
@@ -117,7 +122,7 @@
     </div>
 
     <footer class="footer">
-        <p>Camera check interval: 5 minutes | Alerts ~3-4 per day | Data updates automatically</p>
+        <p>Camera check interval: 15 minutes | Alerts post only when a major change is detected | Data updates automatically</p>
         <p><small>Images retained for 1 year | <a href="https://gkhanna.github.io/">← Back to Home</a></small></p>
     </footer>
 

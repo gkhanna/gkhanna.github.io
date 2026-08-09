@@ -256,6 +256,17 @@ body {
     font-weight: 600;
 }
 
+.gallery-overlay-camera {
+    display: inline-block;
+    background: rgba(139, 92, 246, 0.9);
+    color: white;
+    padding: var(--spacing-xs) var(--spacing-md);
+    border-radius: var(--radius-sm);
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-right: var(--spacing-sm);
+}
+
 /* Gallery List View */
 .gallery-list {
     display: flex;
@@ -317,6 +328,16 @@ body {
 .list-item-type {
     display: inline-block;
     background: var(--accent);
+    color: white;
+    padding: var(--spacing-xs) var(--spacing-md);
+    border-radius: var(--radius-sm);
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.list-item-camera {
+    display: inline-block;
+    background: rgba(139, 92, 246, 0.9);
     color: white;
     padding: var(--spacing-xs) var(--spacing-md);
     border-radius: var(--radius-sm);

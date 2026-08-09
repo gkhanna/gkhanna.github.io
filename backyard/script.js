@@ -5,6 +5,7 @@ const STATE = {
     filteredImages: [],
     currentView: 'grid',
     currentFilter: '',
+    currentCamera: '',
     currentTab: 'gallery',
     itemsPerPage: 12,
     currentPage: 1,
@@ -17,6 +18,11 @@ const ALERT_TYPES = {
     'sky': { label: 'Sky Colors', color: '#f59e0b' },
     'motion': { label: 'Motion / Scene Change', color: '#3b82f6' },
     'brightness': { label: 'Lighting Change', color: '#10b981' },
+};
+
+const CAMERAS = {
+    'usb': { label: 'Backyard USB', color: '#3b82f6' },
+    'tapo': { label: 'Tapo C200', color: '#8b5cf6' },
 };
 
 // Initialize
@@ -73,7 +79,13 @@ function setupEventListeners() {
 
     // Filter
     document.getElementById('filter-type')?.addEventListener('change', (e) => {
-        applyFilter(e.target.value);
+        STATE.currentFilter = e.target.value;
+        applyFilters();
+    });
+
+    document.getElementById('filter-camera')?.addEventListener('change', (e) => {
+        STATE.currentCamera = e.target.value;
+        applyFilters();
     });
 
     // Load more
@@ -135,16 +147,14 @@ function setViewMode(mode) {
 }
 
 // Filter
-function applyFilter(filterType) {
-    STATE.currentFilter = filterType;
+function applyFilters() {
     STATE.currentPage = 1;
-    
-    if (!filterType) {
-        STATE.filteredImages = STATE.allImages.slice();
-    } else {
-        STATE.filteredImages = STATE.allImages.filter(img => img.type === filterType);
-    }
-    
+    STATE.filteredImages = STATE.allImages.filter(img => {
+        const matchesType = !STATE.currentFilter || img.type === STATE.currentFilter;
+        const camera = img.camera || 'usb';
+        const matchesCamera = !STATE.currentCamera || camera === STATE.currentCamera;
+        return matchesType && matchesCamera;
+    });
     renderGallery();
 }
 
@@ -174,6 +184,7 @@ function renderGridView(images) {
             <img src="${img.thumb}" alt="${img.description}" loading="lazy">
             <div class="gallery-overlay">
                 <div class="gallery-overlay-time">${new Date(img.timestamp).toLocaleString()}</div>
+                <span class="gallery-overlay-camera">${cameraLabel(img)}</span>
                 <span class="gallery-overlay-type">${ALERT_TYPES[img.type]?.label || img.type}</span>
             </div>
         </div>
@@ -190,6 +201,7 @@ function renderListView(images) {
             <div class="list-item-content">
                 <div class="list-item-title">${new Date(img.timestamp).toLocaleString()}</div>
                 <div class="list-item-meta">
+                    <span class="list-item-camera">${cameraLabel(img)}</span>
                     <span class="list-item-type">${ALERT_TYPES[img.type]?.label || img.type}</span>
                     <span>${img.description.substring(0, 60)}...</span>
                 </div>
@@ -204,7 +216,7 @@ function openModal(index) {
     const img = STATE.allImages[index];
     
     document.getElementById('modalImage').src = img.full;
-    document.getElementById('modalTitle').textContent = new Date(img.timestamp).toLocaleString();
+    document.getElementById('modalTitle').textContent = `${cameraLabel(img)} • ${new Date(img.timestamp).toLocaleString()}`;
     document.getElementById('modalTime').textContent = formatDate(new Date(img.timestamp));
     document.getElementById('modalDescription').textContent = img.description;
     
@@ -378,4 +390,9 @@ function formatMetricValue(key, value) {
         return value.toFixed(2);
     }
     return String(value);
+}
+
+function cameraLabel(img) {
+    const camera = img.camera || 'usb';
+    return img.camera_label || CAMERAS[camera]?.label || camera;
 }
