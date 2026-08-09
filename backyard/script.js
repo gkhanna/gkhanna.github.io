@@ -185,7 +185,8 @@ function renderGridView(images) {
             <div class="gallery-overlay">
                 <div class="gallery-overlay-time">${new Date(img.timestamp).toLocaleString()}</div>
                 <span class="gallery-overlay-camera">${cameraLabel(img)}</span>
-                <span class="gallery-overlay-type">${ALERT_TYPES[img.type]?.label || img.type}</span>
+                <span class="gallery-overlay-type">${alertLabel(img)}</span>
+                <p class="gallery-overlay-reason">${imageReason(img)}</p>
             </div>
         </div>
     `).join('');
@@ -202,9 +203,10 @@ function renderListView(images) {
                 <div class="list-item-title">${new Date(img.timestamp).toLocaleString()}</div>
                 <div class="list-item-meta">
                     <span class="list-item-camera">${cameraLabel(img)}</span>
-                    <span class="list-item-type">${ALERT_TYPES[img.type]?.label || img.type}</span>
-                    <span>${img.description.substring(0, 60)}...</span>
+                    <span class="list-item-type">${alertLabel(img)}</span>
                 </div>
+                <div class="list-item-reason">${imageReason(img)}</div>
+                <div class="list-item-description">${imageSummary(img)}</div>
             </div>
         </div>
     `).join('');
@@ -218,6 +220,8 @@ function openModal(index) {
     document.getElementById('modalImage').src = img.full;
     document.getElementById('modalTitle').textContent = `${cameraLabel(img)} • ${new Date(img.timestamp).toLocaleString()}`;
     document.getElementById('modalTime').textContent = formatDate(new Date(img.timestamp));
+    document.getElementById('modalAlertMeta').textContent = alertLabel(img);
+    document.getElementById('modalReason').textContent = `Triggered by: ${imageReason(img)}`;
     document.getElementById('modalDescription').textContent = img.description;
     
     const metricsHtml = Object.entries(img.metrics || {})
@@ -390,6 +394,19 @@ function formatMetricValue(key, value) {
         return value.toFixed(2);
     }
     return String(value);
+}
+
+function alertLabel(img) {
+    return ALERT_TYPES[img.type]?.label || img.type || 'Alert';
+}
+
+function imageReason(img) {
+    return img.reason || 'Saved after crossing the alert threshold.';
+}
+
+function imageSummary(img) {
+    const description = img.description || imageReason(img);
+    return description.length > 180 ? `${description.substring(0, 177)}...` : description;
 }
 
 function cameraLabel(img) {

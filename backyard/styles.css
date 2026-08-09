@@ -256,6 +256,13 @@ body {
     font-weight: 600;
 }
 
+.gallery-overlay-reason {
+    margin-top: var(--spacing-sm);
+    color: var(--text);
+    font-size: 0.85rem;
+    line-height: 1.35;
+}
+
 .gallery-overlay-camera {
     display: inline-block;
     background: rgba(139, 92, 246, 0.9);
@@ -323,6 +330,7 @@ body {
     flex-wrap: wrap;
     font-size: 0.9rem;
     color: var(--text-muted);
+    margin: var(--spacing-sm) 0;
 }
 
 .list-item-type {
@@ -343,6 +351,18 @@ body {
     border-radius: var(--radius-sm);
     font-size: 0.85rem;
     font-weight: 600;
+}
+
+.list-item-reason {
+    color: var(--text);
+    font-size: 0.95rem;
+    line-height: 1.45;
+}
+
+.list-item-description {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.45;
 }
 
 /* Load More Button */
@@ -621,6 +641,22 @@ body {
 #modalDescription {
     color: var(--text) !important;
     line-height: 1.7;
+}
+
+.modal-alert-meta {
+    align-self: flex-start;
+    background: var(--accent);
+    color: white;
+    padding: var(--spacing-xs) var(--spacing-md);
+    border-radius: var(--radius-sm);
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.modal-reason {
+    color: var(--text) !important;
+    font-weight: 600;
+    line-height: 1.5;
 }
 
 .metrics {
