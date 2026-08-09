@@ -4,19 +4,21 @@ A live photo journal of interesting moments in the backyard — motion, wildlife
 
 ## About
 
-This site automatically displays alerts from the backyard camera whenever something visually interesting is detected:
+This site automatically displays saved frames from the backyard cameras whenever something visually interesting is detected:
 
 - **Motion & Scene Changes** – Birds at the feeder, wildlife, weather shifts, or shadows moving
 - **Lighting Changes** – Sun breaking through clouds, time-of-day transitions, glare
 - **Sky Colors** – Sunsets, unusual colors, vibrant atmospheric moments
 
-The camera checks every 5 minutes, and interesting moments (3–4 per day on average) are saved here with full-resolution images and detailed descriptions.
+The cameras check every 15 minutes. Qualifying moments are saved here with full-resolution images and detailed descriptions.
+
+Automatic Beeper alerts are disabled; the gallery is the passive record.
 
 ## Features
 
 - **Gallery View** – Browse recent captures as a grid or list
 - **Calendar View** – See which dates had activity
-- **Statistics** – Charts showing alert types, hourly activity, and trends
+- **Statistics** – Charts showing capture types, hourly activity, and trends
 - **Full Details** – Click any image to see high-resolution version, timestamp, and observation notes
 - **Dark Mode** – Easy on the eyes, especially at night
 - **Auto-Updates** – New images appear within minutes of detection
