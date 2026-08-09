@@ -1,7 +1,22 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-09T16:45:03.037717+00:00",
+  "lastUpdated": "2026-08-09T16:45:06.945666+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-09T16:45:06.857601+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "motion",
+      "reason": "substantial scene change: score 48.3, changed 52.5%",
+      "description": "Tapo C200 saved this frame. A broad part of the view changed: about 52.5% of the sampled frame moved enough to stand out, with a change score of 48.3. This can be motion in the yard, birds near the feeding area, shifting trees, sun glare, weather, or the camera angle changing. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260809-164506-full.jpg",
+      "thumb": "./images/tapo-camera-20260809-164506-thumb.jpg",
+      "metrics": {
+        "score": 48.25651168823242,
+        "changed_fraction": 0.5247395833333334,
+        "brightness_delta": -3.7486953735351562
+      }
+    },
     {
       "timestamp": "2026-08-09T16:45:03.004192+00:00",
       "camera": "usb",
