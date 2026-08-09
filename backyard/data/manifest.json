@@ -93,7 +93,13 @@
       "camera": "tapo",
       "full": "tapo-camera-20260809-093651-full.jpg",
       "thumb": "tapo-camera-20260809-093651-thumb.jpg"
+    },
+    {
+      "date": "2026-08-09T09:38:52.975569",
+      "camera": "usb",
+      "full": "usb-camera-20260809-093852-full.jpg",
+      "thumb": "usb-camera-20260809-093852-thumb.jpg"
     }
   ],
-  "updated": "2026-08-09T09:36:51.507518"
+  "updated": "2026-08-09T09:38:52.975569"
 }
