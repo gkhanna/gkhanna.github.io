@@ -1,7 +1,22 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-10T01:15:05.970215+00:00",
+  "lastUpdated": "2026-08-10T09:15:06.184245+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-10T09:15:06.125338+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "brightness",
+      "reason": "large lighting change: brightness delta 32.1, changed 47.0%",
+      "description": "Tapo C200 saved this frame. The overall view got noticeably brighter, with a brightness shift of 32.1 on the reduced frame. That usually means sun breaking through clouds, shadow movement, glare, weather changes, or lights changing in the scene. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260810-091506-full.jpg",
+      "thumb": "./images/tapo-camera-20260810-091506-thumb.jpg",
+      "metrics": {
+        "score": 33.03645706176758,
+        "changed_fraction": 0.4700520833333333,
+        "brightness_delta": 32.074649810791016
+      }
+    },
     {
       "timestamp": "2026-08-10T01:15:05.912574+00:00",
       "camera": "tapo",
