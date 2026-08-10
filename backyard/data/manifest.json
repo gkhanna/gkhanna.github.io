@@ -1,7 +1,22 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-10T19:00:07.317832+00:00",
+  "lastUpdated": "2026-08-10T20:00:03.172602+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-10T20:00:03.137991+00:00",
+      "camera": "usb",
+      "camera_label": "Backyard USB Camera",
+      "type": "brightness",
+      "reason": "large lighting change: brightness delta 60.1, changed 99.0%",
+      "description": "Backyard USB Camera saved this frame. The overall view got noticeably brighter, with a brightness shift of 60.1 on the reduced frame. That usually means sun breaking through clouds, shadow movement, glare, weather changes, or lights changing in the scene. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/usb-camera-20260810-200003-full.jpg",
+      "thumb": "./images/usb-camera-20260810-200003-thumb.jpg",
+      "metrics": {
+        "score": 60.12977600097656,
+        "changed_fraction": 0.9895833333333334,
+        "brightness_delta": 60.12977600097656
+      }
+    },
     {
       "timestamp": "2026-08-10T19:00:07.250433+00:00",
       "camera": "tapo",
