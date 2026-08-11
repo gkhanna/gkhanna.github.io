@@ -15,9 +15,10 @@ const STATE = {
 };
 
 const ALERT_TYPES = {
+    'subject': { label: 'People / Cars / Animals', color: '#ef4444' },
     'sky': { label: 'Sky Colors', color: '#f59e0b' },
-    'motion': { label: 'Motion / Scene Change', color: '#3b82f6' },
-    'brightness': { label: 'Lighting Change', color: '#10b981' },
+    'motion': { label: 'Legacy Motion / Scene Change', color: '#3b82f6' },
+    'brightness': { label: 'Legacy Lighting Change', color: '#10b981' },
 };
 
 const CAMERAS = {
