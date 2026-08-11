@@ -15,6 +15,7 @@ const STATE = {
 };
 
 const ALERT_TYPES = {
+    'snapshot': { label: 'Fresh Snapshot', color: '#64748b' },
     'subject': { label: 'People / Cars / Animals', color: '#ef4444' },
     'sky': { label: 'Sky Colors', color: '#f59e0b' },
     'motion': { label: 'Legacy Motion / Scene Change', color: '#3b82f6' },
