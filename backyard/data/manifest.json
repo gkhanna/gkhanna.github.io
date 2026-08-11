@@ -1,7 +1,51 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-11T10:18:10.390093+00:00",
+  "lastUpdated": "2026-08-11T11:30:03.449226+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-11T11:30:03.411010+00:00",
+      "camera": "usb",
+      "camera_label": "Backyard USB Camera",
+      "type": "subject",
+      "reason": "subject detected: 2 persons; strongest person at 80% confidence",
+      "description": "Backyard USB Camera saved this frame. I see 2 person-type detections (person), with the strongest person in the lower center at 80% confidence. I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/usb-camera-20260811-113003-full.jpg",
+      "thumb": "./images/usb-camera-20260811-113003-thumb.jpg",
+      "metrics": {
+        "score": 10.937066078186035,
+        "changed_fraction": 0.048177083333333336,
+        "brightness_delta": 10.718315124511719,
+        "detections": [
+          {
+            "label": "person",
+            "group": "person",
+            "confidence": 0.8044836521148682,
+            "box": [
+              600.6,
+              489.3,
+              653.0,
+              602.1
+            ],
+            "area_fraction": 0.006404738172156309,
+            "region": "lower center"
+          },
+          {
+            "label": "person",
+            "group": "person",
+            "confidence": 0.5854431390762329,
+            "box": [
+              546.1,
+              373.2,
+              568.0,
+              411.2
+            ],
+            "area_fraction": 0.0009062419578549452,
+            "region": "center"
+          }
+        ],
+        "ptz_centering": null
+      }
+    },
     {
       "timestamp": "2026-08-11T10:18:10.329463+00:00",
       "camera": "tapo",
