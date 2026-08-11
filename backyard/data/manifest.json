@@ -1,7 +1,59 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-11T13:45:10.952130+00:00",
+  "lastUpdated": "2026-08-11T15:00:12.005482+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-11T15:00:11.930058+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 car; strongest car at 37% confidence",
+      "description": "Tapo C200 saved this frame. I see a small car in the upper left of the frame (37% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The Tapo camera made 1 small centering nudge, retook the snapshot, and returned to its previous viewpoint. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260811-150011-full.jpg",
+      "thumb": "./images/tapo-camera-20260811-150011-thumb.jpg",
+      "metrics": {
+        "score": 2.983506917953491,
+        "changed_fraction": 0.0,
+        "brightness_delta": 0.4947967529296875,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.3662208914756775,
+            "box": [
+              513.7,
+              300.5,
+              583.0,
+              330.9
+            ],
+            "area_fraction": 0.0010165849153175562,
+            "region": "upper left"
+          }
+        ],
+        "ptz_centering": {
+          "nudges": 1,
+          "returned": true,
+          "start_status": [
+            -0.243218,
+            -0.714353
+          ],
+          "end_status": [
+            -0.242709,
+            -0.714353
+          ],
+          "moves": [
+            {
+              "pan": 0.35,
+              "tilt": 0.35,
+              "seconds": 0.3,
+              "dx": -0.4288020833333333,
+              "dy": -0.4153703703703704
+            }
+          ],
+          "centering_score": 0.8441724537037036
+        }
+      }
+    },
     {
       "timestamp": "2026-08-11T13:45:10.880912+00:00",
       "camera": "tapo",
