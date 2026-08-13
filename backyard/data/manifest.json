@@ -1,7 +1,62 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-13T15:45:31.764380+00:00",
+  "lastUpdated": "2026-08-13T16:00:12.638049+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-13T16:00:12.565730+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 truck; strongest truck at 37% confidence",
+      "description": "Tapo C200 saved this frame. I see a medium-sized truck in the upper left of the frame (37% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The Tapo camera made 1 small centering nudge, retook the snapshot, and returned to its previous viewpoint. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260813-160012-full.jpg",
+      "thumb": "./images/tapo-camera-20260813-160012-thumb.jpg",
+      "metrics": {
+        "score": 27.46701431274414,
+        "changed_fraction": 0.3276909722222222,
+        "brightness_delta": -6.546875,
+        "detections": [
+          {
+            "label": "truck",
+            "group": "vehicle",
+            "confidence": 0.36811450123786926,
+            "box": [
+              476.1,
+              225.0,
+              730.4,
+              421.5
+            ],
+            "area_fraction": 0.024104814852091497,
+            "region": "upper left"
+          }
+        ],
+        "ptz_centering": {
+          "nudges": 1,
+          "returned": true,
+          "start_status": [
+            -0.19836,
+            -0.857176
+          ],
+          "end_status": [
+            -0.199055,
+            -0.857176
+          ],
+          "moves": [
+            {
+              "pan": 0.42,
+              "tilt": 0.42,
+              "seconds": 0.24,
+              "dx": -0.37161458333333336,
+              "dy": -0.4013888888888889
+            }
+          ],
+          "centering_score": 0.7730034722222223,
+          "initial_offset": 0.4013888888888889,
+          "target_offset": 0.025,
+          "min_nudges_when_offcenter": 8
+        }
+      }
+    },
     {
       "timestamp": "2026-08-13T15:45:31.697813+00:00",
       "camera": "tapo",
