@@ -1,7 +1,76 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-13T16:15:26.691991+00:00",
+  "lastUpdated": "2026-08-13T16:30:22.450701+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-13T16:30:22.379222+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 car; strongest car at 63% confidence",
+      "description": "Tapo C200 saved this frame. I see a small car in the upper left of the frame (63% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The Tapo camera made 3 small centering nudges, retook the snapshot, and returned to its previous viewpoint. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260813-163022-full.jpg",
+      "thumb": "./images/tapo-camera-20260813-163022-thumb.jpg",
+      "metrics": {
+        "score": 27.52256965637207,
+        "changed_fraction": 0.2938368055555556,
+        "brightness_delta": -2.1293411254882812,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.6266000270843506,
+            "box": [
+              385.9,
+              246.7,
+              484.6,
+              307.0
+            ],
+            "area_fraction": 0.002872133380363569,
+            "region": "upper left"
+          }
+        ],
+        "ptz_centering": {
+          "nudges": 3,
+          "returned": true,
+          "start_status": [
+            -0.20374,
+            -0.857176
+          ],
+          "end_status": [
+            -0.202335,
+            -0.857176
+          ],
+          "moves": [
+            {
+              "pan": 0.42,
+              "tilt": 0.42,
+              "seconds": 0.263984375,
+              "dx": -0.5466145833333333,
+              "dy": -0.48731481481481476
+            },
+            {
+              "pan": 0.42,
+              "tilt": 0.42,
+              "seconds": 0.30057812500000003,
+              "dx": -0.66859375,
+              "dy": -0.4668518518518519
+            },
+            {
+              "pan": 0.42,
+              "tilt": 0.42,
+              "seconds": 0.350375,
+              "dx": -0.8345833333333333,
+              "dy": -0.4287037037037037
+            }
+          ],
+          "centering_score": 1.033929398148148,
+          "initial_offset": 0.5466145833333333,
+          "target_offset": 0.025,
+          "min_nudges_when_offcenter": 8
+        }
+      }
+    },
     {
       "timestamp": "2026-08-13T16:15:26.621874+00:00",
       "camera": "tapo",
