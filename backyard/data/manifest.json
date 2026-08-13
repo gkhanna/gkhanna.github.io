@@ -1,7 +1,96 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-13T07:00:12.951312+00:00",
+  "lastUpdated": "2026-08-13T09:45:27.423043+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-13T09:45:27.356717+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 2 cars; strongest car at 59% confidence",
+      "description": "Tapo C200 saved this frame. I see 2 vehicle-type detections (car), with the strongest car in the upper left at 59% confidence. I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The Tapo camera made 4 small centering nudges, retook the snapshot, and returned to its previous viewpoint. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260813-094527-full.jpg",
+      "thumb": "./images/tapo-camera-20260813-094527-thumb.jpg",
+      "metrics": {
+        "score": 24.96354103088379,
+        "changed_fraction": 0.2625868055555556,
+        "brightness_delta": 0.00173187255859375,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.5938390493392944,
+            "box": [
+              444.8,
+              241.9,
+              544.1,
+              298.2
+            ],
+            "area_fraction": 0.0026942593990679597,
+            "region": "upper left"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.30388230085372925,
+            "box": [
+              1784.8,
+              350.7,
+              1877.7,
+              407.5
+            ],
+            "area_fraction": 0.0025466370110128387,
+            "region": "middle right"
+          }
+        ],
+        "ptz_centering": {
+          "nudges": 4,
+          "returned": true,
+          "start_status": [
+            -0.20286,
+            -0.857176
+          ],
+          "end_status": [
+            -0.201268,
+            -0.857176
+          ],
+          "moves": [
+            {
+              "pan": 0.42,
+              "tilt": 0.42,
+              "seconds": 0.24997222222222223,
+              "dx": -0.48494791666666665,
+              "dy": -0.4999074074074074
+            },
+            {
+              "pan": 0.42,
+              "tilt": 0.42,
+              "seconds": 0.291265625,
+              "dx": -0.6375520833333332,
+              "dy": -0.4742592592592593
+            },
+            {
+              "pan": 0.42,
+              "tilt": 0.42,
+              "seconds": 0.3425625,
+              "dx": -0.8085416666666667,
+              "dy": -0.4352777777777777
+            },
+            {
+              "pan": 0.42,
+              "tilt": 0.42,
+              "seconds": 0.39046875000000003,
+              "dx": -0.9682291666666667,
+              "dy": -0.39009259259259255
+            }
+          ],
+          "centering_score": 0.9848553240740741,
+          "initial_offset": 0.4999074074074074,
+          "target_offset": 0.025,
+          "min_nudges_when_offcenter": 8
+        }
+      }
+    },
     {
       "timestamp": "2026-08-13T07:00:12.884463+00:00",
       "camera": "tapo",
