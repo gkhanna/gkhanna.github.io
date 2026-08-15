@@ -1,7 +1,54 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-15T09:45:04.125303+00:00",
+  "lastUpdated": "2026-08-15T11:00:06.060986+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-15T11:00:05.981742+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 person; strongest person at 68% confidence",
+      "description": "Tapo C200 saved this frame. I see a small person in the center of the frame (68% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260815-110005-full.jpg",
+      "thumb": "./images/tapo-camera-20260815-110005-thumb.jpg",
+      "metrics": {
+        "score": 18.68576431274414,
+        "changed_fraction": 0.0763888888888889,
+        "brightness_delta": -6.123260498046875,
+        "detections": [
+          {
+            "label": "person",
+            "group": "person",
+            "confidence": 0.6836864948272705,
+            "box": [
+              967.9,
+              517.8,
+              992.9,
+              586.7
+            ],
+            "area_fraction": 0.0008284003718775542,
+            "region": "center"
+          }
+        ],
+        "ptz_centering": {
+          "nudges": 0,
+          "returned": true,
+          "start_status": [
+            -0.27629,
+            -0.571451
+          ],
+          "end_status": [
+            -0.27629,
+            -0.571451
+          ],
+          "moves": [],
+          "centering_score": 0.04393518518518516,
+          "initial_offset": 0.022685185185185187,
+          "target_offset": 0.025,
+          "min_nudges_when_offcenter": 8
+        }
+      }
+    },
     {
       "timestamp": "2026-08-15T09:45:04.082945+00:00",
       "camera": "usb",
