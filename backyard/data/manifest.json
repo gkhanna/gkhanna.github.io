@@ -1,7 +1,209 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-15T16:45:49.219877+00:00",
+  "lastUpdated": "2026-08-15T17:01:12.466230+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-15T17:01:12.394403+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 8 cars; strongest car at 74% confidence",
+      "description": "Tapo C200 saved this frame. I see 8 vehicle-type detections (car), with the strongest car in the center at 74% confidence. I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The Tapo camera made 9 small centering nudges, retook the snapshot, and returned to its previous viewpoint. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260815-170112-full.jpg",
+      "thumb": "./images/tapo-camera-20260815-170112-thumb.jpg",
+      "metrics": {
+        "score": 40.41666793823242,
+        "changed_fraction": 0.4262152777777778,
+        "brightness_delta": -4.973960876464844,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.740985095500946,
+            "box": [
+              968.7,
+              430.3,
+              1054.0,
+              462.6
+            ],
+            "area_fraction": 0.0013316791132294587,
+            "region": "center"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.7032126188278198,
+            "box": [
+              1200.6,
+              431.1,
+              1280.6,
+              463.0
+            ],
+            "area_fraction": 0.0012306518290036669,
+            "region": "center"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.6398674845695496,
+            "box": [
+              1532.3,
+              471.4,
+              1599.7,
+              565.9
+            ],
+            "area_fraction": 0.0030745942835589328,
+            "region": "middle right"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.6276001930236816,
+            "box": [
+              831.2,
+              429.6,
+              906.9,
+              476.9
+            ],
+            "area_fraction": 0.001723160801864449,
+            "region": "center"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.5347332954406738,
+            "box": [
+              449.3,
+              491.6,
+              553.5,
+              546.8
+            ],
+            "area_fraction": 0.002772277660699021,
+            "region": "middle left"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.41992810368537903,
+            "box": [
+              639.3,
+              454.8,
+              745.1,
+              508.0
+            ],
+            "area_fraction": 0.0027154297595128204,
+            "region": "center"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.3913487195968628,
+            "box": [
+              546.8,
+              477.9,
+              639.8,
+              532.3
+            ],
+            "area_fraction": 0.0024382422144885317,
+            "region": "middle left"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.32261478900909424,
+            "box": [
+              1101.0,
+              426.7,
+              1181.9,
+              459.1
+            ],
+            "area_fraction": 0.0012666499164212535,
+            "region": "center"
+          }
+        ],
+        "ptz_centering": {
+          "nudges": 9,
+          "returned": true,
+          "start_status": [
+            -0.174247,
+            -0.571451
+          ],
+          "end_status": [
+            -0.168616,
+            -0.571451
+          ],
+          "moves": [
+            {
+              "pan": -0.42,
+              "tilt": 0.42,
+              "seconds": 0.24,
+              "dx": 0.053489583333333354,
+              "dy": -0.17324074074074067
+            },
+            {
+              "pan": -0.42,
+              "tilt": 0.42,
+              "seconds": 0.24,
+              "dx": 0.18744791666666671,
+              "dy": -0.17314814814814813
+            },
+            {
+              "pan": -0.42,
+              "tilt": 0.42,
+              "seconds": 0.24,
+              "dx": 0.32869791666666665,
+              "dy": -0.16935185185185184
+            },
+            {
+              "pan": -0.42,
+              "tilt": 0.42,
+              "seconds": 0.24193750000000003,
+              "dx": 0.4731250000000001,
+              "dy": -0.1574074074074074
+            },
+            {
+              "pan": -0.42,
+              "tilt": 0.42,
+              "seconds": 0.245703125,
+              "dx": 0.4856770833333333,
+              "dy": -0.1418518518518519
+            },
+            {
+              "pan": -0.42,
+              "tilt": 0.42,
+              "seconds": 0.28754687500000004,
+              "dx": 0.6251562500000001,
+              "dy": -0.13499999999999995
+            },
+            {
+              "pan": -0.42,
+              "tilt": 0.42,
+              "seconds": 0.336734375,
+              "dx": 0.7891145833333333,
+              "dy": -0.11685185185185189
+            },
+            {
+              "pan": -0.42,
+              "tilt": 0.42,
+              "seconds": 0.3901874999999999,
+              "dx": 0.9672916666666665,
+              "dy": -0.0926851851851852
+            },
+            {
+              "pan": -0.42,
+              "tilt": -0.42,
+              "seconds": 0.35029687499999995,
+              "dx": 0.8343229166666667,
+              "dy": 0.003981481481481439
+            }
+          ],
+          "centering_score": 0.226730324074074,
+          "initial_offset": 0.17324074074074067,
+          "target_offset": 0.025,
+          "min_nudges_when_offcenter": 8
+        }
+      }
+    },
     {
       "timestamp": "2026-08-15T16:45:49.144032+00:00",
       "camera": "tapo",
