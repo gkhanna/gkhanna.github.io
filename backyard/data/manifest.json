@@ -1,7 +1,106 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-15T22:30:32.048695+00:00",
+  "lastUpdated": "2026-08-15T22:45:31.103476+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-15T22:45:31.036648+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "interesting sky colors: saturation 0.16, warm 1.6%, blue 46.7%",
+      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.16. The blue portion of the sky looked especially strong or clear. The frame was added to the gallery so you can see exactly what changed. This was the far right view from the five-position PTZ sweep.",
+      "full": "./images/tapo-camera-20260815-224531-full.jpg",
+      "thumb": "./images/tapo-camera-20260815-224531-thumb.jpg",
+      "metrics": {
+        "score": 26.88671875,
+        "changed_fraction": 0.21180555555555555,
+        "brightness_delta": -0.69140625,
+        "detections": [],
+        "ptz_sweep": {
+          "positions": [
+            "far_left",
+            "left",
+            "center",
+            "right",
+            "far_right"
+          ],
+          "start_status": [
+            -0.219945,
+            -0.571451
+          ],
+          "end_status": [
+            -0.219275,
+            -0.571451
+          ],
+          "returned": true,
+          "moves": [
+            {
+              "from_step": 0,
+              "to_step": -1,
+              "pan": 0.35,
+              "tilt": 0.0,
+              "seconds": 0.85
+            },
+            {
+              "from_step": -1,
+              "to_step": -2,
+              "pan": 0.35,
+              "tilt": 0.0,
+              "seconds": 0.85
+            },
+            {
+              "from_step": -2,
+              "to_step": -1,
+              "pan": -0.35,
+              "tilt": 0.0,
+              "seconds": 0.85
+            },
+            {
+              "from_step": -1,
+              "to_step": 0,
+              "pan": -0.35,
+              "tilt": 0.0,
+              "seconds": 0.85
+            },
+            {
+              "from_step": 0,
+              "to_step": 1,
+              "pan": -0.35,
+              "tilt": 0.0,
+              "seconds": 0.85
+            },
+            {
+              "from_step": 1,
+              "to_step": 2,
+              "pan": -0.35,
+              "tilt": 0.0,
+              "seconds": 0.85
+            },
+            {
+              "from_step": 2,
+              "to_step": 1,
+              "pan": 0.35,
+              "tilt": 0.0,
+              "seconds": 0.85
+            },
+            {
+              "from_step": 1,
+              "to_step": 0,
+              "pan": 0.35,
+              "tilt": 0.0,
+              "seconds": 0.85
+            }
+          ],
+          "step_seconds": 0.85,
+          "pan_velocity": 0.35
+        },
+        "sweep_position": {
+          "id": "far_right",
+          "label": "far right",
+          "step": 2
+        }
+      }
+    },
     {
       "timestamp": "2026-08-15T22:30:31.981480+00:00",
       "camera": "tapo",
