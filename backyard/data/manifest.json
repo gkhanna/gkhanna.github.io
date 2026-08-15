@@ -1,5 +1,83 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-15T20:43:56+0000",
-  "images": []
+  "lastUpdated": "2026-08-15T21:00:43.985367+00:00",
+  "images": [
+    {
+      "timestamp": "2026-08-15T21:00:43.925741+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "snapshot",
+      "reason": "manual baseline snapshot for new Tapo sweep arrangement",
+      "description": "Tapo C184 baseline snapshot for the new two-Tapo sweep arrangement. This frame was posted on request as a reference view, not because it crossed a detection threshold. I see a small car in the middle left of the frame (39% confidence).",
+      "full": "./images/tapo-c184-camera-20260815-210043-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20260815-210043-thumb.jpg",
+      "metrics": {
+        "score": 0.0,
+        "changed_fraction": 0.0,
+        "brightness_delta": 0.0,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.39086973667144775,
+            "box": [
+              60.3,
+              613.8,
+              152.7,
+              693.7
+            ],
+            "area_fraction": 0.003561585653323568,
+            "region": "middle left"
+          }
+        ],
+        "ptz_sweep": null,
+        "sweep_position": null
+      }
+    },
+    {
+      "timestamp": "2026-08-15T21:00:41.159128+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "snapshot",
+      "reason": "manual baseline snapshot for new Tapo sweep arrangement",
+      "description": "Tapo C200 baseline snapshot for the new two-Tapo sweep arrangement. This frame was posted on request as a reference view, not because it crossed a detection threshold. I see a small person in the middle right of the frame (64% confidence). I see a small car in the middle right of the frame (33% confidence).",
+      "full": "./images/tapo-camera-20260815-210041-full.jpg",
+      "thumb": "./images/tapo-camera-20260815-210041-thumb.jpg",
+      "metrics": {
+        "score": 0.0,
+        "changed_fraction": 0.0,
+        "brightness_delta": 0.0,
+        "detections": [
+          {
+            "label": "person",
+            "group": "person",
+            "confidence": 0.6359901428222656,
+            "box": [
+              1863.4,
+              543.2,
+              1919.4,
+              879.2
+            ],
+            "area_fraction": 0.009086055709776702,
+            "region": "middle right"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.3270045518875122,
+            "box": [
+              1229.7,
+              372.7,
+              1378.0,
+              442.8
+            ],
+            "area_fraction": 0.005013082579098409,
+            "region": "middle right"
+          }
+        ],
+        "ptz_sweep": null,
+        "sweep_position": null
+      }
+    }
+  ]
 }
