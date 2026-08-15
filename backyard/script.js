@@ -23,8 +23,8 @@ const ALERT_TYPES = {
 };
 
 const CAMERAS = {
-    'usb': { label: 'Backyard USB', color: '#3b82f6' },
     'tapo': { label: 'Tapo C200', color: '#8b5cf6' },
+    'tapo-c184': { label: 'Tapo C184', color: '#0f766e' },
 };
 
 // Initialize
@@ -153,7 +153,7 @@ function applyFilters() {
     STATE.currentPage = 1;
     STATE.filteredImages = STATE.allImages.filter(img => {
         const matchesType = !STATE.currentFilter || img.type === STATE.currentFilter;
-        const camera = img.camera || 'usb';
+        const camera = img.camera || '';
         const matchesCamera = !STATE.currentCamera || camera === STATE.currentCamera;
         return matchesType && matchesCamera;
     });
@@ -412,6 +412,6 @@ function imageSummary(img) {
 }
 
 function cameraLabel(img) {
-    const camera = img.camera || 'usb';
+    const camera = img.camera || '';
     return img.camera_label || CAMERAS[camera]?.label || camera;
 }
