@@ -1,7 +1,132 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-16T21:45:29.449961+00:00",
+  "lastUpdated": "2026-08-16T22:00:35.502175+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-16T22:00:35.431754+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 car, 2 persons; strongest person at 82% confidence",
+      "description": "Tapo C200 saved this frame. I see 2 person-type detections (person), with the strongest person in the lower right at 82% confidence. I see a small car in the middle right of the frame (68% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed. This was the center view from the five-position PTZ sweep.",
+      "full": "./images/tapo-camera-20260816-220035-full.jpg",
+      "thumb": "./images/tapo-camera-20260816-220035-thumb.jpg",
+      "metrics": {
+        "score": 25.31553840637207,
+        "changed_fraction": 0.24479166666666666,
+        "brightness_delta": 0.9066848754882812,
+        "detections": [
+          {
+            "label": "person",
+            "group": "person",
+            "confidence": 0.8170088529586792,
+            "box": [
+              1540.3,
+              668.7,
+              1584.6,
+              792.6
+            ],
+            "area_fraction": 0.0026451787473342845,
+            "region": "lower right"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.6773533821105957,
+            "box": [
+              1358.0,
+              442.5,
+              1432.0,
+              480.2
+            ],
+            "area_fraction": 0.0013447326726519452,
+            "region": "middle right"
+          },
+          {
+            "label": "person",
+            "group": "person",
+            "confidence": 0.663772702217102,
+            "box": [
+              1460.3,
+              667.3,
+              1505.5,
+              785.3
+            ],
+            "area_fraction": 0.0025700443976408374,
+            "region": "lower right"
+          }
+        ],
+        "ptz_sweep": {
+          "positions": [
+            "far_left",
+            "left",
+            "center",
+            "right",
+            "far_right"
+          ],
+          "start_status": [
+            -0.222013,
+            -0.571098
+          ],
+          "end_status": [
+            -0.178229,
+            -0.571098
+          ],
+          "returned": true,
+          "moves": [
+            {
+              "from_step": 0,
+              "to_step": -2,
+              "pan": 0.4,
+              "tilt": 0.0,
+              "seconds": 1.2
+            },
+            {
+              "from_step": -2,
+              "to_step": -1,
+              "pan": -0.4,
+              "tilt": 0.0,
+              "seconds": 0.6
+            },
+            {
+              "from_step": -1,
+              "to_step": 0,
+              "pan": -0.4,
+              "tilt": 0.0,
+              "seconds": 0.6
+            },
+            {
+              "from_step": 0,
+              "to_step": 1,
+              "pan": -0.4,
+              "tilt": 0.0,
+              "seconds": 0.6
+            },
+            {
+              "from_step": 1,
+              "to_step": 2,
+              "pan": -0.4,
+              "tilt": 0.0,
+              "seconds": 0.6
+            },
+            {
+              "from_step": 2,
+              "to_step": 0,
+              "pan": 0.4,
+              "tilt": 0.0,
+              "seconds": 1.2
+            }
+          ],
+          "step_seconds": 0.6,
+          "pan_velocity": 0.4
+        },
+        "sweep_position": {
+          "id": "center",
+          "label": "center",
+          "step": 0
+        }
+      }
+    },
     {
       "timestamp": "2026-08-16T21:45:29.376430+00:00",
       "camera": "tapo",
