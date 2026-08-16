@@ -1,7 +1,145 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-16T20:15:56.427532+00:00",
+  "lastUpdated": "2026-08-16T20:30:27.105587+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-16T20:30:27.035574+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 car; strongest car at 86% confidence",
+      "description": "Tapo C200 saved this frame. I see 4 vehicle-type detections (car), with the strongest car in the center at 86% confidence. I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed. This was the far right view from the five-position PTZ sweep.",
+      "full": "./images/tapo-camera-20260816-203027-full.jpg",
+      "thumb": "./images/tapo-camera-20260816-203027-thumb.jpg",
+      "metrics": {
+        "score": 18.31423568725586,
+        "changed_fraction": 0.1605902777777778,
+        "brightness_delta": -3.3185806274414062,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.8560657501220703,
+            "box": [
+              1096.9,
+              539.7,
+              1299.4,
+              638.2
+            ],
+            "area_fraction": 0.009624163449431459,
+            "region": "center"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.7253791093826294,
+            "box": [
+              1451.2,
+              555.7,
+              1665.1,
+              638.5
+            ],
+            "area_fraction": 0.008539265871036655,
+            "region": "middle right"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.7015867233276367,
+            "box": [
+              1705.6,
+              576.6,
+              1913.1,
+              673.2
+            ],
+            "area_fraction": 0.009667165625950373,
+            "region": "middle right"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.6577407121658325,
+            "box": [
+              1554.8,
+              443.7,
+              1621.1,
+              482.7
+            ],
+            "area_fraction": 0.0012456562708959811,
+            "region": "middle right"
+          }
+        ],
+        "ptz_sweep": {
+          "positions": [
+            "far_left",
+            "left",
+            "center",
+            "right",
+            "far_right"
+          ],
+          "start_status": [
+            -0.173116,
+            -0.571098
+          ],
+          "end_status": [
+            -0.169771,
+            -0.571098
+          ],
+          "returned": true,
+          "moves": [
+            {
+              "from_step": 0,
+              "to_step": -2,
+              "pan": 0.4,
+              "tilt": 0.0,
+              "seconds": 1.2
+            },
+            {
+              "from_step": -2,
+              "to_step": -1,
+              "pan": -0.4,
+              "tilt": 0.0,
+              "seconds": 0.6
+            },
+            {
+              "from_step": -1,
+              "to_step": 0,
+              "pan": -0.4,
+              "tilt": 0.0,
+              "seconds": 0.6
+            },
+            {
+              "from_step": 0,
+              "to_step": 1,
+              "pan": -0.4,
+              "tilt": 0.0,
+              "seconds": 0.6
+            },
+            {
+              "from_step": 1,
+              "to_step": 2,
+              "pan": -0.4,
+              "tilt": 0.0,
+              "seconds": 0.6
+            },
+            {
+              "from_step": 2,
+              "to_step": 0,
+              "pan": 0.4,
+              "tilt": 0.0,
+              "seconds": 1.2
+            }
+          ],
+          "step_seconds": 0.6,
+          "pan_velocity": 0.4
+        },
+        "sweep_position": {
+          "id": "far_right",
+          "label": "far right",
+          "step": 2
+        }
+      }
+    },
     {
       "timestamp": "2026-08-16T20:15:56.368930+00:00",
       "camera": "tapo-c184",
