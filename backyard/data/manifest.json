@@ -1,7 +1,62 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-18T20:30:04.058750+00:00",
+  "lastUpdated": "2026-08-18T23:15:05.606399+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-18T23:15:05.513488+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 truck; strongest truck at 40% confidence",
+      "description": "Tapo C200 saved this frame. I see a small truck in the center of the frame (40% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260818-231505-full.jpg",
+      "thumb": "./images/tapo-camera-20260818-231505-thumb.jpg",
+      "metrics": {
+        "score": 9.490885734558105,
+        "changed_fraction": 0.026909722222222224,
+        "brightness_delta": 1.4657135009765625,
+        "detections": [
+          {
+            "label": "truck",
+            "group": "vehicle",
+            "confidence": 0.4038694500923157,
+            "box": [
+              854.4,
+              527.5,
+              996.7,
+              606.8
+            ],
+            "area_fraction": 0.0054428435942665805,
+            "region": "center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": false,
+          "used_retake": false,
+          "returned": false,
+          "start_status": null,
+          "end_status": null,
+          "moves": [],
+          "initial_offset": 0.025138888888888822,
+          "final_offset": 0.025138888888888822,
+          "detections": [
+            {
+              "label": "truck",
+              "group": "vehicle",
+              "confidence": 0.4038694500923157,
+              "box": [
+                854.4,
+                527.5,
+                996.7,
+                606.8
+              ],
+              "area_fraction": 0.0054428435942665805,
+              "region": "center"
+            }
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-08-18T20:30:03.985048+00:00",
       "camera": "tapo",
