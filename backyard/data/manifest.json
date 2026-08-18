@@ -1,7 +1,92 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-17T23:45:30.506215+00:00",
+  "lastUpdated": "2026-08-18T00:00:33.281173+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-18T00:00:33.214283+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "interesting sky colors: saturation 0.15, warm 15.7%, blue 19.3%",
+      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.15. There is a warm sunset-like tint across the sky or treetops. The frame was added to the gallery so you can see exactly what changed. This was the left view from the five-position PTZ sweep.",
+      "full": "./images/tapo-camera-20260818-000033-full.jpg",
+      "thumb": "./images/tapo-camera-20260818-000033-thumb.jpg",
+      "metrics": {
+        "score": 33.86371612548828,
+        "changed_fraction": 0.4578993055555556,
+        "brightness_delta": -9.019966125488281,
+        "detections": [],
+        "ptz_sweep": {
+          "positions": [
+            "far_left",
+            "left",
+            "center",
+            "right",
+            "far_right"
+          ],
+          "start_status": [
+            -0.25889,
+            -0.571098
+          ],
+          "end_status": [
+            -0.265676,
+            -0.571098
+          ],
+          "returned": true,
+          "moves": [
+            {
+              "from_step": 0,
+              "to_step": -2,
+              "pan": 0.4,
+              "tilt": 0.0,
+              "seconds": 1.2
+            },
+            {
+              "from_step": -2,
+              "to_step": -1,
+              "pan": -0.4,
+              "tilt": 0.0,
+              "seconds": 0.6
+            },
+            {
+              "from_step": -1,
+              "to_step": 0,
+              "pan": -0.4,
+              "tilt": 0.0,
+              "seconds": 0.6
+            },
+            {
+              "from_step": 0,
+              "to_step": 1,
+              "pan": -0.4,
+              "tilt": 0.0,
+              "seconds": 0.6
+            },
+            {
+              "from_step": 1,
+              "to_step": 2,
+              "pan": -0.4,
+              "tilt": 0.0,
+              "seconds": 0.6
+            },
+            {
+              "from_step": 2,
+              "to_step": 0,
+              "pan": 0.4,
+              "tilt": 0.0,
+              "seconds": 1.2
+            }
+          ],
+          "step_seconds": 0.6,
+          "pan_velocity": 0.4
+        },
+        "sweep_position": {
+          "id": "left",
+          "label": "left",
+          "step": -1
+        }
+      }
+    },
     {
       "timestamp": "2026-08-17T23:45:30.430804+00:00",
       "camera": "tapo",
