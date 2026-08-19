@@ -1,7 +1,109 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-19T13:30:15.345681+00:00",
+  "lastUpdated": "2026-08-19T15:15:19.688794+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-19T15:15:19.618801+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "subject",
+      "reason": "subject detected: 2 cows; strongest cow at 64% confidence",
+      "description": "Tapo C184 saved this frame. I see 2 animal-type detections (sheep), with the strongest sheep in the lower right at 68% confidence. I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-c184-camera-20260819-151519-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20260819-151519-thumb.jpg",
+      "metrics": {
+        "score": 6.890191078186035,
+        "changed_fraction": 0.03819444444444445,
+        "brightness_delta": 2.279083251953125,
+        "detections": [
+          {
+            "label": "sheep",
+            "group": "animal",
+            "confidence": 0.6788939237594604,
+            "box": [
+              1305.6,
+              789.9,
+              1357.5,
+              840.1
+            ],
+            "area_fraction": 0.0012560705933719874,
+            "region": "lower right"
+          },
+          {
+            "label": "sheep",
+            "group": "animal",
+            "confidence": 0.5083011984825134,
+            "box": [
+              1124.8,
+              824.0,
+              1212.9,
+              908.8
+            ],
+            "area_fraction": 0.003605751496882779,
+            "region": "lower center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": true,
+          "returned": true,
+          "start_status": [
+            -0.449132,
+            -1.0
+          ],
+          "end_status": [
+            -0.449834,
+            -0.834458
+          ],
+          "moves": [
+            {
+              "dx": 0.006640624999999956,
+              "dy": 0.3352777777777777,
+              "pan": 0.0,
+              "tilt": -0.4,
+              "seconds": 0.5364444444444443
+            },
+            {
+              "dx": 0.19351562499999997,
+              "dy": 0.25462962962962965,
+              "pan": -0.4,
+              "tilt": -0.4,
+              "seconds": 0.40740740740740744
+            }
+          ],
+          "initial_offset": 0.3352777777777777,
+          "final_offset": 0.25462962962962965,
+          "detections": [
+            {
+              "label": "sheep",
+              "group": "animal",
+              "confidence": 0.6788939237594604,
+              "box": [
+                1305.6,
+                789.9,
+                1357.5,
+                840.1
+              ],
+              "area_fraction": 0.0012560705933719874,
+              "region": "lower right"
+            },
+            {
+              "label": "sheep",
+              "group": "animal",
+              "confidence": 0.5083011984825134,
+              "box": [
+                1124.8,
+                824.0,
+                1212.9,
+                908.8
+              ],
+              "area_fraction": 0.003605751496882779,
+              "region": "lower center"
+            }
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-08-19T13:30:15.273381+00:00",
       "camera": "tapo",
