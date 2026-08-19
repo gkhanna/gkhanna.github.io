@@ -1,7 +1,76 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-19T13:15:13.169604+00:00",
+  "lastUpdated": "2026-08-19T13:30:15.345681+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-19T13:30:15.273381+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 sheep; strongest sheep at 45% confidence",
+      "description": "Tapo C200 saved this frame. I see a small sheep in the middle left of the frame (45% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260819-133015-full.jpg",
+      "thumb": "./images/tapo-camera-20260819-133015-thumb.jpg",
+      "metrics": {
+        "score": 41.57638931274414,
+        "changed_fraction": 0.3849826388888889,
+        "brightness_delta": -0.9869842529296875,
+        "detections": [
+          {
+            "label": "sheep",
+            "group": "animal",
+            "confidence": 0.4515317380428314,
+            "box": [
+              224.6,
+              633.2,
+              321.9,
+              703.8
+            ],
+            "area_fraction": 0.003313445248422795,
+            "region": "middle left"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": [
+            -0.283286,
+            -0.386447
+          ],
+          "end_status": [
+            -0.393101,
+            -0.386447
+          ],
+          "moves": [
+            {
+              "dx": -0.35768229166666665,
+              "dy": 0.11898148148148147,
+              "pan": 0.4,
+              "tilt": 0.0,
+              "seconds": 0.5722916666666666
+            }
+          ],
+          "initial_offset": 0.35768229166666665,
+          "final_offset": 0.35768229166666665,
+          "detections": [
+            {
+              "label": "sheep",
+              "group": "animal",
+              "confidence": 0.4515317380428314,
+              "box": [
+                224.6,
+                633.2,
+                321.9,
+                703.8
+              ],
+              "area_fraction": 0.003313445248422795,
+              "region": "middle left"
+            }
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-08-19T13:15:13.097275+00:00",
       "camera": "tapo",
