@@ -1,7 +1,97 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-23T16:30:21.724968+00:00",
+  "lastUpdated": "2026-08-23T16:45:33.570055+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-23T16:45:33.500943+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 car; strongest car at 55% confidence",
+      "description": "Tapo C200 saved this frame. I see a small car in the upper left of the frame (59% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260823-164533-full.jpg",
+      "thumb": "./images/tapo-camera-20260823-164533-thumb.jpg",
+      "metrics": {
+        "score": 7.208767414093018,
+        "changed_fraction": 0.005208333333333333,
+        "brightness_delta": -1.5030364990234375,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.5945018529891968,
+            "box": [
+              15.8,
+              228.7,
+              99.8,
+              271.2
+            ],
+            "area_fraction": 0.0017202022942987899,
+            "region": "upper left"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": [
+            -0.255958,
+            -1.0
+          ],
+          "end_status": [
+            -0.245068,
+            -1.0
+          ],
+          "moves": [
+            {
+              "dx": -0.22658854166666664,
+              "dy": -0.31546296296296295,
+              "pan": 0.4,
+              "tilt": 0.4,
+              "seconds": 0.5047407407407407
+            },
+            {
+              "dx": -0.18671875,
+              "dy": -0.3232407407407407,
+              "pan": 0.4,
+              "tilt": 0.4,
+              "seconds": 0.5171851851851852
+            },
+            {
+              "dx": -0.33171874999999995,
+              "dy": -0.3027777777777778,
+              "pan": 0.4,
+              "tilt": 0.4,
+              "seconds": 0.5307499999999999
+            },
+            {
+              "dx": -0.46989583333333335,
+              "dy": -0.2685648148148148,
+              "pan": 0.4,
+              "tilt": 0.4,
+              "seconds": 0.6
+            }
+          ],
+          "initial_offset": 0.31546296296296295,
+          "final_offset": 0.46989583333333335,
+          "detections": [
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.5945018529891968,
+              "box": [
+                15.8,
+                228.7,
+                99.8,
+                271.2
+              ],
+              "area_fraction": 0.0017202022942987899,
+              "region": "upper left"
+            }
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-08-23T16:30:21.654931+00:00",
       "camera": "tapo",
