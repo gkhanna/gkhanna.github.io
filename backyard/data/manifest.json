@@ -1,7 +1,135 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-23T16:15:20.059822+00:00",
+  "lastUpdated": "2026-08-23T16:30:21.724968+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-23T16:30:21.654931+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 3 cars; strongest car at 59% confidence",
+      "description": "Tapo C200 saved this frame. I see 3 vehicle-type detections (car), with the strongest car in the upper left at 49% confidence. I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260823-163021-full.jpg",
+      "thumb": "./images/tapo-camera-20260823-163021-thumb.jpg",
+      "metrics": {
+        "score": 17.87934112548828,
+        "changed_fraction": 0.1232638888888889,
+        "brightness_delta": -0.7534713745117188,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.49420836567878723,
+            "box": [
+              226.8,
+              203.2,
+              295.0,
+              246.1
+            ],
+            "area_fraction": 0.0014086517600298977,
+            "region": "upper left"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.3805217742919922,
+            "box": [
+              136.6,
+              222.4,
+              193.8,
+              259.7
+            ],
+            "area_fraction": 0.0010289139685639586,
+            "region": "upper left"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.30845218896865845,
+            "box": [
+              427.6,
+              184.0,
+              495.6,
+              218.8
+            ],
+            "area_fraction": 0.0011431442600547193,
+            "region": "upper left"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": [
+            -0.259149,
+            -1.0
+          ],
+          "end_status": [
+            -0.255958,
+            -1.0
+          ],
+          "moves": [
+            {
+              "dx": -0.28093749999999995,
+              "dy": -0.300787037037037,
+              "pan": 0.4,
+              "tilt": 0.4,
+              "seconds": 0.4812592592592593
+            },
+            {
+              "dx": -0.36411458333333335,
+              "dy": -0.2919907407407408,
+              "pan": 0.4,
+              "tilt": 0.4,
+              "seconds": 0.5825833333333333
+            }
+          ],
+          "initial_offset": 0.300787037037037,
+          "final_offset": 0.36411458333333335,
+          "detections": [
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.49420836567878723,
+              "box": [
+                226.8,
+                203.2,
+                295.0,
+                246.1
+              ],
+              "area_fraction": 0.0014086517600298977,
+              "region": "upper left"
+            },
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.3805217742919922,
+              "box": [
+                136.6,
+                222.4,
+                193.8,
+                259.7
+              ],
+              "area_fraction": 0.0010289139685639586,
+              "region": "upper left"
+            },
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.30845218896865845,
+              "box": [
+                427.6,
+                184.0,
+                495.6,
+                218.8
+              ],
+              "area_fraction": 0.0011431442600547193,
+              "region": "upper left"
+            }
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-08-23T16:15:19.990535+00:00",
       "camera": "tapo",
