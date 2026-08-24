@@ -1,7 +1,97 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-24T17:00:28.002856+00:00",
+  "lastUpdated": "2026-08-24T17:15:30.135251+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-24T17:15:30.060123+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 bus; strongest bus at 48% confidence",
+      "description": "Tapo C200 saved this frame. I see a medium-sized bus in the middle right of the frame (58% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260824-171530-full.jpg",
+      "thumb": "./images/tapo-camera-20260824-171530-thumb.jpg",
+      "metrics": {
+        "score": 18.80034637451172,
+        "changed_fraction": 0.1506076388888889,
+        "brightness_delta": 0.78125,
+        "detections": [
+          {
+            "label": "bus",
+            "group": "vehicle",
+            "confidence": 0.5797891616821289,
+            "box": [
+              1636.9,
+              538.4,
+              1852.0,
+              878.8
+            ],
+            "area_fraction": 0.03530241447892169,
+            "region": "middle right"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": [
+            -0.199346,
+            -0.658126
+          ],
+          "end_status": [
+            -0.197504,
+            -0.658126
+          ],
+          "moves": [
+            {
+              "dx": 0.15218750000000003,
+              "dy": 0.12949074074074074,
+              "pan": -0.4,
+              "tilt": -0.4,
+              "seconds": 0.24350000000000005
+            },
+            {
+              "dx": 0.22526041666666663,
+              "dy": 0.13481481481481483,
+              "pan": -0.4,
+              "tilt": -0.4,
+              "seconds": 0.3604166666666666
+            },
+            {
+              "dx": 0.21333333333333326,
+              "dy": -0.1746759259259259,
+              "pan": -0.4,
+              "tilt": 0.4,
+              "seconds": 0.34133333333333327
+            },
+            {
+              "dx": 0.40856770833333333,
+              "dy": 0.15611111111111098,
+              "pan": -0.4,
+              "tilt": -0.4,
+              "seconds": 0.6
+            }
+          ],
+          "initial_offset": 0.15218750000000003,
+          "final_offset": 0.40856770833333333,
+          "detections": [
+            {
+              "label": "bus",
+              "group": "vehicle",
+              "confidence": 0.5797891616821289,
+              "box": [
+                1636.9,
+                538.4,
+                1852.0,
+                878.8
+              ],
+              "area_fraction": 0.03530241447892169,
+              "region": "middle right"
+            }
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-08-24T17:00:27.933963+00:00",
       "camera": "tapo",
