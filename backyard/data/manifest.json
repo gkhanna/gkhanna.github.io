@@ -1,7 +1,130 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-27T17:45:51.713317+00:00",
+  "lastUpdated": "2026-08-27T18:00:44.253279+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-27T18:00:44.178078+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 4 cars; strongest car at 71% confidence",
+      "description": "Tapo C200 saved this frame. I see 2 vehicle-type detections (car), with the strongest car in the middle left at 68% confidence. I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260827-180044-full.jpg",
+      "thumb": "./images/tapo-camera-20260827-180044-thumb.jpg",
+      "metrics": {
+        "score": 33.09027862548828,
+        "changed_fraction": 0.36328125,
+        "brightness_delta": -0.6215286254882812,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.6832574605941772,
+            "box": [
+              0.1,
+              591.5,
+              75.2,
+              639.6
+            ],
+            "area_fraction": 0.001744889600361906,
+            "region": "middle left"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.4555157721042633,
+            "box": [
+              1157.2,
+              758.3,
+              1266.9,
+              836.2
+            ],
+            "area_fraction": 0.004120082450434792,
+            "region": "lower center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": [
+            -0.315421,
+            -0.796123
+          ],
+          "end_status": [
+            -0.229905,
+            -0.561877
+          ],
+          "moves": [
+            {
+              "dx": -0.055572916666666694,
+              "dy": -0.26175925925925925,
+              "pan": 0.0,
+              "tilt": 0.4,
+              "seconds": 0.4188148148148148
+            },
+            {
+              "dx": -0.3346875,
+              "dy": 0.06458333333333333,
+              "pan": 0.4,
+              "tilt": 0.0,
+              "seconds": 0.5355000000000001
+            },
+            {
+              "dx": 0.3353645833333334,
+              "dy": 0.2699074074074074,
+              "pan": -0.4,
+              "tilt": -0.4,
+              "seconds": 0.5365833333333335
+            },
+            {
+              "dx": -0.35830729166666664,
+              "dy": 0.06597222222222221,
+              "pan": 0.4,
+              "tilt": 0.0,
+              "seconds": 0.5732916666666666
+            },
+            {
+              "dx": -0.480390625,
+              "dy": 0.06995370370370368,
+              "pan": 0.4,
+              "tilt": 0.0,
+              "seconds": 0.6
+            }
+          ],
+          "initial_offset": 0.26175925925925925,
+          "final_offset": 0.480390625,
+          "detections": [
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.6832574605941772,
+              "box": [
+                0.1,
+                591.5,
+                75.2,
+                639.6
+              ],
+              "area_fraction": 0.001744889600361906,
+              "region": "middle left"
+            },
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.4555157721042633,
+              "box": [
+                1157.2,
+                758.3,
+                1266.9,
+                836.2
+              ],
+              "area_fraction": 0.004120082450434792,
+              "region": "lower center"
+            }
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-08-27T17:45:51.638653+00:00",
       "camera": "tapo",
