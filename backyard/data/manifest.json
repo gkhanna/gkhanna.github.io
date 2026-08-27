@@ -1,7 +1,76 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-27T15:00:16.488868+00:00",
+  "lastUpdated": "2026-08-27T16:00:10.954047+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-27T16:00:10.882089+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 bird; strongest bird at 37% confidence",
+      "description": "Tapo C200 saved this frame. I see a small bird in the center of the frame (37% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260827-160010-full.jpg",
+      "thumb": "./images/tapo-camera-20260827-160010-thumb.jpg",
+      "metrics": {
+        "score": 8.61414909362793,
+        "changed_fraction": 0.03819444444444445,
+        "brightness_delta": 0.41449737548828125,
+        "detections": [
+          {
+            "label": "bird",
+            "group": "animal",
+            "confidence": 0.37005728483200073,
+            "box": [
+              683.5,
+              440.1,
+              715.6,
+              506.7
+            ],
+            "area_fraction": 0.0010317441436745866,
+            "region": "center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": [
+            -0.219,
+            -0.796123
+          ],
+          "end_status": [
+            -0.216043,
+            -0.796123
+          ],
+          "moves": [
+            {
+              "dx": -0.1356510416666667,
+              "dy": -0.0616666666666667,
+              "pan": 0.4,
+              "tilt": 0.0,
+              "seconds": 0.21704166666666672
+            }
+          ],
+          "initial_offset": 0.1356510416666667,
+          "final_offset": 0.1356510416666667,
+          "detections": [
+            {
+              "label": "bird",
+              "group": "animal",
+              "confidence": 0.37005728483200073,
+              "box": [
+                683.5,
+                440.1,
+                715.6,
+                506.7
+              ],
+              "area_fraction": 0.0010317441436745866,
+              "region": "center"
+            }
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-08-27T15:00:16.418705+00:00",
       "camera": "tapo",
