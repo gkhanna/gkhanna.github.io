@@ -1,7 +1,109 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-29T19:45:11.268682+00:00",
+  "lastUpdated": "2026-08-29T20:45:20.991810+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-29T20:45:20.915437+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 giraffe; strongest giraffe at 35% confidence",
+      "description": "Tapo C200 saved this frame. I see a small car in the middle left of the frame (63% confidence). I see a medium-sized giraffe in the center of the frame (34% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260829-204520-full.jpg",
+      "thumb": "./images/tapo-camera-20260829-204520-thumb.jpg",
+      "metrics": {
+        "score": 10.5703125,
+        "changed_fraction": 0.052083333333333336,
+        "brightness_delta": 4.123260498046875,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.6344121694564819,
+            "box": [
+              129.1,
+              500.5,
+              177.7,
+              559.4
+            ],
+            "area_fraction": 0.0013783278669143328,
+            "region": "middle left"
+          },
+          {
+            "label": "giraffe",
+            "group": "animal",
+            "confidence": 0.3426752984523773,
+            "box": [
+              667.5,
+              311.4,
+              773.3,
+              850.1
+            ],
+            "area_fraction": 0.027502629042722524,
+            "region": "center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": [
+            -0.425164,
+            -0.561877
+          ],
+          "end_status": [
+            -0.422708,
+            -0.561877
+          ],
+          "moves": [
+            {
+              "dx": -0.31268229166666667,
+              "dy": -0.01763888888888887,
+              "pan": 0.4,
+              "tilt": 0.0,
+              "seconds": 0.5002916666666667
+            },
+            {
+              "dx": -0.42010416666666667,
+              "dy": -0.009305555555555511,
+              "pan": 0.4,
+              "tilt": 0.0,
+              "seconds": 0.6
+            }
+          ],
+          "initial_offset": 0.31268229166666667,
+          "final_offset": 0.42010416666666667,
+          "detections": [
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.6344121694564819,
+              "box": [
+                129.1,
+                500.5,
+                177.7,
+                559.4
+              ],
+              "area_fraction": 0.0013783278669143328,
+              "region": "middle left"
+            },
+            {
+              "label": "giraffe",
+              "group": "animal",
+              "confidence": 0.3426752984523773,
+              "box": [
+                667.5,
+                311.4,
+                773.3,
+                850.1
+              ],
+              "area_fraction": 0.027502629042722524,
+              "region": "center"
+            }
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-08-29T19:45:11.192241+00:00",
       "camera": "tapo",
