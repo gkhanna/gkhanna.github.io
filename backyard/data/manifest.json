@@ -1,7 +1,83 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-29T02:00:14.020245+00:00",
+  "lastUpdated": "2026-08-29T14:45:19.503293+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-29T14:45:19.422351+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 person; strongest person at 68% confidence",
+      "description": "Tapo C200 saved this frame. I see a small person in the middle right of the frame (52% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260829-144519-full.jpg",
+      "thumb": "./images/tapo-camera-20260829-144519-thumb.jpg",
+      "metrics": {
+        "score": 9.25217056274414,
+        "changed_fraction": 0.009114583333333334,
+        "brightness_delta": 0.1280364990234375,
+        "detections": [
+          {
+            "label": "person",
+            "group": "person",
+            "confidence": 0.5228563547134399,
+            "box": [
+              1645.6,
+              637.8,
+              1677.5,
+              732.4
+            ],
+            "area_fraction": 0.0014560162940486204,
+            "region": "middle right"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": [
+            -0.153332,
+            -0.561877
+          ],
+          "end_status": [
+            -0.153332,
+            -0.561877
+          ],
+          "moves": [
+            {
+              "dx": 0.25531249999999994,
+              "dy": 0.1343981481481481,
+              "pan": -0.4,
+              "tilt": -0.4,
+              "seconds": 0.4084999999999999
+            },
+            {
+              "dx": 0.36539062499999997,
+              "dy": 0.13435185185185172,
+              "pan": -0.4,
+              "tilt": -0.4,
+              "seconds": 0.584625
+            }
+          ],
+          "initial_offset": 0.25531249999999994,
+          "final_offset": 0.36539062499999997,
+          "detections": [
+            {
+              "label": "person",
+              "group": "person",
+              "confidence": 0.5228563547134399,
+              "box": [
+                1645.6,
+                637.8,
+                1677.5,
+                732.4
+              ],
+              "area_fraction": 0.0014560162940486204,
+              "region": "middle right"
+            }
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-08-29T02:00:13.949984+00:00",
       "camera": "tapo",
