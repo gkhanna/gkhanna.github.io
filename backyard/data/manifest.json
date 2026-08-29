@@ -1,7 +1,76 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-29T21:45:34.588333+00:00",
+  "lastUpdated": "2026-08-29T22:00:13.150412+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-29T22:00:13.080848+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "subject",
+      "reason": "subject detected: 1 person; strongest person at 83% confidence",
+      "description": "Tapo C184 saved this frame. I see a small person in the center of the frame (82% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-c184-camera-20260829-220013-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20260829-220013-thumb.jpg",
+      "metrics": {
+        "score": 11.16319465637207,
+        "changed_fraction": 0.03689236111111111,
+        "brightness_delta": 2.2690963745117188,
+        "detections": [
+          {
+            "label": "person",
+            "group": "person",
+            "confidence": 0.8243172764778137,
+            "box": [
+              705.1,
+              459.7,
+              768.3,
+              620.2
+            ],
+            "area_fraction": 0.004887169972062111,
+            "region": "center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": true,
+          "returned": true,
+          "start_status": [
+            -0.446078,
+            -0.834458
+          ],
+          "end_status": [
+            -0.455231,
+            -0.834458
+          ],
+          "moves": [
+            {
+              "dx": -0.15013020833333335,
+              "dy": -0.04699074074074072,
+              "pan": 0.4,
+              "tilt": 0.0,
+              "seconds": 0.24020833333333336
+            }
+          ],
+          "initial_offset": 0.15013020833333335,
+          "final_offset": 0.1163020833333333,
+          "detections": [
+            {
+              "label": "person",
+              "group": "person",
+              "confidence": 0.8243172764778137,
+              "box": [
+                705.1,
+                459.7,
+                768.3,
+                620.2
+              ],
+              "area_fraction": 0.004887169972062111,
+              "region": "center"
+            }
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-08-29T21:45:34.520121+00:00",
       "camera": "tapo-c184",
