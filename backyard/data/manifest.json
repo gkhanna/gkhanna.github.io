@@ -1,7 +1,62 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-30T17:15:04.747518+00:00",
+  "lastUpdated": "2026-08-30T17:30:13.037701+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-30T17:30:12.962248+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 truck; strongest truck at 39% confidence",
+      "description": "Tapo C200 saved this frame. I see a small truck in the center of the frame (39% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260830-173012-full.jpg",
+      "thumb": "./images/tapo-camera-20260830-173012-thumb.jpg",
+      "metrics": {
+        "score": 12.17013931274414,
+        "changed_fraction": 0.041666666666666664,
+        "brightness_delta": 0.8576431274414062,
+        "detections": [
+          {
+            "label": "truck",
+            "group": "vehicle",
+            "confidence": 0.3880852460861206,
+            "box": [
+              824.7,
+              394.4,
+              1023.9,
+              472.3
+            ],
+            "area_fraction": 0.007482795552023163,
+            "region": "center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": false,
+          "used_retake": false,
+          "returned": false,
+          "start_status": null,
+          "end_status": null,
+          "moves": [],
+          "initial_offset": 0.09875,
+          "final_offset": 0.09875,
+          "detections": [
+            {
+              "label": "truck",
+              "group": "vehicle",
+              "confidence": 0.3880852460861206,
+              "box": [
+                824.7,
+                394.4,
+                1023.9,
+                472.3
+              ],
+              "area_fraction": 0.007482795552023163,
+              "region": "center"
+            }
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-08-30T17:15:04.670260+00:00",
       "camera": "tapo",
