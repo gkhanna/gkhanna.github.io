@@ -1,7 +1,62 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-30T16:45:13.613822+00:00",
+  "lastUpdated": "2026-08-30T17:15:04.747518+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-30T17:15:04.670260+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 person; strongest person at 41% confidence",
+      "description": "Tapo C200 saved this frame. I see a small person in the center of the frame (41% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260830-171504-full.jpg",
+      "thumb": "./images/tapo-camera-20260830-171504-thumb.jpg",
+      "metrics": {
+        "score": 4.856770992279053,
+        "changed_fraction": 0.013888888888888888,
+        "brightness_delta": -0.4166717529296875,
+        "detections": [
+          {
+            "label": "person",
+            "group": "person",
+            "confidence": 0.41115936636924744,
+            "box": [
+              916.2,
+              525.0,
+              943.5,
+              609.0
+            ],
+            "area_fraction": 0.0011032305563357012,
+            "region": "center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": false,
+          "used_retake": false,
+          "returned": false,
+          "start_status": null,
+          "end_status": null,
+          "moves": [],
+          "initial_offset": 0.025000000000000022,
+          "final_offset": 0.025000000000000022,
+          "detections": [
+            {
+              "label": "person",
+              "group": "person",
+              "confidence": 0.41115936636924744,
+              "box": [
+                916.2,
+                525.0,
+                943.5,
+                609.0
+              ],
+              "area_fraction": 0.0011032305563357012,
+              "region": "center"
+            }
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-08-30T16:45:13.508588+00:00",
       "camera": "tapo",
