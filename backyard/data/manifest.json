@@ -1,7 +1,24 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-30T21:00:04.942497+00:00",
+  "lastUpdated": "2026-08-31T10:09:46.019715+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-31T10:09:45.951204+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "sky",
+      "reason": "manual snapshot: beautiful outside hue",
+      "description": "Tapo C184 manual backyard snapshot requested by GK. Sky color profile: brightness 0.35, saturation 0.04, warm fraction 0.00, purple fraction 0.00, blue fraction 0.01.",
+      "full": "./images/tapo-c184-camera-20260831-100945-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20260831-100945-thumb.jpg",
+      "metrics": {
+        "score": 0.0,
+        "changed_fraction": 0.0,
+        "brightness_delta": 0.0,
+        "detections": [],
+        "ptz_centering": null
+      }
+    },
     {
       "timestamp": "2026-08-30T21:00:04.864891+00:00",
       "camera": "tapo",
