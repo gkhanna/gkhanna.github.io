@@ -1,7 +1,76 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-31T11:50:16.291654+00:00",
+  "lastUpdated": "2026-08-31T12:10:13.604063+00:00",
   "images": [
+    {
+      "timestamp": "2026-08-31T12:10:13.520933+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 truck; strongest truck at 38% confidence",
+      "description": "Tapo C200 saved this frame. I see a small truck in the middle left of the frame (38% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260831-121013-full.jpg",
+      "thumb": "./images/tapo-camera-20260831-121013-thumb.jpg",
+      "metrics": {
+        "score": 8.898871421813965,
+        "changed_fraction": 0.006944444444444444,
+        "brightness_delta": -7.546440124511719,
+        "detections": [
+          {
+            "label": "truck",
+            "group": "vehicle",
+            "confidence": 0.379569947719574,
+            "box": [
+              476.4,
+              581.4,
+              607.3,
+              755.7
+            ],
+            "area_fraction": 0.011002826678446178,
+            "region": "middle left"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": [
+            -0.304863,
+            -0.561877
+          ],
+          "end_status": [
+            -0.307674,
+            -0.561877
+          ],
+          "moves": [
+            {
+              "dx": -0.21778645833333338,
+              "dy": 0.11902777777777773,
+              "pan": 0.4,
+              "tilt": 0.0,
+              "seconds": 0.3484583333333334
+            }
+          ],
+          "initial_offset": 0.21778645833333338,
+          "final_offset": 0.21778645833333338,
+          "detections": [
+            {
+              "label": "truck",
+              "group": "vehicle",
+              "confidence": 0.379569947719574,
+              "box": [
+                476.4,
+                581.4,
+                607.3,
+                755.7
+              ],
+              "area_fraction": 0.011002826678446178,
+              "region": "middle left"
+            }
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-08-31T11:50:16.207190+00:00",
       "camera": "tapo",
