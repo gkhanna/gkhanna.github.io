@@ -1,7 +1,89 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-03T17:10:13.695638+00:00",
+  "lastUpdated": "2026-09-03T17:50:11.014347+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-03T17:50:10.927449+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 car; strongest car at 81% confidence",
+      "description": "Tapo C200 saved this frame. I see a small car in the center of the frame (87% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260903-175010-full.jpg",
+      "thumb": "./images/tapo-camera-20260903-175010-thumb.jpg",
+      "metrics": {
+        "score": 7.32508659362793,
+        "changed_fraction": 0.0390625,
+        "brightness_delta": -1.1315078735351562,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.8697766065597534,
+            "box": [
+              675.6,
+              563.2,
+              838.3,
+              722.0
+            ],
+            "area_fraction": 0.01245946255938179,
+            "region": "center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": true,
+          "returned": true,
+          "start_status": [
+            -0.271468,
+            -0.550224
+          ],
+          "end_status": [
+            -0.271468,
+            -0.551401
+          ],
+          "moves": [
+            {
+              "dx": -0.1065885416666667,
+              "dy": 0.19837962962962963,
+              "pan": 0.0,
+              "tilt": -0.4,
+              "seconds": 0.3174074074074074
+            }
+          ],
+          "initial_offset": 0.19837962962962963,
+          "final_offset": 0.1057552083333333,
+          "detections": [
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.8697766065597534,
+              "box": [
+                675.6,
+                563.2,
+                838.3,
+                722.0
+              ],
+              "area_fraction": 0.01245946255938179,
+              "region": "center"
+            },
+            {
+              "label": "person",
+              "group": "person",
+              "confidence": 0.7733637094497681,
+              "box": [
+                841.2,
+                566.1,
+                882.4,
+                688.5
+              ],
+              "area_fraction": 0.002431766623372419,
+              "region": "center"
+            }
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-03T17:10:13.607779+00:00",
       "camera": "tapo",
