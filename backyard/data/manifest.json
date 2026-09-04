@@ -1,7 +1,24 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-04T14:30:04.488768+00:00",
+  "lastUpdated": "2026-09-04T14:40:04.158010+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-04T14:40:04.077735+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "interesting sky colors: saturation 0.11, warm 0.0%, blue 32.1%",
+      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.11. The blue portion of the sky looked especially strong or clear. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260904-144004-full.jpg",
+      "thumb": "./images/tapo-camera-20260904-144004-thumb.jpg",
+      "metrics": {
+        "score": 25.14930534362793,
+        "changed_fraction": 0.2608506944444444,
+        "brightness_delta": 15.8203125,
+        "detections": [],
+        "ptz_centering": null
+      }
+    },
     {
       "timestamp": "2026-09-04T14:30:04.406280+00:00",
       "camera": "tapo",
