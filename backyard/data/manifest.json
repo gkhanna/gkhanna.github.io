@@ -1,7 +1,24 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-03T23:20:04.738662+00:00",
+  "lastUpdated": "2026-09-04T10:20:14.688333+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-04T10:17:15+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "manual",
+      "reason": "manual capture: early morning backyard colors",
+      "description": "Tapo C184 saved this manually requested early morning backyard frame, with soft dawn light and muted green-gray color across the yard and tree line.",
+      "full": "./images/tapo-c184-camera-20260904-101715-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20260904-101715-thumb.jpg",
+      "metrics": {
+        "score": 0.0,
+        "changed_fraction": 0.0,
+        "brightness_delta": 0.0,
+        "detections": [],
+        "ptz_centering": null
+      }
+    },
     {
       "timestamp": "2026-09-03T23:20:04.656239+00:00",
       "camera": "tapo",
