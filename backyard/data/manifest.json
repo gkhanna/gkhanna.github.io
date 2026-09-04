@@ -6,7 +6,7 @@
       "timestamp": "2026-09-04T10:17:15+00:00",
       "camera": "tapo-c184",
       "camera_label": "Tapo C184",
-      "type": "manual",
+      "type": "snapshot",
       "reason": "manual capture: early morning backyard colors",
       "description": "Tapo C184 saved this manually requested early morning backyard frame, with soft dawn light and muted green-gray color across the yard and tree line.",
       "full": "./images/tapo-c184-camera-20260904-101715-full.jpg",

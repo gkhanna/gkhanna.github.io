@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 // Load image manifest from JSON
 async function loadImageData() {
     try {
-        const response = await fetch('./data/manifest.json');
+        const response = await fetch(`./data/manifest.json?v=${Date.now()}`, { cache: 'no-store' });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
         STATE.allImages = data.images || [];
