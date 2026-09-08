@@ -1,7 +1,24 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-08T09:50:08.378193+00:00",
+  "lastUpdated": "2026-09-08T10:04:45.121100+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-08T10:04:45.121100+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "snapshot",
+      "reason": "manual capture: vivid pink-orange sunrise through the trees",
+      "description": "Tapo C200 caught a beautiful early-morning glow: vivid pink-orange sunrise light shines through the dark tree line while the driveway and lawn remain in cool predawn tones.",
+      "full": "./images/tapo-camera-20260908-100445-full.jpg",
+      "thumb": "./images/tapo-camera-20260908-100445-thumb.jpg",
+      "metrics": {
+        "score": 0.0,
+        "changed_fraction": 0.0,
+        "brightness_delta": 0.0,
+        "detections": [],
+        "ptz_centering": null
+      }
+    },
     {
       "timestamp": "2026-09-08T09:50:08.289141+00:00",
       "camera": "tapo-c184",
