@@ -1,7 +1,77 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-09T14:30:06.665556+00:00",
+  "lastUpdated": "2026-09-09T15:10:04.820454+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-09T15:10:04.734060+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 car; strongest car at 67% confidence",
+      "description": "Tapo C200 saved this frame. I see a small car in the center of the frame (67% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260909-151004-full.jpg",
+      "thumb": "./images/tapo-camera-20260909-151004-thumb.jpg",
+      "metrics": {
+        "score": 2.293836832046509,
+        "changed_fraction": 0.0,
+        "brightness_delta": 2.18011474609375,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.6708285808563232,
+            "box": [
+              998.5,
+              583.0,
+              1079.7,
+              616.1
+            ],
+            "area_fraction": 0.0012956747347197962,
+            "region": "center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": false,
+          "used_retake": false,
+          "returned": false,
+          "start_status": null,
+          "end_status": null,
+          "moves": [],
+          "initial_offset": 0.05513888888888885,
+          "final_offset": 0.05513888888888885,
+          "detections": [
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.6708285808563232,
+              "box": [
+                998.5,
+                583.0,
+                1079.7,
+                616.1
+              ],
+              "area_fraction": 0.0012956747347197962,
+              "region": "center"
+            }
+          ]
+        },
+        "hue_change": {
+          "major": false,
+          "changed_regions": 0,
+          "distances": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.18074193950795353,
+            0.03668806006962602,
+            0.14307306639245643,
+            0.06511891540235748,
+            0.16655651052860873
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-09T14:30:06.579865+00:00",
       "camera": "tapo",
