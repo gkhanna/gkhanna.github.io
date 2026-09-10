@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-10T16:30:05.122011+00:00",
+  "lastUpdated": "2026-09-10T16:30:10.713159+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-10T16:30:10.636601+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "sky",
+      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
+      "description": "Tapo C184 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-c184-camera-20260910-163010-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20260910-163010-thumb.jpg",
+      "metrics": {
+        "score": 9.830729484558105,
+        "changed_fraction": 0.03428819444444445,
+        "brightness_delta": 3.9487838745117188,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.8918479956005175,
+            0.0,
+            0.7693982550980378,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-10T16:30:05.036936+00:00",
       "camera": "tapo",
