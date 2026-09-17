@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-17T17:00:10.159835+00:00",
+  "lastUpdated": "2026-09-17T17:30:07.634606+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-17T17:30:07.520528+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "sky",
+      "reason": "major scene hue change: 3 of 9 sky/landscape regions changed color",
+      "description": "Tapo C184 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-c184-camera-20260917-173007-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20260917-173007-thumb.jpg",
+      "metrics": {
+        "score": 13.85720443725586,
+        "changed_fraction": 0.08637152777777778,
+        "brightness_delta": -1.958770751953125,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 3,
+          "distances": [
+            0.8686157551183242,
+            0.9698706831735516,
+            0.0,
+            0.9891450114067617,
+            0.19697236547572455,
+            0.089566014511495,
+            0.0,
+            0.0,
+            0.11400628501460665
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-17T17:00:10.080926+00:00",
       "camera": "tapo-c184",
@@ -29576,54 +29608,6 @@
             }
           ]
         }
-      }
-    },
-    {
-      "timestamp": "2026-08-18T17:08:00.633151+00:00",
-      "camera": "tapo-c184",
-      "camera_label": "Tapo C184",
-      "type": "snapshot",
-      "reason": "fresh baseline snapshot",
-      "description": "Tapo C184 baseline snapshot. This frame starts the refreshed backyard gallery and establishes the stable comparison view.",
-      "full": "./images/tapo-c184-camera-20260818-170800-full.jpg",
-      "thumb": "./images/tapo-c184-camera-20260818-170800-thumb.jpg",
-      "metrics": {
-        "score": 0.0,
-        "changed_fraction": 0.0,
-        "brightness_delta": 0.0,
-        "detections": [],
-        "ptz_centering": null
-      }
-    },
-    {
-      "timestamp": "2026-08-18T17:07:57.653254+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "snapshot",
-      "reason": "fresh baseline snapshot",
-      "description": "Tapo C200 baseline snapshot. This frame starts the refreshed backyard gallery and establishes the stable comparison view.",
-      "full": "./images/tapo-camera-20260818-170757-full.jpg",
-      "thumb": "./images/tapo-camera-20260818-170757-thumb.jpg",
-      "metrics": {
-        "score": 0.0,
-        "changed_fraction": 0.0,
-        "brightness_delta": 0.0,
-        "detections": [
-          {
-            "label": "car",
-            "group": "vehicle",
-            "confidence": 0.4602455496788025,
-            "box": [
-              817.4,
-              408.0,
-              892.6,
-              441.6
-            ],
-            "area_fraction": 0.001218957007909517,
-            "region": "center"
-          }
-        ],
-        "ptz_centering": null
       }
     }
   ]
