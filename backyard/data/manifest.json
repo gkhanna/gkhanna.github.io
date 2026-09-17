@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-17T18:10:10.880792+00:00",
+  "lastUpdated": "2026-09-17T18:30:04.904768+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-17T18:30:04.782557+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
+      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260917-183004-full.jpg",
+      "thumb": "./images/tapo-camera-20260917-183004-thumb.jpg",
+      "metrics": {
+        "score": 5.951822757720947,
+        "changed_fraction": 0.006076388888888889,
+        "brightness_delta": -0.8389739990234375,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.06375349680582683,
+            0.5652748335622292,
+            0.09810209962510572,
+            0.02352014667215557,
+            0.14517935766630805,
+            0.07441347550008734,
+            0.0805899635331416,
+            0.6649863330282346,
+            0.02328115195536945
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-17T18:10:10.804552+00:00",
       "camera": "tapo-c184",
@@ -29664,75 +29696,6 @@
               ],
               "area_fraction": 0.005203621365174816,
               "region": "center"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-08-18T18:15:13.599891+00:00",
-      "camera": "tapo-c184",
-      "camera_label": "Tapo C184",
-      "type": "subject",
-      "reason": "subject detected: 1 truck; strongest truck at 38% confidence",
-      "description": "Tapo C184 saved this frame. I see a small truck in the middle left of the frame (38% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-c184-camera-20260818-181513-full.jpg",
-      "thumb": "./images/tapo-c184-camera-20260818-181513-thumb.jpg",
-      "metrics": {
-        "score": 20.18185806274414,
-        "changed_fraction": 0.12022569444444445,
-        "brightness_delta": 3.6627578735351562,
-        "detections": [
-          {
-            "label": "truck",
-            "group": "vehicle",
-            "confidence": 0.38240471482276917,
-            "box": [
-              46.8,
-              615.9,
-              135.9,
-              699.4
-            ],
-            "area_fraction": 0.00358930890562533,
-            "region": "middle left"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": [
-            -0.451587,
-            -1.0
-          ],
-          "end_status": [
-            -0.45347,
-            -1.0
-          ],
-          "moves": [
-            {
-              "dx": -0.452421875,
-              "dy": 0.10893518518518519,
-              "pan": 0.4,
-              "tilt": 0.0,
-              "seconds": 0.6
-            }
-          ],
-          "initial_offset": 0.452421875,
-          "final_offset": 0.452421875,
-          "detections": [
-            {
-              "label": "truck",
-              "group": "vehicle",
-              "confidence": 0.38240471482276917,
-              "box": [
-                46.8,
-                615.9,
-                135.9,
-                699.4
-              ],
-              "area_fraction": 0.00358930890562533,
-              "region": "middle left"
             }
           ]
         }
