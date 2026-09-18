@@ -1,7 +1,66 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-18T20:20:09.728000+00:00",
+  "lastUpdated": "2026-09-18T20:30:04.721575+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-18T20:30:04.636469+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "major scene hue change: 4 of 9 sky/landscape regions changed color",
+      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260918-203004-full.jpg",
+      "thumb": "./images/tapo-camera-20260918-203004-thumb.jpg",
+      "metrics": {
+        "score": 24.98741340637207,
+        "changed_fraction": 0.2890625,
+        "brightness_delta": 9.976127624511719,
+        "detections": [
+          {
+            "label": "truck",
+            "group": "vehicle",
+            "confidence": 0.7894679307937622,
+            "box": [
+              644.4,
+              363.2,
+              908.4,
+              500.3
+            ],
+            "area_fraction": 0.017461348799069028,
+            "region": "center"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.6552532911300659,
+            "box": [
+              1160.4,
+              299.5,
+              1249.7,
+              335.6
+            ],
+            "area_fraction": 0.001557349947031778,
+            "region": "upper center"
+          }
+        ],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 4,
+          "distances": [
+            0.9524809923969588,
+            0.0,
+            0.0,
+            0.36990869334144216,
+            0.5074919763006849,
+            0.0,
+            0.2700246792710808,
+            0.050210080025954264,
+            0.769649519882803
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-18T20:20:09.654046+00:00",
       "camera": "tapo-c184",
