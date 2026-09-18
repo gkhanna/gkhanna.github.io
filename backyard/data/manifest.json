@@ -1,7 +1,78 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-18T13:20:10.688207+00:00",
+  "lastUpdated": "2026-09-18T13:40:07.457266+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-18T13:40:07.341769+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "subject",
+      "reason": "subject detected: 1 person; strongest person at 73% confidence",
+      "description": "Tapo C184 saved this frame. I see a small person in the middle right of the frame (73% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-c184-camera-20260918-134007-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20260918-134007-thumb.jpg",
+      "metrics": {
+        "score": 4.87890625,
+        "changed_fraction": 0.005642361111111111,
+        "brightness_delta": -0.17751312255859375,
+        "detections": [
+          {
+            "label": "person",
+            "group": "person",
+            "confidence": 0.7257895469665527,
+            "box": [
+              1596.4,
+              439.2,
+              1669.1,
+              628.6
+            ],
+            "area_fraction": 0.00664150492721496,
+            "region": "middle right"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": null,
+          "end_status": null,
+          "moves": [],
+          "initial_offset": 0.35039062499999996,
+          "final_offset": 0.35039062499999996,
+          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c184.json', 'move', '--pan', '-0.4000', '--tilt', '0.0000', '--seconds', '0.561'])",
+          "detections": [
+            {
+              "label": "person",
+              "group": "person",
+              "confidence": 0.7257895469665527,
+              "box": [
+                1596.4,
+                439.2,
+                1669.1,
+                628.6
+              ],
+              "area_fraction": 0.00664150492721496,
+              "region": "middle right"
+            }
+          ]
+        },
+        "hue_change": {
+          "major": false,
+          "changed_regions": 1,
+          "distances": [
+            0.04638938031900375,
+            0.09102694230015947,
+            0.09451973834649666,
+            0.06470868733357901,
+            0.028790232795400897,
+            0.03685226485687734,
+            0.9999835649385996,
+            0.11745103510334323,
+            0.07976399861204961
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-18T13:20:10.612696+00:00",
       "camera": "tapo-c184",
@@ -29901,75 +29972,6 @@
               ],
               "area_fraction": 0.003605751496882779,
               "region": "lower center"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-08-19T13:30:15.273381+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 sheep; strongest sheep at 45% confidence",
-      "description": "Tapo C200 saved this frame. I see a small sheep in the middle left of the frame (45% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260819-133015-full.jpg",
-      "thumb": "./images/tapo-camera-20260819-133015-thumb.jpg",
-      "metrics": {
-        "score": 41.57638931274414,
-        "changed_fraction": 0.3849826388888889,
-        "brightness_delta": -0.9869842529296875,
-        "detections": [
-          {
-            "label": "sheep",
-            "group": "animal",
-            "confidence": 0.4515317380428314,
-            "box": [
-              224.6,
-              633.2,
-              321.9,
-              703.8
-            ],
-            "area_fraction": 0.003313445248422795,
-            "region": "middle left"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": [
-            -0.283286,
-            -0.386447
-          ],
-          "end_status": [
-            -0.393101,
-            -0.386447
-          ],
-          "moves": [
-            {
-              "dx": -0.35768229166666665,
-              "dy": 0.11898148148148147,
-              "pan": 0.4,
-              "tilt": 0.0,
-              "seconds": 0.5722916666666666
-            }
-          ],
-          "initial_offset": 0.35768229166666665,
-          "final_offset": 0.35768229166666665,
-          "detections": [
-            {
-              "label": "sheep",
-              "group": "animal",
-              "confidence": 0.4515317380428314,
-              "box": [
-                224.6,
-                633.2,
-                321.9,
-                703.8
-              ],
-              "area_fraction": 0.003313445248422795,
-              "region": "middle left"
             }
           ]
         }
