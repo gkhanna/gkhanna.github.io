@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-19T10:10:04.321539+00:00",
+  "lastUpdated": "2026-09-19T11:10:04.964802+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-19T11:10:04.848845+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "major scene hue change: 4 of 9 sky/landscape regions changed color",
+      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260919-111004-full.jpg",
+      "thumb": "./images/tapo-camera-20260919-111004-thumb.jpg",
+      "metrics": {
+        "score": 1.2717013359069824,
+        "changed_fraction": 0.0,
+        "brightness_delta": 0.9305572509765625,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 4,
+          "distances": [
+            0.0,
+            0.9931098641779481,
+            0.9961505297548281,
+            0.0,
+            0.9987309754725437,
+            1.0000000000000002,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-19T10:10:04.212323+00:00",
       "camera": "tapo",
@@ -30614,61 +30646,6 @@
               ],
               "area_fraction": 0.017198813185459585,
               "region": "middle left"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-08-20T11:00:07.363849+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 person; strongest person at 60% confidence",
-      "description": "Tapo C200 saved this frame. I see a small person in the center of the frame (60% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260820-110007-full.jpg",
-      "thumb": "./images/tapo-camera-20260820-110007-thumb.jpg",
-      "metrics": {
-        "score": 11.952691078186035,
-        "changed_fraction": 0.041666666666666664,
-        "brightness_delta": -2.43359375,
-        "detections": [
-          {
-            "label": "person",
-            "group": "person",
-            "confidence": 0.5957253575325012,
-            "box": [
-              982.8,
-              437.3,
-              1007.5,
-              511.8
-            ],
-            "area_fraction": 0.000886948539644234,
-            "region": "center"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": false,
-          "used_retake": false,
-          "returned": false,
-          "start_status": null,
-          "end_status": null,
-          "moves": [],
-          "initial_offset": 0.06060185185185185,
-          "final_offset": 0.06060185185185185,
-          "detections": [
-            {
-              "label": "person",
-              "group": "person",
-              "confidence": 0.5957253575325012,
-              "box": [
-                982.8,
-                437.3,
-                1007.5,
-                511.8
-              ],
-              "area_fraction": 0.000886948539644234,
-              "region": "center"
             }
           ]
         }
