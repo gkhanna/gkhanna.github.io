@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-20T23:00:10.636681+00:00",
+  "lastUpdated": "2026-09-21T00:40:04.017219+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-21T00:40:03.903145+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "major scene hue change: 3 of 9 sky/landscape regions changed color",
+      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260921-004003-full.jpg",
+      "thumb": "./images/tapo-camera-20260921-004003-thumb.jpg",
+      "metrics": {
+        "score": 21.1640625,
+        "changed_fraction": 0.1467013888888889,
+        "brightness_delta": 3.2612838745117188,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 3,
+          "distances": [
+            0.9999999999999999,
+            0.0,
+            0.0,
+            1.0,
+            0.9854749936646368,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-20T23:00:10.568004+00:00",
       "camera": "tapo-c184",
@@ -30912,23 +30944,6 @@
         "score": 31.67751693725586,
         "changed_fraction": 0.3190104166666667,
         "brightness_delta": 14.810333251953125,
-        "detections": [],
-        "ptz_centering": null
-      }
-    },
-    {
-      "timestamp": "2026-08-21T23:45:04.531849+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "interesting sky colors: saturation 0.17, warm 20.8%, blue 29.6%",
-      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.17. There is a warm sunset-like tint across the sky or treetops. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260821-234504-full.jpg",
-      "thumb": "./images/tapo-camera-20260821-234504-thumb.jpg",
-      "metrics": {
-        "score": 27.94574737548828,
-        "changed_fraction": 0.2530381944444444,
-        "brightness_delta": -9.254768371582031,
         "detections": [],
         "ptz_centering": null
       }
