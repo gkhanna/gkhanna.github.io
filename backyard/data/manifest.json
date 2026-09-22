@@ -1,7 +1,78 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-22T19:00:07.187284+00:00",
+  "lastUpdated": "2026-09-22T20:20:04.710259+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-22T20:20:04.584476+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 car; strongest car at 70% confidence",
+      "description": "Tapo C200 saved this frame. I see a small car in the middle left of the frame (70% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260922-202004-full.jpg",
+      "thumb": "./images/tapo-camera-20260922-202004-thumb.jpg",
+      "metrics": {
+        "score": 33.95703125,
+        "changed_fraction": 0.4761284722222222,
+        "brightness_delta": -7.686195373535156,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.702330470085144,
+            "box": [
+              273.3,
+              420.1,
+              452.1,
+              491.5
+            ],
+            "area_fraction": 0.006158441002316977,
+            "region": "middle left"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": null,
+          "end_status": null,
+          "moves": [],
+          "initial_offset": 0.31109374999999995,
+          "final_offset": 0.31109374999999995,
+          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.4000', '--tilt', '0.0000', '--seconds', '0.498'])",
+          "detections": [
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.702330470085144,
+              "box": [
+                273.3,
+                420.1,
+                452.1,
+                491.5
+              ],
+              "area_fraction": 0.006158441002316977,
+              "region": "middle left"
+            }
+          ]
+        },
+        "hue_change": {
+          "major": true,
+          "changed_regions": 4,
+          "distances": [
+            0.1266858454371878,
+            0.057569858661157644,
+            0.19442181418881943,
+            0.6499439512115607,
+            0.5285770668202296,
+            0.08438139976480288,
+            0.8863636363636365,
+            0.05070656676925332,
+            0.34949988270557436
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-22T19:00:07.108422+00:00",
       "camera": "tapo-c184",
@@ -30798,141 +30869,6 @@
         "brightness_delta": 48.138458251953125,
         "detections": [],
         "ptz_centering": null
-      }
-    },
-    {
-      "timestamp": "2026-08-23T19:30:24.627549+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 4 cars; strongest car at 70% confidence",
-      "description": "Tapo C200 saved this frame. I see 3 vehicle-type detections (car), with the strongest car in the upper right at 59% confidence. I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260823-193024-full.jpg",
-      "thumb": "./images/tapo-camera-20260823-193024-thumb.jpg",
-      "metrics": {
-        "score": 7.94140625,
-        "changed_fraction": 0.0013020833333333333,
-        "brightness_delta": -7.5672760009765625,
-        "detections": [
-          {
-            "label": "car",
-            "group": "vehicle",
-            "confidence": 0.5916197896003723,
-            "box": [
-              1752.3,
-              313.2,
-              1812.8,
-              350.3
-            ],
-            "area_fraction": 0.001082109485626764,
-            "region": "upper right"
-          },
-          {
-            "label": "car",
-            "group": "vehicle",
-            "confidence": 0.5032543540000916,
-            "box": [
-              1828.8,
-              328.3,
-              1900.7,
-              359.1
-            ],
-            "area_fraction": 0.001068219301588316,
-            "region": "upper right"
-          },
-          {
-            "label": "car",
-            "group": "vehicle",
-            "confidence": 0.304900586605072,
-            "box": [
-              1527.4,
-              310.1,
-              1605.1,
-              355.1
-            ],
-            "area_fraction": 0.0016873900408770875,
-            "region": "upper right"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": true,
-          "returned": true,
-          "start_status": [
-            -0.114589,
-            -0.76493
-          ],
-          "end_status": [
-            -0.110631,
-            -0.76493
-          ],
-          "moves": [
-            {
-              "dx": 0.43328125000000006,
-              "dy": -0.14240740740740737,
-              "pan": -0.4,
-              "tilt": 0.4,
-              "seconds": 0.6
-            },
-            {
-              "dx": 0.29622395833333337,
-              "dy": -0.2179166666666667,
-              "pan": -0.4,
-              "tilt": 0.4,
-              "seconds": 0.4739583333333334
-            },
-            {
-              "dx": 0.4284114583333333,
-              "dy": -0.1928240740740741,
-              "pan": -0.4,
-              "tilt": 0.4,
-              "seconds": 0.6
-            }
-          ],
-          "initial_offset": 0.43328125000000006,
-          "final_offset": 0.4284114583333333,
-          "detections": [
-            {
-              "label": "car",
-              "group": "vehicle",
-              "confidence": 0.5916197896003723,
-              "box": [
-                1752.3,
-                313.2,
-                1812.8,
-                350.3
-              ],
-              "area_fraction": 0.001082109485626764,
-              "region": "upper right"
-            },
-            {
-              "label": "car",
-              "group": "vehicle",
-              "confidence": 0.5032543540000916,
-              "box": [
-                1828.8,
-                328.3,
-                1900.7,
-                359.1
-              ],
-              "area_fraction": 0.001068219301588316,
-              "region": "upper right"
-            },
-            {
-              "label": "car",
-              "group": "vehicle",
-              "confidence": 0.304900586605072,
-              "box": [
-                1527.4,
-                310.1,
-                1605.1,
-                355.1
-              ],
-              "area_fraction": 0.0016873900408770875,
-              "region": "upper right"
-            }
-          ]
-        }
       }
     }
   ]
