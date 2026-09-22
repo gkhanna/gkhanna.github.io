@@ -1,7 +1,104 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-22T18:00:07.120625+00:00",
+  "lastUpdated": "2026-09-22T18:10:04.986175+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-22T18:10:04.859736+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 2 cars; strongest car at 71% confidence",
+      "description": "Tapo C200 saved this frame. I see 2 vehicle-type detections (car), with the strongest car in the upper center at 71% confidence. I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260922-181004-full.jpg",
+      "thumb": "./images/tapo-camera-20260922-181004-thumb.jpg",
+      "metrics": {
+        "score": 24.13802146911621,
+        "changed_fraction": 0.20703125,
+        "brightness_delta": 3.03558349609375,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.711562991142273,
+            "box": [
+              1118.0,
+              297.5,
+              1192.1,
+              333.5
+            ],
+            "area_fraction": 0.0012890724046277077,
+            "region": "upper center"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.663960337638855,
+            "box": [
+              558.9,
+              446.0,
+              829.1,
+              549.8
+            ],
+            "area_fraction": 0.013527314648482489,
+            "region": "center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": null,
+          "end_status": null,
+          "moves": [],
+          "initial_offset": 0.20787037037037037,
+          "final_offset": 0.20787037037037037,
+          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.0000', '--tilt', '0.4000', '--seconds', '0.333'])",
+          "detections": [
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.711562991142273,
+              "box": [
+                1118.0,
+                297.5,
+                1192.1,
+                333.5
+              ],
+              "area_fraction": 0.0012890724046277077,
+              "region": "upper center"
+            },
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.663960337638855,
+              "box": [
+                558.9,
+                446.0,
+                829.1,
+                549.8
+              ],
+              "area_fraction": 0.013527314648482489,
+              "region": "center"
+            }
+          ]
+        },
+        "hue_change": {
+          "major": false,
+          "changed_regions": 1,
+          "distances": [
+            0.04489203736439682,
+            0.1393740541397949,
+            0.26201173454737897,
+            0.0,
+            0.8425739905530576,
+            0.11618836606448552,
+            0.06097958063783724,
+            0.0718761470890691,
+            0.04196791490105138
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-22T18:00:07.037221+00:00",
       "camera": "tapo-c184",
@@ -30974,153 +31071,6 @@
               ],
               "area_fraction": 0.001197037539241137,
               "region": "center"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-08-23T18:00:13.933368+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 5 cars; strongest car at 54% confidence",
-      "description": "Tapo C200 saved this frame. I see 4 vehicle-type detections (car), with the strongest car in the center at 56% confidence. I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260823-180013-full.jpg",
-      "thumb": "./images/tapo-camera-20260823-180013-thumb.jpg",
-      "metrics": {
-        "score": 11.875433921813965,
-        "changed_fraction": 0.04861111111111111,
-        "brightness_delta": 1.158416748046875,
-        "detections": [
-          {
-            "label": "car",
-            "group": "vehicle",
-            "confidence": 0.5606292486190796,
-            "box": [
-              1049.7,
-              410.5,
-              1100.8,
-              464.9
-            ],
-            "area_fraction": 0.0013390378762253223,
-            "region": "center"
-          },
-          {
-            "label": "car",
-            "group": "vehicle",
-            "confidence": 0.5271862745285034,
-            "box": [
-              462.7,
-              391.3,
-              541.8,
-              434.0
-            ],
-            "area_fraction": 0.00162947818559284,
-            "region": "middle left"
-          },
-          {
-            "label": "car",
-            "group": "vehicle",
-            "confidence": 0.39492177963256836,
-            "box": [
-              681.8,
-              383.3,
-              758.6,
-              418.0
-            ],
-            "area_fraction": 0.0012873202408324384,
-            "region": "center"
-          },
-          {
-            "label": "car",
-            "group": "vehicle",
-            "confidence": 0.33409151434898376,
-            "box": [
-              372.9,
-              400.7,
-              439.4,
-              438.9
-            ],
-            "area_fraction": 0.00122544275744076,
-            "region": "middle left"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": true,
-          "returned": true,
-          "start_status": [
-            -0.271444,
-            -0.798438
-          ],
-          "end_status": [
-            -0.271444,
-            -0.763164
-          ],
-          "moves": [
-            {
-              "dx": 0.06070312499999997,
-              "dy": -0.24453703703703705,
-              "pan": 0.0,
-              "tilt": 0.4,
-              "seconds": 0.3912592592592593
-            }
-          ],
-          "initial_offset": 0.24453703703703705,
-          "final_offset": 0.09472222222222221,
-          "detections": [
-            {
-              "label": "car",
-              "group": "vehicle",
-              "confidence": 0.5606292486190796,
-              "box": [
-                1049.7,
-                410.5,
-                1100.8,
-                464.9
-              ],
-              "area_fraction": 0.0013390378762253223,
-              "region": "center"
-            },
-            {
-              "label": "car",
-              "group": "vehicle",
-              "confidence": 0.5271862745285034,
-              "box": [
-                462.7,
-                391.3,
-                541.8,
-                434.0
-              ],
-              "area_fraction": 0.00162947818559284,
-              "region": "middle left"
-            },
-            {
-              "label": "car",
-              "group": "vehicle",
-              "confidence": 0.39492177963256836,
-              "box": [
-                681.8,
-                383.3,
-                758.6,
-                418.0
-              ],
-              "area_fraction": 0.0012873202408324384,
-              "region": "center"
-            },
-            {
-              "label": "car",
-              "group": "vehicle",
-              "confidence": 0.33409151434898376,
-              "box": [
-                372.9,
-                400.7,
-                439.4,
-                438.9
-              ],
-              "area_fraction": 0.00122544275744076,
-              "region": "middle left"
             }
           ]
         }
