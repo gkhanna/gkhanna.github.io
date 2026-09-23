@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-22T23:20:04.899324+00:00",
+  "lastUpdated": "2026-09-23T10:00:04.902874+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-23T10:00:04.779216+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
+      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260923-100004-full.jpg",
+      "thumb": "./images/tapo-camera-20260923-100004-thumb.jpg",
+      "metrics": {
+        "score": 12.658854484558105,
+        "changed_fraction": 0.021701388888888888,
+        "brightness_delta": 5.275177001953125,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.0,
+            0.0,
+            0.0,
+            0.5650557620817844,
+            0.13351534990061562,
+            0.0,
+            0.8775510204081634,
+            0.2497200713905542,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-22T23:20:04.822843+00:00",
       "camera": "tapo",
@@ -31146,23 +31178,6 @@
             }
           ]
         }
-      }
-    },
-    {
-      "timestamp": "2026-08-24T09:45:06.504428+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "interesting sky colors: saturation 0.18, warm 11.1%, blue 53.5%",
-      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.18. There is a warm sunset-like tint across the sky or treetops. The blue portion of the sky looked especially strong or clear. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260824-094506-full.jpg",
-      "thumb": "./images/tapo-camera-20260824-094506-thumb.jpg",
-      "metrics": {
-        "score": 56.81640625,
-        "changed_fraction": 0.6770833333333334,
-        "brightness_delta": 48.138458251953125,
-        "detections": [],
-        "ptz_centering": null
       }
     }
   ]
