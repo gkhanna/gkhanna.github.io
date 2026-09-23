@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-23T14:30:07.367712+00:00",
+  "lastUpdated": "2026-09-23T14:50:06.912239+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-23T14:50:06.797445+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "sky",
+      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
+      "description": "Tapo C184 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-c184-camera-20260923-145006-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20260923-145006-thumb.jpg",
+      "metrics": {
+        "score": 16.91015625,
+        "changed_fraction": 0.12152777777777778,
+        "brightness_delta": -13.540359497070312,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.0,
+            0.0,
+            0.5247873708124702,
+            0.0,
+            0.0,
+            0.652238433659922,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-23T14:30:07.251930+00:00",
       "camera": "tapo-c184",
@@ -31334,101 +31366,6 @@
                 254.4
               ],
               "area_fraction": 0.006641590061144597,
-              "region": "upper center"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-08-24T14:30:13.804326+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 truck; strongest truck at 41% confidence",
-      "description": "Tapo C200 saved this frame. I see 2 vehicle-type detections (truck), with the strongest truck in the middle left at 52% confidence. I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260824-143013-full.jpg",
-      "thumb": "./images/tapo-camera-20260824-143013-thumb.jpg",
-      "metrics": {
-        "score": 32.64149475097656,
-        "changed_fraction": 0.4019097222222222,
-        "brightness_delta": 12.341148376464844,
-        "detections": [
-          {
-            "label": "truck",
-            "group": "vehicle",
-            "confidence": 0.5245913863182068,
-            "box": [
-              248.0,
-              334.1,
-              503.0,
-              479.7
-            ],
-            "area_fraction": 0.017908454555373383,
-            "region": "middle left"
-          },
-          {
-            "label": "truck",
-            "group": "vehicle",
-            "confidence": 0.4123688340187073,
-            "box": [
-              1039.0,
-              286.0,
-              1236.5,
-              405.6
-            ],
-            "area_fraction": 0.011396310531122758,
-            "region": "upper center"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": [
-            -0.289135,
-            -0.78396
-          ],
-          "end_status": [
-            -0.235302,
-            -0.78396
-          ],
-          "moves": [
-            {
-              "dx": -0.30442708333333335,
-              "dy": -0.12324074074074076,
-              "pan": 0.4,
-              "tilt": 0.4,
-              "seconds": 0.48708333333333337
-            }
-          ],
-          "initial_offset": 0.30442708333333335,
-          "final_offset": 0.30442708333333335,
-          "detections": [
-            {
-              "label": "truck",
-              "group": "vehicle",
-              "confidence": 0.5245913863182068,
-              "box": [
-                248.0,
-                334.1,
-                503.0,
-                479.7
-              ],
-              "area_fraction": 0.017908454555373383,
-              "region": "middle left"
-            },
-            {
-              "label": "truck",
-              "group": "vehicle",
-              "confidence": 0.4123688340187073,
-              "box": [
-                1039.0,
-                286.0,
-                1236.5,
-                405.6
-              ],
-              "area_fraction": 0.011396310531122758,
               "region": "upper center"
             }
           ]
