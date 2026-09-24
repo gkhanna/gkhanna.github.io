@@ -1,7 +1,78 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-24T13:30:04.546734+00:00",
+  "lastUpdated": "2026-09-24T13:30:12.767469+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-24T13:30:12.686794+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "subject",
+      "reason": "subject detected: 1 person; strongest person at 80% confidence",
+      "description": "Tapo C184 saved this frame. I see a small person in the lower center of the frame (80% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-c184-camera-20260924-133012-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20260924-133012-thumb.jpg",
+      "metrics": {
+        "score": 15.70703125,
+        "changed_fraction": 0.09027777777777778,
+        "brightness_delta": 0.103729248046875,
+        "detections": [
+          {
+            "label": "person",
+            "group": "person",
+            "confidence": 0.8008955717086792,
+            "box": [
+              871.9,
+              912.7,
+              1012.7,
+              1080.0
+            ],
+            "area_fraction": 0.011357918427832677,
+            "region": "lower center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": null,
+          "end_status": null,
+          "moves": [],
+          "initial_offset": 0.42254629629629636,
+          "final_offset": 0.42254629629629636,
+          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c184.json', 'move', '--pan', '0.0000', '--tilt', '-0.4000', '--seconds', '0.600'])",
+          "detections": [
+            {
+              "label": "person",
+              "group": "person",
+              "confidence": 0.8008955717086792,
+              "box": [
+                871.9,
+                912.7,
+                1012.7,
+                1080.0
+              ],
+              "area_fraction": 0.011357918427832677,
+              "region": "lower center"
+            }
+          ]
+        },
+        "hue_change": {
+          "major": false,
+          "changed_regions": 0,
+          "distances": [
+            0.0,
+            0.0,
+            0.034372148709391315,
+            0.0,
+            0.0,
+            0.0,
+            0.0692163817044961,
+            0.0262394791564243,
+            0.13118635307624285
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-24T13:30:04.456398+00:00",
       "camera": "tapo",
