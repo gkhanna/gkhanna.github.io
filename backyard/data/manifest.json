@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-23T23:30:04.612687+00:00",
+  "lastUpdated": "2026-09-24T10:00:05.907462+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-24T10:00:05.775415+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "major scene hue change: 3 of 9 sky/landscape regions changed color",
+      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260924-100005-full.jpg",
+      "thumb": "./images/tapo-camera-20260924-100005-thumb.jpg",
+      "metrics": {
+        "score": 15.456597328186035,
+        "changed_fraction": 0.0646701388888889,
+        "brightness_delta": 8.7578125,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 3,
+          "distances": [
+            1.0,
+            0.0,
+            0.0,
+            0.9999999999999999,
+            0.2443379011955027,
+            0.0,
+            1.0,
+            0.24860357233950586,
+            0.09371714961065837
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-23T23:30:04.533504+00:00",
       "camera": "tapo",
@@ -30708,144 +30740,6 @@
               ],
               "area_fraction": 0.010510217449385285,
               "region": "center"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-08-25T09:00:14.129241+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 person; strongest person at 32% confidence",
-      "description": "Tapo C200 saved this frame. I see a small person in the middle right of the frame (32% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260825-090014-full.jpg",
-      "thumb": "./images/tapo-camera-20260825-090014-thumb.jpg",
-      "metrics": {
-        "score": 1.2209200859069824,
-        "changed_fraction": 0.0,
-        "brightness_delta": 0.8337631225585938,
-        "detections": [
-          {
-            "label": "person",
-            "group": "person",
-            "confidence": 0.3167092800140381,
-            "box": [
-              1745.0,
-              485.2,
-              1795.4,
-              612.0
-            ],
-            "area_fraction": 0.003079525091307005,
-            "region": "middle right"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": [
-            -0.149148,
-            -0.601585
-          ],
-          "end_status": [
-            -0.089111,
-            -0.601585
-          ],
-          "moves": [
-            {
-              "dx": 0.4219791666666667,
-              "dy": 0.00796296296296295,
-              "pan": -0.4,
-              "tilt": 0.0,
-              "seconds": 0.6
-            }
-          ],
-          "initial_offset": 0.4219791666666667,
-          "final_offset": 0.4219791666666667,
-          "detections": [
-            {
-              "label": "person",
-              "group": "person",
-              "confidence": 0.3167092800140381,
-              "box": [
-                1745.0,
-                485.2,
-                1795.4,
-                612.0
-              ],
-              "area_fraction": 0.003079525091307005,
-              "region": "middle right"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-08-25T04:45:12.830645+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 person; strongest person at 35% confidence",
-      "description": "Tapo C200 saved this frame. I see a small person in the lower right of the frame (35% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260825-044512-full.jpg",
-      "thumb": "./images/tapo-camera-20260825-044512-thumb.jpg",
-      "metrics": {
-        "score": 1.2443575859069824,
-        "changed_fraction": 0.0008680555555555555,
-        "brightness_delta": -0.8511276245117188,
-        "detections": [
-          {
-            "label": "person",
-            "group": "person",
-            "confidence": 0.3507063388824463,
-            "box": [
-              1866.4,
-              682.6,
-              1919.4,
-              897.4
-            ],
-            "area_fraction": 0.0054972987591786985,
-            "region": "lower right"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": [
-            -0.200961,
-            -0.601585
-          ],
-          "end_status": [
-            -0.149148,
-            -0.601585
-          ],
-          "moves": [
-            {
-              "dx": 0.48588541666666674,
-              "dy": 0.2314814814814815,
-              "pan": -0.4,
-              "tilt": -0.4,
-              "seconds": 0.6
-            }
-          ],
-          "initial_offset": 0.48588541666666674,
-          "final_offset": 0.48588541666666674,
-          "detections": [
-            {
-              "label": "person",
-              "group": "person",
-              "confidence": 0.3507063388824463,
-              "box": [
-                1866.4,
-                682.6,
-                1919.4,
-                897.4
-              ],
-              "area_fraction": 0.0054972987591786985,
-              "region": "lower right"
             }
           ]
         }
