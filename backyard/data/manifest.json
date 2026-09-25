@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-24T21:30:07.292258+00:00",
+  "lastUpdated": "2026-09-25T00:40:04.717375+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-25T00:40:04.585688+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "major scene hue change: 3 of 9 sky/landscape regions changed color",
+      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260925-004004-full.jpg",
+      "thumb": "./images/tapo-camera-20260925-004004-thumb.jpg",
+      "metrics": {
+        "score": 47.63151168823242,
+        "changed_fraction": 0.3988715277777778,
+        "brightness_delta": 13.207901000976562,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 3,
+          "distances": [
+            0.983717346953127,
+            0.0,
+            0.0,
+            0.785568702558884,
+            0.0,
+            0.0,
+            0.9549546626245551,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-24T21:30:07.211892+00:00",
       "camera": "tapo-c184",
@@ -31170,302 +31202,6 @@
                 714.8
               ],
               "area_fraction": 0.0037109586842739694,
-              "region": "middle right"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-08-26T00:30:24.307054+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 person; strongest person at 40% confidence",
-      "description": "Tapo C200 saved this frame. I see a small person in the middle right of the frame (45% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260826-003024-full.jpg",
-      "thumb": "./images/tapo-camera-20260826-003024-thumb.jpg",
-      "metrics": {
-        "score": 2.538628578186035,
-        "changed_fraction": 0.00390625,
-        "brightness_delta": -1.7200469970703125,
-        "detections": [
-          {
-            "label": "person",
-            "group": "person",
-            "confidence": 0.45328181982040405,
-            "box": [
-              1813.8,
-              401.6,
-              1872.8,
-              538.5
-            ],
-            "area_fraction": 0.0038942058049077685,
-            "region": "middle right"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": [
-            -0.180725,
-            -0.705839
-          ],
-          "end_status": [
-            -0.203102,
-            -0.705839
-          ],
-          "moves": [
-            {
-              "dx": 0.33072916666666663,
-              "dy": -0.09129629629629632,
-              "pan": -0.4,
-              "tilt": 0.0,
-              "seconds": 0.5291666666666667
-            },
-            {
-              "dx": 0.46005208333333336,
-              "dy": -0.0647685185185185,
-              "pan": -0.4,
-              "tilt": 0.0,
-              "seconds": 0.6
-            }
-          ],
-          "initial_offset": 0.33072916666666663,
-          "final_offset": 0.46005208333333336,
-          "detections": [
-            {
-              "label": "person",
-              "group": "person",
-              "confidence": 0.45328181982040405,
-              "box": [
-                1813.8,
-                401.6,
-                1872.8,
-                538.5
-              ],
-              "area_fraction": 0.0038942058049077685,
-              "region": "middle right"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-08-25T22:45:05.994352+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "interesting sky colors: saturation 0.15, warm 0.9%, blue 39.7%",
-      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.15. The blue portion of the sky looked especially strong or clear. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260825-224505-full.jpg",
-      "thumb": "./images/tapo-camera-20260825-224505-thumb.jpg",
-      "metrics": {
-        "score": 8.835503578186035,
-        "changed_fraction": 0.028211805555555556,
-        "brightness_delta": 3.3233489990234375,
-        "detections": [],
-        "ptz_centering": null
-      }
-    },
-    {
-      "timestamp": "2026-08-25T22:30:05.902342+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "interesting sky colors: saturation 0.22, warm 0.0%, blue 58.1%",
-      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.22. The blue portion of the sky looked especially strong or clear. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260825-223005-full.jpg",
-      "thumb": "./images/tapo-camera-20260825-223005-thumb.jpg",
-      "metrics": {
-        "score": 9.29513931274414,
-        "changed_fraction": 0.03342013888888889,
-        "brightness_delta": 2.1605911254882812,
-        "detections": [],
-        "ptz_centering": null
-      }
-    },
-    {
-      "timestamp": "2026-08-25T22:15:07.122605+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "interesting sky colors: saturation 0.19, warm 0.0%, blue 49.0%",
-      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.19. The blue portion of the sky looked especially strong or clear. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260825-221507-full.jpg",
-      "thumb": "./images/tapo-camera-20260825-221507-thumb.jpg",
-      "metrics": {
-        "score": 11.178385734558105,
-        "changed_fraction": 0.045572916666666664,
-        "brightness_delta": 3.3893203735351562,
-        "detections": [],
-        "ptz_centering": null
-      }
-    },
-    {
-      "timestamp": "2026-08-25T22:00:06.867968+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "interesting sky colors: saturation 0.16, warm 0.0%, blue 40.3%",
-      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.16. The blue portion of the sky looked especially strong or clear. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260825-220006-full.jpg",
-      "thumb": "./images/tapo-camera-20260825-220006-thumb.jpg",
-      "metrics": {
-        "score": 28.65190887451172,
-        "changed_fraction": 0.2586805555555556,
-        "brightness_delta": 3.5842056274414062,
-        "detections": [],
-        "ptz_centering": null
-      }
-    },
-    {
-      "timestamp": "2026-08-25T21:45:13.601685+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 truck; strongest truck at 35% confidence",
-      "description": "Tapo C200 saved this frame. I see a small truck in the center of the frame (35% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260825-214513-full.jpg",
-      "thumb": "./images/tapo-camera-20260825-214513-thumb.jpg",
-      "metrics": {
-        "score": 19.26953125,
-        "changed_fraction": 0.1584201388888889,
-        "brightness_delta": 2.7322006225585938,
-        "detections": [
-          {
-            "label": "truck",
-            "group": "vehicle",
-            "confidence": 0.34650349617004395,
-            "box": [
-              1046.9,
-              349.1,
-              1193.1,
-              425.3
-            ],
-            "area_fraction": 0.005367368494181493,
-            "region": "center"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": [
-            -0.180725,
-            -0.601585
-          ],
-          "end_status": [
-            -0.180725,
-            -0.705839
-          ],
-          "moves": [
-            {
-              "dx": 0.08333333333333337,
-              "dy": -0.14148148148148143,
-              "pan": 0.0,
-              "tilt": 0.4,
-              "seconds": 0.2263703703703703
-            }
-          ],
-          "initial_offset": 0.14148148148148143,
-          "final_offset": 0.14148148148148143,
-          "detections": [
-            {
-              "label": "truck",
-              "group": "vehicle",
-              "confidence": 0.34650349617004395,
-              "box": [
-                1046.9,
-                349.1,
-                1193.1,
-                425.3
-              ],
-              "area_fraction": 0.005367368494181493,
-              "region": "center"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-08-25T21:30:23.194585+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 2 cars; strongest car at 49% confidence",
-      "description": "Tapo C200 saved this frame. I see a small car in the middle right of the frame (58% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260825-213023-full.jpg",
-      "thumb": "./images/tapo-camera-20260825-213023-thumb.jpg",
-      "metrics": {
-        "score": 13.684027671813965,
-        "changed_fraction": 0.06597222222222222,
-        "brightness_delta": 4.0260467529296875,
-        "detections": [
-          {
-            "label": "car",
-            "group": "vehicle",
-            "confidence": 0.5817521810531616,
-            "box": [
-              1507.9,
-              430.2,
-              1590.8,
-              467.4
-            ],
-            "area_fraction": 0.0014865937983672161,
-            "region": "middle right"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": [
-            -0.180297,
-            -0.601585
-          ],
-          "end_status": [
-            -0.180725,
-            -0.601585
-          ],
-          "moves": [
-            {
-              "dx": 0.26697916666666666,
-              "dy": -0.010046296296296331,
-              "pan": -0.4,
-              "tilt": 0.0,
-              "seconds": 0.4271666666666667
-            },
-            {
-              "dx": 0.21401041666666676,
-              "dy": -0.08944444444444449,
-              "pan": -0.4,
-              "tilt": 0.0,
-              "seconds": 0.3424166666666668
-            },
-            {
-              "dx": 0.30695312499999994,
-              "dy": -0.08444444444444449,
-              "pan": -0.4,
-              "tilt": 0.0,
-              "seconds": 0.4911249999999999
-            }
-          ],
-          "initial_offset": 0.26697916666666666,
-          "final_offset": 0.30695312499999994,
-          "detections": [
-            {
-              "label": "car",
-              "group": "vehicle",
-              "confidence": 0.5817521810531616,
-              "box": [
-                1507.9,
-                430.2,
-                1590.8,
-                467.4
-              ],
-              "area_fraction": 0.0014865937983672161,
               "region": "middle right"
             }
           ]
