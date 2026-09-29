@@ -1,7 +1,78 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-29T19:40:04.595132+00:00",
+  "lastUpdated": "2026-09-29T21:20:04.317182+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-29T21:20:04.185730+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 person; strongest person at 77% confidence",
+      "description": "Tapo C200 saved this frame. I see a small person in the center of the frame (77% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260929-212004-full.jpg",
+      "thumb": "./images/tapo-camera-20260929-212004-thumb.jpg",
+      "metrics": {
+        "score": 3.37890625,
+        "changed_fraction": 0.016059027777777776,
+        "brightness_delta": 0.20355987548828125,
+        "detections": [
+          {
+            "label": "person",
+            "group": "person",
+            "confidence": 0.7706798315048218,
+            "box": [
+              1132.6,
+              593.0,
+              1228.4,
+              758.5
+            ],
+            "area_fraction": 0.00764257193984425,
+            "region": "center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": null,
+          "end_status": null,
+          "moves": [],
+          "initial_offset": 0.12569444444444444,
+          "final_offset": 0.12569444444444444,
+          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.0000', '--tilt', '-0.4000', '--seconds', '0.201'])",
+          "detections": [
+            {
+              "label": "person",
+              "group": "person",
+              "confidence": 0.7706798315048218,
+              "box": [
+                1132.6,
+                593.0,
+                1228.4,
+                758.5
+              ],
+              "area_fraction": 0.00764257193984425,
+              "region": "center"
+            }
+          ]
+        },
+        "hue_change": {
+          "major": false,
+          "changed_regions": 1,
+          "distances": [
+            0.0,
+            0.06514022012577811,
+            0.18432559251100822,
+            0.0,
+            0.01696933133843763,
+            0.12659915723442564,
+            0.0,
+            0.0,
+            0.7777930525023558
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-29T19:40:04.472814+00:00",
       "camera": "tapo",
@@ -28744,116 +28815,6 @@
         "brightness_delta": 0.0,
         "detections": [],
         "ptz_centering": null
-      }
-    },
-    {
-      "timestamp": "2026-08-30T21:00:04.864891+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 truck; strongest truck at 38% confidence",
-      "description": "Tapo C200 saved this frame. I see a small truck in the center of the frame (38% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260830-210004-full.jpg",
-      "thumb": "./images/tapo-camera-20260830-210004-thumb.jpg",
-      "metrics": {
-        "score": 7.308159828186035,
-        "changed_fraction": 0.0,
-        "brightness_delta": 6.9539947509765625,
-        "detections": [
-          {
-            "label": "truck",
-            "group": "vehicle",
-            "confidence": 0.380622923374176,
-            "box": [
-              835.8,
-              389.1,
-              977.0,
-              468.4
-            ],
-            "area_fraction": 0.005402811746874552,
-            "region": "center"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": false,
-          "used_retake": false,
-          "returned": false,
-          "start_status": null,
-          "end_status": null,
-          "moves": [],
-          "initial_offset": 0.10300925925925924,
-          "final_offset": 0.10300925925925924,
-          "detections": [
-            {
-              "label": "truck",
-              "group": "vehicle",
-              "confidence": 0.380622923374176,
-              "box": [
-                835.8,
-                389.1,
-                977.0,
-                468.4
-              ],
-              "area_fraction": 0.005402811746874552,
-              "region": "center"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-08-30T19:45:04.398607+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 truck; strongest truck at 35% confidence",
-      "description": "Tapo C200 saved this frame. I see a small truck in the center of the frame (35% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260830-194504-full.jpg",
-      "thumb": "./images/tapo-camera-20260830-194504-thumb.jpg",
-      "metrics": {
-        "score": 9.15017318725586,
-        "changed_fraction": 0.020833333333333332,
-        "brightness_delta": 3.1276092529296875,
-        "detections": [
-          {
-            "label": "truck",
-            "group": "vehicle",
-            "confidence": 0.34932851791381836,
-            "box": [
-              835.8,
-              394.1,
-              1020.8,
-              470.2
-            ],
-            "area_fraction": 0.006793745387500773,
-            "region": "center"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": false,
-          "used_retake": false,
-          "returned": false,
-          "start_status": null,
-          "end_status": null,
-          "moves": [],
-          "initial_offset": 0.09986111111111112,
-          "final_offset": 0.09986111111111112,
-          "detections": [
-            {
-              "label": "truck",
-              "group": "vehicle",
-              "confidence": 0.34932851791381836,
-              "box": [
-                835.8,
-                394.1,
-                1020.8,
-                470.2
-              ],
-              "area_fraction": 0.006793745387500773,
-              "region": "center"
-            }
-          ]
-        }
       }
     }
   ]
