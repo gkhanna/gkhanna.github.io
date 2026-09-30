@@ -1,7 +1,104 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-09-30T14:40:04.352205+00:00",
+  "lastUpdated": "2026-09-30T15:00:04.612516+00:00",
   "images": [
+    {
+      "timestamp": "2026-09-30T15:00:04.517085+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 car, 1 truck; strongest truck at 80% confidence",
+      "description": "Tapo C200 saved this frame. I see 2 vehicle-type detections (car, truck), with the strongest truck in the middle left at 80% confidence. I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20260930-150004-full.jpg",
+      "thumb": "./images/tapo-camera-20260930-150004-thumb.jpg",
+      "metrics": {
+        "score": 41.36935806274414,
+        "changed_fraction": 0.4874131944444444,
+        "brightness_delta": 4.1358489990234375,
+        "detections": [
+          {
+            "label": "truck",
+            "group": "vehicle",
+            "confidence": 0.7962179183959961,
+            "box": [
+              82.3,
+              307.7,
+              446.7,
+              860.4
+            ],
+            "area_fraction": 0.0971362623083299,
+            "region": "middle left"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.7111398577690125,
+            "box": [
+              1234.5,
+              351.6,
+              1445.0,
+              460.1
+            ],
+            "area_fraction": 0.011017880733318938,
+            "region": "middle right"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": null,
+          "end_status": null,
+          "moves": [],
+          "initial_offset": 0.36223958333333334,
+          "final_offset": 0.36223958333333334,
+          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.4000', '--tilt', '0.0000', '--seconds', '0.580'])",
+          "detections": [
+            {
+              "label": "truck",
+              "group": "vehicle",
+              "confidence": 0.7962179183959961,
+              "box": [
+                82.3,
+                307.7,
+                446.7,
+                860.4
+              ],
+              "area_fraction": 0.0971362623083299,
+              "region": "middle left"
+            },
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.7111398577690125,
+              "box": [
+                1234.5,
+                351.6,
+                1445.0,
+                460.1
+              ],
+              "area_fraction": 0.011017880733318938,
+              "region": "middle right"
+            }
+          ]
+        },
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.21240540020949814,
+            0.0,
+            0.0,
+            0.3797603582858171,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-09-30T14:40:04.232917+00:00",
       "camera": "tapo",
