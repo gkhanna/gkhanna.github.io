@@ -1,7 +1,41 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-01T10:10:04.001480+00:00",
+  "lastUpdated": "2026-10-01T10:38:17.070138+00:00",
   "images": [
+    {
+      "timestamp": "2026-10-01T10:37:37+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "snapshot",
+      "reason": "manual capture: vivid pink sunrise colors through the trees",
+      "description": "Tapo C200 caught a gorgeous early-morning scene: vivid pink sunrise light glows through the dark tree line while the lawn and driveway remain in cool gray-green dawn tones.",
+      "full": "./images/tapo-camera-20261001-103737-full.jpg",
+      "thumb": "./images/tapo-camera-20261001-103737-thumb.jpg",
+      "metrics": {
+        "score": 0.0,
+        "changed_fraction": 0.0,
+        "brightness_delta": 0.0,
+        "detections": [],
+        "ptz_centering": null
+      }
+    },
+    {
+      "timestamp": "2026-10-01T10:37:37+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "snapshot",
+      "reason": "manual capture: soft green-gray dawn colors",
+      "description": "Tapo C184 recorded the companion backyard view at the same moment, with soft green-gray dawn light across the lawn and a dark evergreen tree line.",
+      "full": "./images/tapo-c184-camera-20261001-103737-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20261001-103737-thumb.jpg",
+      "metrics": {
+        "score": 0.0,
+        "changed_fraction": 0.0,
+        "brightness_delta": 0.0,
+        "detections": [],
+        "ptz_centering": null
+      }
+    },
     {
       "timestamp": "2026-10-01T10:10:03.912741+00:00",
       "camera": "tapo",
