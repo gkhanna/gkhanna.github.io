@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-02T22:40:05.029134+00:00",
+  "lastUpdated": "2026-10-02T22:50:04.188936+00:00",
   "images": [
+    {
+      "timestamp": "2026-10-02T22:50:04.078840+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "major scene hue change: 4 of 9 sky/landscape regions changed color",
+      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261002-225004-full.jpg",
+      "thumb": "./images/tapo-camera-20261002-225004-thumb.jpg",
+      "metrics": {
+        "score": 33.64323043823242,
+        "changed_fraction": 0.4036458333333333,
+        "brightness_delta": 12.077255249023438,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 4,
+          "distances": [
+            0.0815357450225692,
+            0.048820502162877366,
+            0.4251116910166418,
+            0.19851429311852709,
+            0.2187952720760365,
+            0.3402031619419423,
+            0.3099869705561114,
+            0.10184557823435043,
+            0.5601614209210001
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-10-02T22:40:04.948635+00:00",
       "camera": "tapo",
@@ -30530,75 +30562,6 @@
         "brightness_delta": -12.000869750976562,
         "detections": [],
         "ptz_centering": null
-      }
-    },
-    {
-      "timestamp": "2026-09-02T22:40:10.852858+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 car; strongest car at 66% confidence",
-      "description": "Tapo C200 saved this frame. I see a small car in the center of the frame (66% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260902-224010-full.jpg",
-      "thumb": "./images/tapo-camera-20260902-224010-thumb.jpg",
-      "metrics": {
-        "score": 1.3046875,
-        "changed_fraction": 0.0,
-        "brightness_delta": 0.8064193725585938,
-        "detections": [
-          {
-            "label": "car",
-            "group": "vehicle",
-            "confidence": 0.6594938039779663,
-            "box": [
-              598.8,
-              469.2,
-              687.5,
-              501.6
-            ],
-            "area_fraction": 0.0013865672520599521,
-            "region": "center"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": [
-            -0.281202,
-            -0.550224
-          ],
-          "end_status": [
-            -0.28083,
-            -0.550224
-          ],
-          "moves": [
-            {
-              "dx": -0.16502604166666668,
-              "dy": -0.050555555555555576,
-              "pan": 0.4,
-              "tilt": 0.0,
-              "seconds": 0.2640416666666667
-            }
-          ],
-          "initial_offset": 0.16502604166666668,
-          "final_offset": 0.16502604166666668,
-          "detections": [
-            {
-              "label": "car",
-              "group": "vehicle",
-              "confidence": 0.6594938039779663,
-              "box": [
-                598.8,
-                469.2,
-                687.5,
-                501.6
-              ],
-              "area_fraction": 0.0013865672520599521,
-              "region": "center"
-            }
-          ]
-        }
       }
     }
   ]
