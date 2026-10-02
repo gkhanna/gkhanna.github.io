@@ -1,7 +1,78 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-02T21:00:04.234845+00:00",
+  "lastUpdated": "2026-10-02T21:40:04.392397+00:00",
   "images": [
+    {
+      "timestamp": "2026-10-02T21:40:04.306239+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 bus; strongest bus at 76% confidence",
+      "description": "Tapo C200 saved this frame. I see a medium-sized bus in the center of the frame (76% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261002-214004-full.jpg",
+      "thumb": "./images/tapo-camera-20261002-214004-thumb.jpg",
+      "metrics": {
+        "score": 22.61631965637207,
+        "changed_fraction": 0.1935763888888889,
+        "brightness_delta": -3.798614501953125,
+        "detections": [
+          {
+            "label": "bus",
+            "group": "vehicle",
+            "confidence": 0.7571506500244141,
+            "box": [
+              731.0,
+              616.3,
+              1164.8,
+              809.4
+            ],
+            "area_fraction": 0.040404346734248975,
+            "region": "center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": null,
+          "end_status": null,
+          "moves": [],
+          "initial_offset": 0.1600462962962962,
+          "final_offset": 0.1600462962962962,
+          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.0000', '--tilt', '-0.4000', '--seconds', '0.256'])",
+          "detections": [
+            {
+              "label": "bus",
+              "group": "vehicle",
+              "confidence": 0.7571506500244141,
+              "box": [
+                731.0,
+                616.3,
+                1164.8,
+                809.4
+              ],
+              "area_fraction": 0.040404346734248975,
+              "region": "center"
+            }
+          ]
+        },
+        "hue_change": {
+          "major": false,
+          "changed_regions": 1,
+          "distances": [
+            0.02336340414282769,
+            0.08657379755649307,
+            0.1671770932024212,
+            0.17372567483641463,
+            0.19713829224931792,
+            0.18540490465340276,
+            0.12636155735182414,
+            0.3307039581870726,
+            0.24784072748590197
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-10-02T21:00:04.133527+00:00",
       "camera": "tapo",
