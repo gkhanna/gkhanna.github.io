@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-04T10:10:04.097228+00:00",
+  "lastUpdated": "2026-10-04T10:20:04.945529+00:00",
   "images": [
+    {
+      "timestamp": "2026-10-04T10:20:04.833075+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "major scene hue change: 4 of 9 sky/landscape regions changed color",
+      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261004-102004-full.jpg",
+      "thumb": "./images/tapo-camera-20261004-102004-thumb.jpg",
+      "metrics": {
+        "score": 25.51736068725586,
+        "changed_fraction": 0.2777777777777778,
+        "brightness_delta": -8.243049621582031,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 4,
+          "distances": [
+            0.47204149582721894,
+            0.17587536203836215,
+            0.1307998728909217,
+            0.41236955478013726,
+            0.22104645203493048,
+            0.08953106576959592,
+            0.6420198972478027,
+            0.24789485784957346,
+            0.5086497851121752
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-10-04T10:10:04.018485+00:00",
       "camera": "tapo",
@@ -31113,23 +31145,6 @@
             }
           ]
         }
-      }
-    },
-    {
-      "timestamp": "2026-09-04T10:17:15+00:00",
-      "camera": "tapo-c184",
-      "camera_label": "Tapo C184",
-      "type": "snapshot",
-      "reason": "manual capture: early morning backyard colors",
-      "description": "Tapo C184 saved this manually requested early morning backyard frame, with soft dawn light and muted green-gray color across the yard and tree line.",
-      "full": "./images/tapo-c184-camera-20260904-101715-full.jpg",
-      "thumb": "./images/tapo-c184-camera-20260904-101715-thumb.jpg",
-      "metrics": {
-        "score": 0.0,
-        "changed_fraction": 0.0,
-        "brightness_delta": 0.0,
-        "detections": [],
-        "ptz_centering": null
       }
     }
   ]
