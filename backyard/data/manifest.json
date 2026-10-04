@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-04T13:50:04.853217+00:00",
+  "lastUpdated": "2026-10-04T14:50:08.195120+00:00",
   "images": [
+    {
+      "timestamp": "2026-10-04T14:50:08.078233+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "sky",
+      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
+      "description": "Tapo C184 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-c184-camera-20261004-145008-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20261004-145008-thumb.jpg",
+      "metrics": {
+        "score": 14.358073234558105,
+        "changed_fraction": 0.04904513888888889,
+        "brightness_delta": -4.4969635009765625,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.742572617570692,
+            0.0,
+            0.670638517679291,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-10-04T13:50:04.766545+00:00",
       "camera": "tapo",
@@ -31313,164 +31345,6 @@
         "brightness_delta": -1.1193618774414062,
         "detections": [],
         "ptz_centering": null
-      }
-    },
-    {
-      "timestamp": "2026-09-04T14:50:04.320143+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "interesting sky colors: saturation 0.12, warm 0.0%, blue 33.6%",
-      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.12. The blue portion of the sky looked especially strong or clear. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260904-145004-full.jpg",
-      "thumb": "./images/tapo-camera-20260904-145004-thumb.jpg",
-      "metrics": {
-        "score": 4.48524284362793,
-        "changed_fraction": 0.012586805555555556,
-        "brightness_delta": -3.037322998046875,
-        "detections": [],
-        "ptz_centering": null
-      }
-    },
-    {
-      "timestamp": "2026-09-04T14:40:04.077735+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "interesting sky colors: saturation 0.11, warm 0.0%, blue 32.1%",
-      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.11. The blue portion of the sky looked especially strong or clear. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260904-144004-full.jpg",
-      "thumb": "./images/tapo-camera-20260904-144004-thumb.jpg",
-      "metrics": {
-        "score": 25.14930534362793,
-        "changed_fraction": 0.2608506944444444,
-        "brightness_delta": 15.8203125,
-        "detections": [],
-        "ptz_centering": null
-      }
-    },
-    {
-      "timestamp": "2026-09-04T14:30:04.406280+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "interesting sky colors: saturation 0.13, warm 0.0%, blue 34.8%",
-      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.13. The blue portion of the sky looked especially strong or clear. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260904-143004-full.jpg",
-      "thumb": "./images/tapo-camera-20260904-143004-thumb.jpg",
-      "metrics": {
-        "score": 6.184027671813965,
-        "changed_fraction": 0.012586805555555556,
-        "brightness_delta": -1.2795181274414062,
-        "detections": [],
-        "ptz_centering": null
-      }
-    },
-    {
-      "timestamp": "2026-09-04T14:20:04.925778+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "interesting sky colors: saturation 0.12, warm 0.0%, blue 31.4%",
-      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.12. The blue portion of the sky looked especially strong or clear. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260904-142004-full.jpg",
-      "thumb": "./images/tapo-camera-20260904-142004-thumb.jpg",
-      "metrics": {
-        "score": 6.850260257720947,
-        "changed_fraction": 0.006076388888888889,
-        "brightness_delta": -3.1297760009765625,
-        "detections": [],
-        "ptz_centering": null
-      }
-    },
-    {
-      "timestamp": "2026-09-04T14:00:32.599587+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 car; strongest car at 85% confidence",
-      "description": "Tapo C200 saved this frame. I see a medium-sized car in the center of the frame (87% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260904-140032-full.jpg",
-      "thumb": "./images/tapo-camera-20260904-140032-thumb.jpg",
-      "metrics": {
-        "score": 11.355902671813965,
-        "changed_fraction": 0.0915798611111111,
-        "brightness_delta": -2.5364608764648438,
-        "detections": [
-          {
-            "label": "car",
-            "group": "vehicle",
-            "confidence": 0.8673996925354004,
-            "box": [
-              773.0,
-              487.5,
-              1090.9,
-              851.1
-            ],
-            "area_fraction": 0.05575296333826069,
-            "region": "center"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": true,
-          "returned": true,
-          "start_status": [
-            -0.231384,
-            -0.551401
-          ],
-          "end_status": [
-            -0.231384,
-            -0.277603
-          ],
-          "moves": [
-            {
-              "dx": -0.012578125000000051,
-              "dy": 0.36398148148148135,
-              "pan": 0.0,
-              "tilt": -0.4,
-              "seconds": 0.5823703703703702
-            },
-            {
-              "dx": -0.010260416666666716,
-              "dy": 0.21263888888888882,
-              "pan": 0.0,
-              "tilt": -0.4,
-              "seconds": 0.34022222222222215
-            },
-            {
-              "dx": -0.011145833333333355,
-              "dy": 0.12888888888888894,
-              "pan": 0.0,
-              "tilt": -0.4,
-              "seconds": 0.2062222222222223
-            },
-            {
-              "dx": -0.012552083333333353,
-              "dy": 0.1297222222222223,
-              "pan": 0.0,
-              "tilt": -0.4,
-              "seconds": 0.2075555555555557
-            }
-          ],
-          "initial_offset": 0.36398148148148135,
-          "final_offset": 0.11972222222222217,
-          "detections": [
-            {
-              "label": "car",
-              "group": "vehicle",
-              "confidence": 0.8673996925354004,
-              "box": [
-                773.0,
-                487.5,
-                1090.9,
-                851.1
-              ],
-              "area_fraction": 0.05575296333826069,
-              "region": "center"
-            }
-          ]
-        }
       }
     }
   ]
