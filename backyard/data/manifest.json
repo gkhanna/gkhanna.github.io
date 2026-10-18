@@ -1,7 +1,78 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-18T12:10:04.487159+00:00",
+  "lastUpdated": "2026-10-18T12:20:04.226318+00:00",
   "images": [
+    {
+      "timestamp": "2026-10-18T12:20:04.102641+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 car; strongest car at 66% confidence",
+      "description": "Tapo C200 saved this frame. I see a small car in the upper center of the frame (66% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261018-122004-full.jpg",
+      "thumb": "./images/tapo-camera-20261018-122004-thumb.jpg",
+      "metrics": {
+        "score": 18.83680534362793,
+        "changed_fraction": 0.1072048611111111,
+        "brightness_delta": 6.251731872558594,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.6552129983901978,
+            "box": [
+              814.6,
+              171.6,
+              900.0,
+              202.8
+            ],
+            "area_fraction": 0.0012845706870818201,
+            "region": "upper center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": null,
+          "end_status": null,
+          "moves": [],
+          "initial_offset": 0.32666666666666666,
+          "final_offset": 0.32666666666666666,
+          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.0000', '--tilt', '0.4000', '--seconds', '0.523'])",
+          "detections": [
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.6552129983901978,
+              "box": [
+                814.6,
+                171.6,
+                900.0,
+                202.8
+              ],
+              "area_fraction": 0.0012845706870818201,
+              "region": "upper center"
+            }
+          ]
+        },
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.48633341790384127,
+            0.46758396666499186,
+            0.0,
+            0.11625388662656917,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-10-18T12:10:04.370328+00:00",
       "camera": "tapo",
@@ -27590,38 +27661,6 @@
             0.12296766206385443,
             0.12993906722271795,
             0.12211945175650951
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-09-18T12:10:04.625948+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "major scene hue change: 3 of 9 sky/landscape regions changed color",
-      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260918-121004-full.jpg",
-      "thumb": "./images/tapo-camera-20260918-121004-thumb.jpg",
-      "metrics": {
-        "score": 24.41883659362793,
-        "changed_fraction": 0.21614583333333334,
-        "brightness_delta": -12.704429626464844,
-        "detections": [],
-        "ptz_centering": null,
-        "hue_change": {
-          "major": true,
-          "changed_regions": 3,
-          "distances": [
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            1.0,
-            0.6428368661271993,
-            0.342628724136504
           ]
         }
       }
