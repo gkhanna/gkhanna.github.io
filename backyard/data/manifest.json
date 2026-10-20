@@ -1,7 +1,130 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-20T20:50:04.527302+00:00",
+  "lastUpdated": "2026-10-20T21:00:04.269472+00:00",
   "images": [
+    {
+      "timestamp": "2026-10-20T21:00:04.175459+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 3 cars; strongest car at 76% confidence",
+      "description": "Tapo C200 saved this frame. I see 3 vehicle-type detections (car), with the strongest car in the upper center at 76% confidence. I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261020-210004-full.jpg",
+      "thumb": "./images/tapo-camera-20261020-210004-thumb.jpg",
+      "metrics": {
+        "score": 10.25217056274414,
+        "changed_fraction": 0.06076388888888889,
+        "brightness_delta": -1.0403671264648438,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.7628268003463745,
+            "box": [
+              813.4,
+              173.4,
+              883.5,
+              208.9
+            ],
+            "area_fraction": 0.001204092311096853,
+            "region": "upper center"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.7147935032844543,
+            "box": [
+              668.8,
+              178.5,
+              752.2,
+              217.0
+            ],
+            "area_fraction": 0.0015507275078137657,
+            "region": "upper center"
+          },
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.6712232828140259,
+            "box": [
+              1286.8,
+              206.2,
+              1337.3,
+              256.8
+            ],
+            "area_fraction": 0.0012323914944297738,
+            "region": "upper right"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": null,
+          "end_status": null,
+          "moves": [],
+          "initial_offset": 0.3230092592592593,
+          "final_offset": 0.3230092592592593,
+          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.0000', '--tilt', '0.4000', '--seconds', '0.517'])",
+          "detections": [
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.7628268003463745,
+              "box": [
+                813.4,
+                173.4,
+                883.5,
+                208.9
+              ],
+              "area_fraction": 0.001204092311096853,
+              "region": "upper center"
+            },
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.7147935032844543,
+              "box": [
+                668.8,
+                178.5,
+                752.2,
+                217.0
+              ],
+              "area_fraction": 0.0015507275078137657,
+              "region": "upper center"
+            },
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.6712232828140259,
+              "box": [
+                1286.8,
+                206.2,
+                1337.3,
+                256.8
+              ],
+              "area_fraction": 0.0012323914944297738,
+              "region": "upper right"
+            }
+          ]
+        },
+        "hue_change": {
+          "major": false,
+          "changed_regions": 0,
+          "distances": [
+            0.04312816858823808,
+            0.2268542103297853,
+            0.059697270311946965,
+            0.2062580574504764,
+            0.1164343774923983,
+            0.129940299101686,
+            0.04696884554233329,
+            0.011611317616673125,
+            0.23685120917797733
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-10-20T20:50:04.234665+00:00",
       "camera": "tapo",
