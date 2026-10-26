@@ -1,7 +1,78 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-26T20:50:04.785074+00:00",
+  "lastUpdated": "2026-10-26T21:40:05.325282+00:00",
   "images": [
+    {
+      "timestamp": "2026-10-26T21:40:05.199927+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 car; strongest car at 80% confidence",
+      "description": "Tapo C200 saved this frame. I see a small car in the upper left of the frame (80% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261026-214005-full.jpg",
+      "thumb": "./images/tapo-camera-20261026-214005-thumb.jpg",
+      "metrics": {
+        "score": 1.2235243320465088,
+        "changed_fraction": 0.0008680555555555555,
+        "brightness_delta": 0.39974212646484375,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.8006666898727417,
+            "box": [
+              280.9,
+              195.8,
+              357.4,
+              226.2
+            ],
+            "area_fraction": 0.0011229453785927034,
+            "region": "upper left"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": null,
+          "end_status": null,
+          "moves": [],
+          "initial_offset": 0.3337760416666667,
+          "final_offset": 0.3337760416666667,
+          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.4000', '--tilt', '0.4000', '--seconds', '0.534'])",
+          "detections": [
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.8006666898727417,
+              "box": [
+                280.9,
+                195.8,
+                357.4,
+                226.2
+              ],
+              "area_fraction": 0.0011229453785927034,
+              "region": "upper left"
+            }
+          ]
+        },
+        "hue_change": {
+          "major": false,
+          "changed_regions": 0,
+          "distances": [
+            0.17382033181088205,
+            0.13023842115769393,
+            0.2125532911749603,
+            0.013054600479839688,
+            0.0,
+            0.045599533543695996,
+            0.04868673174276524,
+            0.06607788841220773,
+            0.01749528206211472
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-10-26T20:50:04.698509+00:00",
       "camera": "tapo",
@@ -26081,38 +26152,6 @@
             0.0,
             0.0,
             0.1009332492918303,
-            0.0
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-09-26T21:10:12.110462+00:00",
-      "camera": "tapo-c184",
-      "camera_label": "Tapo C184",
-      "type": "sky",
-      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
-      "description": "Tapo C184 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-c184-camera-20260926-211012-full.jpg",
-      "thumb": "./images/tapo-c184-camera-20260926-211012-thumb.jpg",
-      "metrics": {
-        "score": 1.6866319179534912,
-        "changed_fraction": 0.0,
-        "brightness_delta": -0.6883697509765625,
-        "detections": [],
-        "ptz_centering": null,
-        "hue_change": {
-          "major": true,
-          "changed_regions": 2,
-          "distances": [
-            0.798478213473642,
-            0.9775465382470024,
-            0.0,
-            0.0,
-            0.0,
-            0.042962982194570995,
-            0.0,
-            0.0,
             0.0
           ]
         }
