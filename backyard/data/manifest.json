@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-29T19:50:04.360789+00:00",
+  "lastUpdated": "2026-10-29T20:20:04.172280+00:00",
   "images": [
+    {
+      "timestamp": "2026-10-29T20:20:04.085231+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "interesting sky colors: saturation 0.18, warm 42.4%, blue 8.7%",
+      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.18. There is a warm sunset-like tint across the sky or treetops. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261029-202004-full.jpg",
+      "thumb": "./images/tapo-camera-20261029-202004-thumb.jpg",
+      "metrics": {
+        "score": 7.101128578186035,
+        "changed_fraction": 0.020833333333333332,
+        "brightness_delta": 0.19921875,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": false,
+          "changed_regions": 0,
+          "distances": [
+            0.2644390803277557,
+            0.24323228373726183,
+            0.06592930730123271,
+            0.14859699245347546,
+            0.10504222144129241,
+            0.12082759343218305,
+            0.15578917696848407,
+            0.08623003800039412,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-10-29T19:50:04.243915+00:00",
       "camera": "tapo",
