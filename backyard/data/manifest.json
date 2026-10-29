@@ -1,7 +1,78 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-29T18:40:04.111478+00:00",
+  "lastUpdated": "2026-10-29T18:50:04.088262+00:00",
   "images": [
+    {
+      "timestamp": "2026-10-29T18:50:03.995659+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 truck; strongest truck at 68% confidence",
+      "description": "Tapo C200 saved this frame. I see a small truck in the lower left of the frame (68% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261029-185003-full.jpg",
+      "thumb": "./images/tapo-camera-20261029-185003-thumb.jpg",
+      "metrics": {
+        "score": 6.326388835906982,
+        "changed_fraction": 0.024305555555555556,
+        "brightness_delta": -1.7508697509765625,
+        "detections": [
+          {
+            "label": "truck",
+            "group": "vehicle",
+            "confidence": 0.6757251024246216,
+            "box": [
+              483.1,
+              661.3,
+              742.7,
+              792.4
+            ],
+            "area_fraction": 0.016413949418547416,
+            "region": "lower left"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": null,
+          "end_status": null,
+          "moves": [],
+          "initial_offset": 0.18078124999999995,
+          "final_offset": 0.18078124999999995,
+          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.4000', '--tilt', '-0.4000', '--seconds', '0.289'])",
+          "detections": [
+            {
+              "label": "truck",
+              "group": "vehicle",
+              "confidence": 0.6757251024246216,
+              "box": [
+                483.1,
+                661.3,
+                742.7,
+                792.4
+              ],
+              "area_fraction": 0.016413949418547416,
+              "region": "lower left"
+            }
+          ]
+        },
+        "hue_change": {
+          "major": false,
+          "changed_regions": 1,
+          "distances": [
+            0.05321206686192662,
+            0.04193533180495922,
+            0.0075580229536254834,
+            0.042695368965944516,
+            0.03298328998665824,
+            0.007957539378293153,
+            0.1125061595863063,
+            0.44879403072120866,
+            0.045341406561915376
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-10-29T18:40:04.017753+00:00",
       "camera": "tapo",
