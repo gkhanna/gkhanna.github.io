@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-29T18:50:04.088262+00:00",
+  "lastUpdated": "2026-10-29T19:20:04.758316+00:00",
   "images": [
+    {
+      "timestamp": "2026-10-29T19:20:04.636430+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
+      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261029-192004-full.jpg",
+      "thumb": "./images/tapo-camera-20261029-192004-thumb.jpg",
+      "metrics": {
+        "score": 7.162326335906982,
+        "changed_fraction": 0.031684027777777776,
+        "brightness_delta": -1.6892318725585938,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.10095077364021598,
+            0.08409428807760491,
+            0.022150990735255605,
+            0.059736416885209476,
+            0.12032566099376826,
+            0.02285664993303247,
+            0.3718004897753058,
+            0.5744497253007881,
+            0.23054027074977754
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-10-29T18:50:03.995659+00:00",
       "camera": "tapo",
@@ -28050,77 +28082,6 @@
             0.0,
             0.6649265583452348,
             0.9548133595284871,
-            0.0
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-09-29T18:50:04.781599+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 car; strongest car at 72% confidence",
-      "description": "Tapo C200 saved this frame. I see a small car in the upper center of the frame (72% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20260929-185004-full.jpg",
-      "thumb": "./images/tapo-camera-20260929-185004-thumb.jpg",
-      "metrics": {
-        "score": 6.278645992279053,
-        "changed_fraction": 0.0,
-        "brightness_delta": -6.0321197509765625,
-        "detections": [
-          {
-            "label": "car",
-            "group": "vehicle",
-            "confidence": 0.7248423099517822,
-            "box": [
-              837.4,
-              292.8,
-              914.1,
-              332.0
-            ],
-            "area_fraction": 0.0014529701178738227,
-            "region": "upper center"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": null,
-          "end_status": null,
-          "moves": [],
-          "initial_offset": 0.21074074074074078,
-          "final_offset": 0.21074074074074078,
-          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.0000', '--tilt', '0.4000', '--seconds', '0.337'])",
-          "detections": [
-            {
-              "label": "car",
-              "group": "vehicle",
-              "confidence": 0.7248423099517822,
-              "box": [
-                837.4,
-                292.8,
-                914.1,
-                332.0
-              ],
-              "area_fraction": 0.0014529701178738227,
-              "region": "upper center"
-            }
-          ]
-        },
-        "hue_change": {
-          "major": false,
-          "changed_regions": 0,
-          "distances": [
-            0.0,
-            0.07389564240679078,
-            0.15731241465470439,
-            0.0,
-            0.02661784925606455,
-            0.12443798108686481,
-            0.0,
-            0.0,
             0.0
           ]
         }
