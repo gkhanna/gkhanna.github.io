@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-31T01:30:04.721270+00:00",
+  "lastUpdated": "2026-10-31T05:10:04.209756+00:00",
   "images": [
+    {
+      "timestamp": "2026-10-31T05:10:04.090540+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
+      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261031-051004-full.jpg",
+      "thumb": "./images/tapo-camera-20261031-051004-thumb.jpg",
+      "metrics": {
+        "score": 20.32465362548828,
+        "changed_fraction": 0.16319444444444445,
+        "brightness_delta": 15.774307250976562,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.6613004589906909,
+            0.7269469668943408,
+            0.062400134334891326,
+            0.0,
+            0.0,
+            0.062476374918015665,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-10-31T01:30:04.636332+00:00",
       "camera": "tapo",
@@ -28609,38 +28641,6 @@
             0.0,
             1.0,
             0.16296344102646526,
-            0.0
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-10-01T03:00:04.021566+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
-      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20261001-030004-full.jpg",
-      "thumb": "./images/tapo-camera-20261001-030004-thumb.jpg",
-      "metrics": {
-        "score": 21.921875,
-        "changed_fraction": 0.1875,
-        "brightness_delta": 19.54513931274414,
-        "detections": [],
-        "ptz_centering": null,
-        "hue_change": {
-          "major": true,
-          "changed_regions": 2,
-          "distances": [
-            0.7510857592643655,
-            0.0,
-            0.0,
-            0.0,
-            0.997759103888557,
-            0.0,
-            0.0,
-            0.0,
             0.0
           ]
         }
