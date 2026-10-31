@@ -1,7 +1,53 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-31T13:00:04.710629+00:00",
+  "lastUpdated": "2026-10-31T13:10:05.301441+00:00",
   "images": [
+    {
+      "timestamp": "2026-10-31T13:10:05.201928+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "major scene hue change: 5 of 9 sky/landscape regions changed color",
+      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261031-131005-full.jpg",
+      "thumb": "./images/tapo-camera-20261031-131005-thumb.jpg",
+      "metrics": {
+        "score": 17.08333396911621,
+        "changed_fraction": 0.1328125,
+        "brightness_delta": -3.1901016235351562,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.6922808885574341,
+            "box": [
+              689.3,
+              156.6,
+              776.3,
+              197.1
+            ],
+            "area_fraction": 0.0017009953960950952,
+            "region": "upper center"
+          }
+        ],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 5,
+          "distances": [
+            0.5046996779831177,
+            0.1198382570319875,
+            0.4674377999886745,
+            0.8107946440896333,
+            0.3959241939242322,
+            0.08801730612460047,
+            0.0,
+            0.0,
+            0.9999649859610058
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-10-31T13:00:04.577124+00:00",
       "camera": "tapo",
