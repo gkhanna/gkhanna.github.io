@@ -1,7 +1,53 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-11-03T16:10:14.796236+00:00",
+  "lastUpdated": "2026-11-03T17:10:04.787290+00:00",
   "images": [
+    {
+      "timestamp": "2026-11-03T17:10:04.648763+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "interesting sky colors: saturation 0.15, warm 33.6%, blue 17.2%",
+      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.15. There is a warm sunset-like tint across the sky or treetops. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261103-171004-full.jpg",
+      "thumb": "./images/tapo-camera-20261103-171004-thumb.jpg",
+      "metrics": {
+        "score": 6.167534828186035,
+        "changed_fraction": 0.039496527777777776,
+        "brightness_delta": -2.5078125,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.8517405986785889,
+            "box": [
+              1103.0,
+              836.3,
+              1293.9,
+              1002.9
+            ],
+            "area_fraction": 0.015332775624556235,
+            "region": "lower center"
+          }
+        ],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": false,
+          "changed_regions": 0,
+          "distances": [
+            0.2596260114739689,
+            0.17137646582405675,
+            0.07328311430289625,
+            0.12611387862851622,
+            0.20023847136814538,
+            0.08193777218721629,
+            0.0421433135560794,
+            0.03023152140234386,
+            0.0615943441979904
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-11-03T16:10:14.681378+00:00",
       "camera": "tapo-c184",
@@ -29817,70 +29863,6 @@
             0.1383502662395452,
             0.0,
             0.09920561491996811
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-10-04T16:30:08.009896+00:00",
-      "camera": "tapo-c184",
-      "camera_label": "Tapo C184",
-      "type": "sky",
-      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
-      "description": "Tapo C184 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-c184-camera-20261004-163008-full.jpg",
-      "thumb": "./images/tapo-c184-camera-20261004-163008-thumb.jpg",
-      "metrics": {
-        "score": 6.426215171813965,
-        "changed_fraction": 0.0,
-        "brightness_delta": 2.5651016235351562,
-        "detections": [],
-        "ptz_centering": null,
-        "hue_change": {
-          "major": true,
-          "changed_regions": 2,
-          "distances": [
-            0.6330957046710818,
-            0.2867368616026105,
-            0.2375090566073899,
-            0.0,
-            0.0,
-            0.14611997304058688,
-            0.0,
-            0.0,
-            0.0
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-10-04T16:20:07.006570+00:00",
-      "camera": "tapo-c184",
-      "camera_label": "Tapo C184",
-      "type": "sky",
-      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
-      "description": "Tapo C184 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-c184-camera-20261004-162007-full.jpg",
-      "thumb": "./images/tapo-c184-camera-20261004-162007-thumb.jpg",
-      "metrics": {
-        "score": 6.9140625,
-        "changed_fraction": 0.004774305555555556,
-        "brightness_delta": -1.8394088745117188,
-        "detections": [],
-        "ptz_centering": null,
-        "hue_change": {
-          "major": true,
-          "changed_regions": 2,
-          "distances": [
-            0.0,
-            0.0,
-            0.4310654515319312,
-            0.0,
-            0.0,
-            0.790014571353752,
-            0.0,
-            0.0,
-            0.0
           ]
         }
       }
