@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-11-07T22:00:13.667627+00:00",
+  "lastUpdated": "2026-11-08T00:20:10.405668+00:00",
   "images": [
+    {
+      "timestamp": "2026-11-08T00:20:10.292270+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "sky",
+      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
+      "description": "Tapo C184 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-c184-camera-20261108-002010-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20261108-002010-thumb.jpg",
+      "metrics": {
+        "score": 0.7395833134651184,
+        "changed_fraction": 0.0,
+        "brightness_delta": 0.23871612548828125,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-11-07T22:00:13.578085+00:00",
       "camera": "tapo-c184",
@@ -26769,135 +26801,6 @@
             1.0,
             0.0,
             0.0,
-            0.0,
-            0.0
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-10-08T22:50:04.013876+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "major scene hue change: 4 of 9 sky/landscape regions changed color",
-      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20261008-225004-full.jpg",
-      "thumb": "./images/tapo-camera-20261008-225004-thumb.jpg",
-      "metrics": {
-        "score": 53.6015625,
-        "changed_fraction": 0.5538194444444444,
-        "brightness_delta": 18.55902862548828,
-        "detections": [],
-        "ptz_centering": null,
-        "hue_change": {
-          "major": true,
-          "changed_regions": 4,
-          "distances": [
-            0.9985562677405758,
-            0.7488035216501424,
-            0.0,
-            0.08707422779813649,
-            0.35684428360268333,
-            0.36416770177228114,
-            0.0,
-            0.22484854862370396,
-            0.0
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-10-08T22:30:04.699897+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 2 persons; strongest person at 82% confidence",
-      "description": "Tapo C200 saved this frame. I see 2 person-type detections (person), with the strongest person in the lower center at 82% confidence. I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20261008-223004-full.jpg",
-      "thumb": "./images/tapo-camera-20261008-223004-thumb.jpg",
-      "metrics": {
-        "score": 13.81640625,
-        "changed_fraction": 0.003472222222222222,
-        "brightness_delta": -13.520401000976562,
-        "detections": [
-          {
-            "label": "person",
-            "group": "person",
-            "confidence": 0.8151894211769104,
-            "box": [
-              939.5,
-              730.6,
-              982.4,
-              839.8
-            ],
-            "area_fraction": 0.0022573643796527498,
-            "region": "lower center"
-          },
-          {
-            "label": "person",
-            "group": "person",
-            "confidence": 0.7483975291252136,
-            "box": [
-              1028.5,
-              694.7,
-              1067.4,
-              791.1
-            ],
-            "area_fraction": 0.0018072639781409332,
-            "region": "lower center"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": null,
-          "end_status": null,
-          "moves": [],
-          "initial_offset": 0.22703703703703704,
-          "final_offset": 0.22703703703703704,
-          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.0000', '--tilt', '-0.4000', '--seconds', '0.363'])",
-          "detections": [
-            {
-              "label": "person",
-              "group": "person",
-              "confidence": 0.8151894211769104,
-              "box": [
-                939.5,
-                730.6,
-                982.4,
-                839.8
-              ],
-              "area_fraction": 0.0022573643796527498,
-              "region": "lower center"
-            },
-            {
-              "label": "person",
-              "group": "person",
-              "confidence": 0.7483975291252136,
-              "box": [
-                1028.5,
-                694.7,
-                1067.4,
-                791.1
-              ],
-              "area_fraction": 0.0018072639781409332,
-              "region": "lower center"
-            }
-          ]
-        },
-        "hue_change": {
-          "major": false,
-          "changed_regions": 0,
-          "distances": [
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.12018514474170582,
             0.0,
             0.0
           ]
