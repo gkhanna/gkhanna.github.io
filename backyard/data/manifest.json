@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-11-10T12:40:09.848454+00:00",
+  "lastUpdated": "2026-11-10T13:20:04.956051+00:00",
   "images": [
+    {
+      "timestamp": "2026-11-10T13:20:04.838052+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
+      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261110-132004-full.jpg",
+      "thumb": "./images/tapo-camera-20261110-132004-thumb.jpg",
+      "metrics": {
+        "score": 14.269965171813965,
+        "changed_fraction": 0.08940972222222222,
+        "brightness_delta": 8.455726623535156,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.0,
+            0.0,
+            0.0,
+            0.026490093598138635,
+            0.07715137603744951,
+            0.0,
+            1.0,
+            0.6702418632313686,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-11-10T12:40:09.768922+00:00",
       "camera": "tapo-c184",
@@ -26105,77 +26137,6 @@
             0.06826489494585442,
             0.0,
             0.00664568626781722
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-10-11T12:50:04.323575+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 car; strongest car at 87% confidence",
-      "description": "Tapo C200 saved this frame. I see a small car in the lower center of the frame (87% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20261011-125004-full.jpg",
-      "thumb": "./images/tapo-camera-20261011-125004-thumb.jpg",
-      "metrics": {
-        "score": 3.991753578186035,
-        "changed_fraction": 0.009114583333333334,
-        "brightness_delta": 0.8233489990234375,
-        "detections": [
-          {
-            "label": "car",
-            "group": "vehicle",
-            "confidence": 0.8694769144058228,
-            "box": [
-              847.6,
-              724.1,
-              1087.0,
-              826.9
-            ],
-            "area_fraction": 0.01187362368485386,
-            "region": "lower center"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": null,
-          "end_status": null,
-          "moves": [],
-          "initial_offset": 0.21805555555555556,
-          "final_offset": 0.21805555555555556,
-          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.0000', '--tilt', '-0.4000', '--seconds', '0.349'])",
-          "detections": [
-            {
-              "label": "car",
-              "group": "vehicle",
-              "confidence": 0.8694769144058228,
-              "box": [
-                847.6,
-                724.1,
-                1087.0,
-                826.9
-              ],
-              "area_fraction": 0.01187362368485386,
-              "region": "lower center"
-            }
-          ]
-        },
-        "hue_change": {
-          "major": false,
-          "changed_regions": 1,
-          "distances": [
-            0.0,
-            0.058440155176840466,
-            0.025238563784633728,
-            0.9999139165490624,
-            0.09538819407738149,
-            0.029024451859142115,
-            0.032522353106064425,
-            0.0,
-            0.0466033765947111
           ]
         }
       }
