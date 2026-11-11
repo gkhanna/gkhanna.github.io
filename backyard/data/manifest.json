@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-11-11T13:00:07.383689+00:00",
+  "lastUpdated": "2026-11-11T13:40:06.973127+00:00",
   "images": [
+    {
+      "timestamp": "2026-11-11T13:40:06.857082+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "sky",
+      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
+      "description": "Tapo C184 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-c184-camera-20261111-134006-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20261111-134006-thumb.jpg",
+      "metrics": {
+        "score": 19.88107681274414,
+        "changed_fraction": 0.1857638888888889,
+        "brightness_delta": -5.5538177490234375,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.324745993357712,
+            0.10033562219403887,
+            0.11100386356238102,
+            0.08464737738110896,
+            0.637238385258969,
+            0.04801832499445692,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-11-11T13:00:07.291678+00:00",
       "camera": "tapo-c184",
@@ -26157,77 +26189,6 @@
             0.026782072142949195,
             0.0,
             0.07420823013166702
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-10-12T13:10:04.420288+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 truck; strongest truck at 77% confidence",
-      "description": "Tapo C200 saved this frame. I see a small truck in the center of the frame (77% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20261012-131004-full.jpg",
-      "thumb": "./images/tapo-camera-20261012-131004-thumb.jpg",
-      "metrics": {
-        "score": 15.37717056274414,
-        "changed_fraction": 0.09722222222222222,
-        "brightness_delta": -6.80859375,
-        "detections": [
-          {
-            "label": "truck",
-            "group": "vehicle",
-            "confidence": 0.7684950828552246,
-            "box": [
-              580.1,
-              623.0,
-              842.4,
-              759.7
-            ],
-            "area_fraction": 0.017292349565177573,
-            "region": "center"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": null,
-          "end_status": null,
-          "moves": [],
-          "initial_offset": 0.14013888888888892,
-          "final_offset": 0.14013888888888892,
-          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.4000', '--tilt', '-0.4000', '--seconds', '0.224'])",
-          "detections": [
-            {
-              "label": "truck",
-              "group": "vehicle",
-              "confidence": 0.7684950828552246,
-              "box": [
-                580.1,
-                623.0,
-                842.4,
-                759.7
-              ],
-              "area_fraction": 0.017292349565177573,
-              "region": "center"
-            }
-          ]
-        },
-        "hue_change": {
-          "major": false,
-          "changed_regions": 0,
-          "distances": [
-            0.0,
-            0.06931891428480905,
-            0.046264744339116315,
-            0.0,
-            0.03581668084899939,
-            0.04322906411234514,
-            0.01597388766147583,
-            0.0,
-            0.010366632828586991
           ]
         }
       }
