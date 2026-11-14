@@ -1,7 +1,39 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-11-14T12:00:04.599686+00:00",
+  "lastUpdated": "2026-11-14T12:40:06.727889+00:00",
   "images": [
+    {
+      "timestamp": "2026-11-14T12:40:06.613184+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "sky",
+      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
+      "description": "Tapo C184 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-c184-camera-20261114-124006-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20261114-124006-thumb.jpg",
+      "metrics": {
+        "score": 5.591145992279053,
+        "changed_fraction": 0.017361111111111112,
+        "brightness_delta": 1.3237838745117188,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.5103411835194331,
+            0.047202546890608876,
+            0.8311471794233685,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-11-14T12:00:04.484433+00:00",
       "camera": "tapo",
@@ -24759,244 +24791,6 @@
             0.9999999999999999,
             1.0000000000000002,
             1.0
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-10-15T12:40:04.065954+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "major scene hue change: 5 of 9 sky/landscape regions changed color",
-      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20261015-124004-full.jpg",
-      "thumb": "./images/tapo-camera-20261015-124004-thumb.jpg",
-      "metrics": {
-        "score": 26.99435806274414,
-        "changed_fraction": 0.2803819444444444,
-        "brightness_delta": -3.3250885009765625,
-        "detections": [],
-        "ptz_centering": null,
-        "hue_change": {
-          "major": true,
-          "changed_regions": 5,
-          "distances": [
-            0.06288036365706225,
-            0.2100935026036784,
-            0.11675628118590246,
-            0.35828945990051153,
-            0.5689944126249347,
-            0.7072790751174161,
-            0.17004482267140975,
-            0.5367846618927788,
-            0.3261953317858494
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-10-15T12:30:11.161419+00:00",
-      "camera": "tapo-c184",
-      "camera_label": "Tapo C184",
-      "type": "sky",
-      "reason": "interesting sky colors: saturation 0.15, warm 31.9%, blue 0.5%",
-      "description": "Tapo C184 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.15. There is a warm sunset-like tint across the sky or treetops. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-c184-camera-20261015-123011-full.jpg",
-      "thumb": "./images/tapo-c184-camera-20261015-123011-thumb.jpg",
-      "metrics": {
-        "score": 16.60286521911621,
-        "changed_fraction": 0.1388888888888889,
-        "brightness_delta": -3.0907135009765625,
-        "detections": [],
-        "ptz_centering": null,
-        "hue_change": {
-          "major": false,
-          "changed_regions": 1,
-          "distances": [
-            0.24947661521543613,
-            0.15916347069376865,
-            0.9827379971094244,
-            0.0,
-            0.0,
-            0.015998116931518334,
-            0.0,
-            0.0,
-            0.0
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-10-15T12:30:04.353523+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 car; strongest car at 73% confidence",
-      "description": "Tapo C200 saved this frame. I see a small car in the middle left of the frame (73% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20261015-123004-full.jpg",
-      "thumb": "./images/tapo-camera-20261015-123004-thumb.jpg",
-      "metrics": {
-        "score": 12.79296875,
-        "changed_fraction": 0.09809027777777778,
-        "brightness_delta": 0.6983489990234375,
-        "detections": [
-          {
-            "label": "car",
-            "group": "vehicle",
-            "confidence": 0.7305418848991394,
-            "box": [
-              295.1,
-              633.1,
-              568.4,
-              735.8
-            ],
-            "area_fraction": 0.013530335260652969,
-            "region": "middle left"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": null,
-          "end_status": null,
-          "moves": [],
-          "initial_offset": 0.27513020833333335,
-          "final_offset": 0.27513020833333335,
-          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.4000', '--tilt', '-0.4000', '--seconds', '0.440'])",
-          "detections": [
-            {
-              "label": "car",
-              "group": "vehicle",
-              "confidence": 0.7305418848991394,
-              "box": [
-                295.1,
-                633.1,
-                568.4,
-                735.8
-              ],
-              "area_fraction": 0.013530335260652969,
-              "region": "middle left"
-            }
-          ]
-        },
-        "hue_change": {
-          "major": true,
-          "changed_regions": 5,
-          "distances": [
-            0.31699581754441447,
-            0.0,
-            0.4332034365167477,
-            0.6627589707050079,
-            0.7473769892770855,
-            0.0,
-            0.307501045176778,
-            0.25905828603762276,
-            0.0
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-10-15T12:20:04.342720+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 truck; strongest truck at 76% confidence",
-      "description": "Tapo C200 saved this frame. I see a small truck in the center of the frame (76% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20261015-122004-full.jpg",
-      "thumb": "./images/tapo-camera-20261015-122004-thumb.jpg",
-      "metrics": {
-        "score": 14.84461784362793,
-        "changed_fraction": 0.08984375,
-        "brightness_delta": 2.6076431274414062,
-        "detections": [
-          {
-            "label": "truck",
-            "group": "vehicle",
-            "confidence": 0.7578549385070801,
-            "box": [
-              609.3,
-              618.7,
-              875.2,
-              752.0
-            ],
-            "area_fraction": 0.017100734127840647,
-            "region": "center"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": null,
-          "end_status": null,
-          "moves": [],
-          "initial_offset": 0.1345833333333334,
-          "final_offset": 0.1345833333333334,
-          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.0000', '--tilt', '-0.4000', '--seconds', '0.215'])",
-          "detections": [
-            {
-              "label": "truck",
-              "group": "vehicle",
-              "confidence": 0.7578549385070801,
-              "box": [
-                609.3,
-                618.7,
-                875.2,
-                752.0
-              ],
-              "area_fraction": 0.017100734127840647,
-              "region": "center"
-            }
-          ]
-        },
-        "hue_change": {
-          "major": true,
-          "changed_regions": 3,
-          "distances": [
-            0.20408563720180103,
-            0.0,
-            0.43542015043759835,
-            0.2542032102011451,
-            0.424118108713336,
-            0.0,
-            0.1813873384254506,
-            0.37024874496023247,
-            0.0
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-10-15T12:10:04.207326+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "major scene hue change: 5 of 9 sky/landscape regions changed color",
-      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20261015-121004-full.jpg",
-      "thumb": "./images/tapo-camera-20261015-121004-thumb.jpg",
-      "metrics": {
-        "score": 25.06727409362793,
-        "changed_fraction": 0.2092013888888889,
-        "brightness_delta": -8.233078002929688,
-        "detections": [],
-        "ptz_centering": null,
-        "hue_change": {
-          "major": true,
-          "changed_regions": 5,
-          "distances": [
-            0.7499574105523026,
-            0.6402900679952723,
-            0.5203101498218393,
-            0.09183971651596957,
-            0.14256854427158575,
-            0.0,
-            0.4192579107514044,
-            0.5956224387788693,
-            0.23779961924830584
           ]
         }
       }
