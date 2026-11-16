@@ -1,7 +1,71 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-11-16T16:20:07.628128+00:00",
+  "lastUpdated": "2026-11-16T16:40:07.404964+00:00",
   "images": [
+    {
+      "timestamp": "2026-11-16T16:40:07.322062+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "sky",
+      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
+      "description": "Tapo C184 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-c184-camera-20261116-164007-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20261116-164007-thumb.jpg",
+      "metrics": {
+        "score": 13.624566078186035,
+        "changed_fraction": 0.08159722222222222,
+        "brightness_delta": 0.8815078735351562,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.04711313136690141,
+            0.6278730863027495,
+            0.2842093120232085,
+            0.03654011929508866,
+            0.0,
+            0.010790239266664586,
+            0.15289087597382656,
+            0.0,
+            0.027057830242488534
+          ]
+        }
+      }
+    },
+    {
+      "timestamp": "2026-11-16T16:40:04.549707+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "interesting sky colors: saturation 0.31, warm 0.0%, blue 79.4%",
+      "description": "Tapo C200 saved this frame. I noticed unusually rich color in the upper part of the frame, with saturation around 0.31. The blue portion of the sky looked especially strong or clear. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261116-164004-full.jpg",
+      "thumb": "./images/tapo-camera-20261116-164004-thumb.jpg",
+      "metrics": {
+        "score": 40.19140625,
+        "changed_fraction": 0.4965277777777778,
+        "brightness_delta": -13.517791748046875,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": false,
+          "changed_regions": 1,
+          "distances": [
+            0.026707186729881927,
+            0.1347776879594256,
+            0.1991916269407928,
+            0.042577014009702686,
+            0.009323988442235016,
+            0.531851045702869,
+            0.05489103649134962,
+            0.12342625498664977,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-11-16T16:20:07.545673+00:00",
       "camera": "tapo-c184",
