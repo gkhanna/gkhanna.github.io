@@ -1,7 +1,71 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-11-17T18:00:07.550546+00:00",
+  "lastUpdated": "2026-11-17T18:20:08.722546+00:00",
   "images": [
+    {
+      "timestamp": "2026-11-17T18:20:08.619641+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "sky",
+      "reason": "major scene hue change: 4 of 9 sky/landscape regions changed color",
+      "description": "Tapo C184 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-c184-camera-20261117-182008-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20261117-182008-thumb.jpg",
+      "metrics": {
+        "score": 21.44314193725586,
+        "changed_fraction": 0.1840277777777778,
+        "brightness_delta": 2.9926223754882812,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 4,
+          "distances": [
+            0.5117975046346941,
+            0.0,
+            0.4310050936864474,
+            0.9540229885057471,
+            0.0,
+            0.03846455562713893,
+            0.9999999999999999,
+            0.09428712917538823,
+            0.036544292975593445
+          ]
+        }
+      }
+    },
+    {
+      "timestamp": "2026-11-17T18:20:04.157124+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
+      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261117-182004-full.jpg",
+      "thumb": "./images/tapo-camera-20261117-182004-thumb.jpg",
+      "metrics": {
+        "score": 11.96180534362793,
+        "changed_fraction": 0.06032986111111111,
+        "brightness_delta": -0.19010162353515625,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.048805973780869094,
+            0.1333528641403541,
+            0.14117343815443903,
+            0.18256997668245847,
+            0.013393413610902282,
+            0.43813046325429067,
+            0.15659640098973415,
+            0.2817759460498722,
+            0.0
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-11-17T18:00:07.436730+00:00",
       "camera": "tapo-c184",
@@ -24828,38 +24892,6 @@
             0.740909090909091,
             0.16023862411045353,
             0.20266232856655264
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-10-18T18:20:07.375698+00:00",
-      "camera": "tapo-c184",
-      "camera_label": "Tapo C184",
-      "type": "sky",
-      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
-      "description": "Tapo C184 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-c184-camera-20261018-182007-full.jpg",
-      "thumb": "./images/tapo-c184-camera-20261018-182007-thumb.jpg",
-      "metrics": {
-        "score": 19.11892318725586,
-        "changed_fraction": 0.17664930555555555,
-        "brightness_delta": 1.197052001953125,
-        "detections": [],
-        "ptz_centering": null,
-        "hue_change": {
-          "major": true,
-          "changed_regions": 2,
-          "distances": [
-            0.32407573545674756,
-            0.0,
-            0.0,
-            0.0,
-            0.0,
-            0.09369954500810851,
-            0.07779522651187668,
-            0.0,
-            0.48167449058722356
           ]
         }
       }
