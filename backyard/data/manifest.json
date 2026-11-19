@@ -1,7 +1,105 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-11-19T18:20:07.315340+00:00",
+  "lastUpdated": "2026-11-19T18:40:23.936941+00:00",
   "images": [
+    {
+      "timestamp": "2026-11-19T18:40:23.813114+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "subject",
+      "reason": "subject detected: 1 car; strongest car at 66% confidence",
+      "description": "Tapo C200 saved this frame. I see a small car in the lower center of the frame (66% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261119-184023-full.jpg",
+      "thumb": "./images/tapo-camera-20261119-184023-thumb.jpg",
+      "metrics": {
+        "score": 4.384548664093018,
+        "changed_fraction": 0.010416666666666666,
+        "brightness_delta": -0.126739501953125,
+        "detections": [
+          {
+            "label": "car",
+            "group": "vehicle",
+            "confidence": 0.6645218133926392,
+            "box": [
+              653.3,
+              884.8,
+              723.2,
+              918.5
+            ],
+            "area_fraction": 0.0011342583792288174,
+            "region": "lower center"
+          }
+        ],
+        "ptz_centering": {
+          "attempted": true,
+          "used_retake": false,
+          "returned": true,
+          "start_status": [
+            -0.260231,
+            -0.111002
+          ],
+          "end_status": [
+            -0.275378,
+            -0.111002
+          ],
+          "moves": [
+            {
+              "dx": -0.14153645833333334,
+              "dy": 0.33486111111111105,
+              "pan": 0.4,
+              "tilt": -0.4,
+              "seconds": 0.5357777777777777
+            },
+            {
+              "dx": -0.32914062499999996,
+              "dy": 0.32347222222222227,
+              "pan": 0.4,
+              "tilt": -0.4,
+              "seconds": 0.526625
+            },
+            {
+              "dx": -0.462578125,
+              "dy": 0.3062962962962963,
+              "pan": 0.4,
+              "tilt": -0.4,
+              "seconds": 0.6
+            }
+          ],
+          "initial_offset": 0.33486111111111105,
+          "final_offset": 0.462578125,
+          "detections": [
+            {
+              "label": "car",
+              "group": "vehicle",
+              "confidence": 0.6978239417076111,
+              "box": [
+                38.1,
+                853.4,
+                105.6,
+                888.2
+              ],
+              "area_fraction": 0.0011319894808204682,
+              "region": "lower left"
+            }
+          ]
+        },
+        "hue_change": {
+          "major": false,
+          "changed_regions": 1,
+          "distances": [
+            0.050003364838337894,
+            0.12945180560231292,
+            0.12443313180505336,
+            0.4005160820516787,
+            0.10219609302177608,
+            0.17590532737535394,
+            0.11412009778547016,
+            0.16080794009389007,
+            0.170911379592933
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-11-19T18:20:07.220736+00:00",
       "camera": "tapo-c184",
@@ -24354,38 +24452,6 @@
             1.0,
             0.06958514979563828,
             0.9999999999999999
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-10-20T18:30:04.276470+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "sky",
-      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
-      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20261020-183004-full.jpg",
-      "thumb": "./images/tapo-camera-20261020-183004-thumb.jpg",
-      "metrics": {
-        "score": 8.26779556274414,
-        "changed_fraction": 0.026909722222222224,
-        "brightness_delta": 1.8832473754882812,
-        "detections": [],
-        "ptz_centering": null,
-        "hue_change": {
-          "major": true,
-          "changed_regions": 2,
-          "distances": [
-            0.06650291464554839,
-            0.052623163311097974,
-            0.08752095602278659,
-            0.885577065193262,
-            0.0,
-            0.032001388864645014,
-            0.9748743718592965,
-            0.0,
-            0.2055933006277658
           ]
         }
       }
