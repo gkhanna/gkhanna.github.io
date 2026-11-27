@@ -1,7 +1,71 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-11-27T17:00:07.136295+00:00",
+  "lastUpdated": "2026-11-27T17:20:08.303022+00:00",
   "images": [
+    {
+      "timestamp": "2026-11-27T17:20:08.225200+00:00",
+      "camera": "tapo-c184",
+      "camera_label": "Tapo C184",
+      "type": "sky",
+      "reason": "major scene hue change: 2 of 9 sky/landscape regions changed color",
+      "description": "Tapo C184 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-c184-camera-20261127-172008-full.jpg",
+      "thumb": "./images/tapo-c184-camera-20261127-172008-thumb.jpg",
+      "metrics": {
+        "score": 17.41970443725586,
+        "changed_fraction": 0.08550347222222222,
+        "brightness_delta": -3.3155441284179688,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 2,
+          "distances": [
+            0.3145537418182442,
+            0.013849076237228258,
+            0.40828469767030806,
+            0.14013077414443798,
+            0.04836573359467376,
+            0.13163914192971135,
+            0.1344739883093644,
+            0.24589848719611745,
+            0.15012886969676248
+          ]
+        }
+      }
+    },
+    {
+      "timestamp": "2026-11-27T17:20:05.382186+00:00",
+      "camera": "tapo",
+      "camera_label": "Tapo C200",
+      "type": "sky",
+      "reason": "major scene hue change: 3 of 9 sky/landscape regions changed color",
+      "description": "Tapo C200 saved this frame. Broad areas of the sky or landscape changed hue compared with the retained color baseline. The frame was saved to record substantial color variations, including gradual seasonal changes. The frame was added to the gallery so you can see exactly what changed.",
+      "full": "./images/tapo-camera-20261127-172005-full.jpg",
+      "thumb": "./images/tapo-camera-20261127-172005-thumb.jpg",
+      "metrics": {
+        "score": 12.992621421813965,
+        "changed_fraction": 0.06336805555555555,
+        "brightness_delta": -2.3224868774414062,
+        "detections": [],
+        "ptz_centering": null,
+        "hue_change": {
+          "major": true,
+          "changed_regions": 3,
+          "distances": [
+            0.0,
+            0.004329624189149211,
+            0.0,
+            0.0,
+            0.0,
+            0.5299835163974105,
+            0.1426673636135938,
+            0.4344266760249155,
+            0.28589986840287296
+          ]
+        }
+      }
+    },
     {
       "timestamp": "2026-11-27T17:00:07.012652+00:00",
       "camera": "tapo-c184",
@@ -22252,77 +22316,6 @@
             0.0,
             0.10671404613673116,
             0.011977068066724982
-          ]
-        }
-      }
-    },
-    {
-      "timestamp": "2026-10-28T17:20:04.581546+00:00",
-      "camera": "tapo",
-      "camera_label": "Tapo C200",
-      "type": "subject",
-      "reason": "subject detected: 1 car; strongest car at 66% confidence",
-      "description": "Tapo C200 saved this frame. I see a small car in the upper left of the frame (66% confidence). I saved this because it matched the person/vehicle/animal watch list, even if the subject is small in the frame. The frame was added to the gallery so you can see exactly what changed.",
-      "full": "./images/tapo-camera-20261028-172004-full.jpg",
-      "thumb": "./images/tapo-camera-20261028-172004-thumb.jpg",
-      "metrics": {
-        "score": 6.931423664093018,
-        "changed_fraction": 0.0013020833333333333,
-        "brightness_delta": 0.704864501953125,
-        "detections": [
-          {
-            "label": "car",
-            "group": "vehicle",
-            "confidence": 0.6551377773284912,
-            "box": [
-              513.9,
-              178.4,
-              587.6,
-              210.8
-            ],
-            "area_fraction": 0.0011512545782413023,
-            "region": "upper left"
-          }
-        ],
-        "ptz_centering": {
-          "attempted": true,
-          "used_retake": false,
-          "returned": true,
-          "start_status": null,
-          "end_status": null,
-          "moves": [],
-          "initial_offset": 0.3198148148148148,
-          "final_offset": 0.3198148148148148,
-          "error": "CalledProcessError(2, ['/home/ubuntu/.openclaw/workspace/.venvs/backyard-camera/bin/python', '/home/ubuntu/.openclaw/workspace/skills/tapo-c200-local-camera/scripts/tapo_c200.py', '--creds', '/home/ubuntu/.openclaw/credentials/tapo-c200.json', 'move', '--pan', '0.4000', '--tilt', '0.4000', '--seconds', '0.512'])",
-          "detections": [
-            {
-              "label": "car",
-              "group": "vehicle",
-              "confidence": 0.6551377773284912,
-              "box": [
-                513.9,
-                178.4,
-                587.6,
-                210.8
-              ],
-              "area_fraction": 0.0011512545782413023,
-              "region": "upper left"
-            }
-          ]
-        },
-        "hue_change": {
-          "major": false,
-          "changed_regions": 0,
-          "distances": [
-            0.06330781139447729,
-            0.03218436991121143,
-            0.029216121440006702,
-            0.0,
-            0.0360484416405172,
-            0.020904083840849196,
-            0.0,
-            0.1767967461961824,
-            0.059597249320036655
           ]
         }
       }
